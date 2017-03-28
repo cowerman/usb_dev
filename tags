@@ -1,0 +1,1691 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALLOW_PARTIAL_READS	libusb/os/windows_usb.h	555;"	d
+API_EXPORTED	libusb/libusbi.h	44;"	d
+AUTO_CLEAR_STALL	libusb/os/windows_usb.h	552;"	d
+AUTO_FLUSH	libusb/os/windows_usb.h	556;"	d
+AUTO_SUSPEND	libusb/os/windows_usb.h	559;"	d
+ActualLength	libusb/os/windows_usb.h	/^	ULONG  ActualLength;$/;"	m	struct:USB_NODE_CONNECTION_NAME
+ActualLength	libusb/os/windows_usb.h	/^	ULONG  ActualLength;$/;"	m	struct:USB_ROOT_HUB_NAME
+ActualLength	libusb/os/windows_usb.h	/^	ULONG ActualLength;$/;"	m	struct:USB_NODE_CONNECTION_NAME_FIXED
+ActualLength	libusb/os/windows_usb.h	/^	ULONG ActualLength;$/;"	m	struct:USB_ROOT_HUB_NAME_FIXED
+CANCELLED	libusb/os/linux_usbfs.c	/^	CANCELLED,$/;"	e	enum:reap_action	file:
+CHECK_INIT_POLLING	libusb/os/poll_windows.c	78;"	d	file:
+CHECK_WINUSB_AVAILABLE	libusb/os/windows_usb.c	105;"	d	file:
+CLASS_GUID_COMPOSITE	libusb/os/windows_usb.h	/^const GUID CLASS_GUID_COMPOSITE     = { 0x36FC9E60, 0xC465, 0x11cF, {0x80, 0x56, 0x44, 0x45, 0x53, 0x54, 0x00, 0x00} };$/;"	v
+CLASS_GUID_LIBUSB_WINUSB	libusb/os/windows_usb.h	/^const GUID CLASS_GUID_LIBUSB_WINUSB = { 0x78A1C341, 0x4539, 0x11D3, {0xB8, 0x8D, 0x00, 0xC0, 0x4F, 0xAD, 0x51, 0x71} };$/;"	v
+CLASS_GUID_UNSUPPORTED	libusb/os/windows_usb.h	116;"	d
+COMPLETED_EARLY	libusb/os/linux_usbfs.c	/^	COMPLETED_EARLY,$/;"	e	enum:reap_action	file:
+CONFIGRET	libusb/os/windows_usb.h	/^typedef RETURN_TYPE CONFIGRET;$/;"	t
+CONFIG_DESC_LENGTH	libusb/descriptor.c	30;"	d	file:
+CR_NO_SUCH_DEVNODE	libusb/os/windows_usb.h	299;"	d
+CR_SUCCESS	libusb/os/windows_usb.h	298;"	d
+CTL_CODE	libusb/os/windows_usb.h	344;"	d
+CTRL_IN	examples/dpfp.c	34;"	d	file:
+CTRL_IN	examples/dpfp_threaded.c	35;"	d	file:
+CTRL_OUT	examples/dpfp.c	35;"	d	file:
+CTRL_OUT	examples/dpfp_threaded.c	36;"	d	file:
+CancelIoEx_Available	libusb/os/poll_windows.c	100;"	d	file:
+CapabilityFlags	libusb/os/windows_usb.h	/^	USB_HUB_CAP_FLAGS CapabilityFlags;$/;"	m	struct:USB_HUB_CAPABILITIES_EX
+ConnectionIndex	libusb/os/windows_usb.h	/^		ULONG ConnectionIndex;$/;"	m	struct:USB_CONFIGURATION_DESCRIPTOR_SHORT::__anon9
+ConnectionIndex	libusb/os/windows_usb.h	/^	ULONG  ConnectionIndex;$/;"	m	struct:USB_DESCRIPTOR_REQUEST
+ConnectionIndex	libusb/os/windows_usb.h	/^	ULONG  ConnectionIndex;$/;"	m	struct:USB_NODE_CONNECTION_INFORMATION_EX
+ConnectionIndex	libusb/os/windows_usb.h	/^	ULONG  ConnectionIndex;$/;"	m	struct:USB_NODE_CONNECTION_NAME
+ConnectionIndex	libusb/os/windows_usb.h	/^	ULONG ConnectionIndex;$/;"	m	struct:USB_NODE_CONNECTION_NAME_FIXED
+ConnectionStatus	libusb/os/windows_usb.h	/^	USB_CONNECTION_STATUS  ConnectionStatus;$/;"	m	struct:USB_NODE_CONNECTION_INFORMATION_EX
+CurrentConfigurationValue	libusb/os/windows_usb.h	/^	UCHAR  CurrentConfigurationValue;$/;"	m	struct:USB_NODE_CONNECTION_INFORMATION_EX
+DEFAULT_VISIBILITY	msvc/config.h	9;"	d
+DESC_HEADER_LENGTH	libusb/descriptor.c	28;"	d	file:
+DEVICE_CTX	libusb/libusbi.h	213;"	d
+DEVICE_DESC_LENGTH	libusb/descriptor.c	29;"	d	file:
+DEVICE_DESC_LENGTH	libusb/libusbi.h	46;"	d
+DEVICE_SPEED	libusb/os/windows_usb.h	561;"	d
+DEVINST	libusb/os/windows_usb.h	/^typedef DWORD DEVNODE, DEVINST;$/;"	t
+DEVNODE	libusb/os/windows_usb.h	/^typedef DWORD DEVNODE, DEVINST;$/;"	t
+DEV_PASS	libusb/os/windows_usb.c	1177;"	d	file:
+DISCOVERED_DEVICES_SIZE_STEP	libusb/core.c	471;"	d	file:
+DLL_DECLARE	libusb/os/windows_usb.h	268;"	d
+DLL_DECLARE_PREFIXED	libusb/os/windows_usb.h	270;"	d
+DLL_DECLARE_PREFIXNAME	libusb/os/windows_usb.h	245;"	d
+DLL_LOAD	libusb/os/windows_usb.h	269;"	d
+DLL_LOAD_PREFIXED	libusb/os/windows_usb.h	271;"	d
+DLL_LOAD_PREFIXNAME	libusb/os/windows_usb.h	249;"	d
+DUMMY_HANDLE	libusb/os/poll_windows.h	38;"	d
+DeviceAddress	libusb/os/windows_usb.h	/^	USHORT  DeviceAddress;$/;"	m	struct:USB_NODE_CONNECTION_INFORMATION_EX
+DeviceCausedOvercurrent	libusb/os/windows_usb.h	/^	DeviceCausedOvercurrent,$/;"	e	enum:USB_CONNECTION_STATUS
+DeviceConnected	libusb/os/windows_usb.h	/^	DeviceConnected,$/;"	e	enum:USB_CONNECTION_STATUS
+DeviceDescriptor	libusb/os/windows_usb.h	/^	USB_DEVICE_DESCRIPTOR  DeviceDescriptor;$/;"	m	struct:USB_NODE_CONNECTION_INFORMATION_EX
+DeviceFailedEnumeration	libusb/os/windows_usb.h	/^	DeviceFailedEnumeration,$/;"	e	enum:USB_CONNECTION_STATUS
+DeviceGeneralFailure	libusb/os/windows_usb.h	/^	DeviceGeneralFailure,$/;"	e	enum:USB_CONNECTION_STATUS
+DeviceHubNestedTooDeeply	libusb/os/windows_usb.h	/^	DeviceHubNestedTooDeeply,$/;"	e	enum:USB_CONNECTION_STATUS
+DeviceInLegacyHub	libusb/os/windows_usb.h	/^	DeviceInLegacyHub$/;"	e	enum:USB_CONNECTION_STATUS
+DeviceInterfaceID	libusb/os/darwin_usb.h	101;"	d
+DeviceInterfaceID	libusb/os/darwin_usb.h	107;"	d
+DeviceInterfaceID	libusb/os/darwin_usb.h	77;"	d
+DeviceInterfaceID	libusb/os/darwin_usb.h	83;"	d
+DeviceInterfaceID	libusb/os/darwin_usb.h	89;"	d
+DeviceInterfaceID	libusb/os/darwin_usb.h	95;"	d
+DeviceIsHub	libusb/os/windows_usb.h	/^	BOOLEAN  DeviceIsHub;$/;"	m	struct:USB_NODE_CONNECTION_INFORMATION_EX
+DeviceNotEnoughBandwidth	libusb/os/windows_usb.h	/^	DeviceNotEnoughBandwidth,$/;"	e	enum:USB_CONNECTION_STATUS
+DeviceNotEnoughPower	libusb/os/windows_usb.h	/^	DeviceNotEnoughPower,$/;"	e	enum:USB_CONNECTION_STATUS
+DeviceVersion	libusb/os/darwin_usb.h	102;"	d
+DeviceVersion	libusb/os/darwin_usb.h	108;"	d
+DeviceVersion	libusb/os/darwin_usb.h	78;"	d
+DeviceVersion	libusb/os/darwin_usb.h	84;"	d
+DeviceVersion	libusb/os/darwin_usb.h	90;"	d
+DeviceVersion	libusb/os/darwin_usb.h	96;"	d
+ENABLE_LOGGING	msvc/config.h	15;"	d
+ENDPOINT_AUDIO_DESC_LENGTH	libusb/descriptor.c	33;"	d	file:
+ENDPOINT_DESC_LENGTH	libusb/descriptor.c	32;"	d	file:
+EP_DATA	examples/dpfp.c	33;"	d	file:
+EP_DATA	examples/dpfp_threaded.c	34;"	d	file:
+EP_DATA_IN	examples/sam3u_benchmark.c	34;"	d	file:
+EP_INTR	examples/dpfp.c	32;"	d	file:
+EP_INTR	examples/dpfp_threaded.c	33;"	d	file:
+EP_ISO_IN	examples/sam3u_benchmark.c	35;"	d	file:
+ERROR	libusb/os/linux_usbfs.c	/^	ERROR,$/;"	e	enum:reap_action	file:
+ERR_BUFFER_SIZE	libusb/os/windows_usb.h	88;"	d
+ETIMEDOUT	libusb/os/threads_windows.h	57;"	d
+EndpointDescriptor	libusb/os/windows_usb.h	/^	USB_ENDPOINT_DESCRIPTOR  EndpointDescriptor;$/;"	m	struct:USB_PIPE_INFO
+FILE_ANY_ACCESS	libusb/os/windows_usb.h	334;"	d
+FILE_DEVICE_UNKNOWN	libusb/os/windows_usb.h	337;"	d
+FILE_DEVICE_USB	libusb/os/windows_usb.h	340;"	d
+FullSpeed	libusb/os/windows_usb.h	563;"	d
+GEN_PASS	libusb/os/windows_usb.c	1176;"	d	file:
+GUID_DEVINTERFACE_USB_DEVICE	libusb/os/windows_usb.h	/^const GUID GUID_DEVINTERFACE_USB_DEVICE = { 0xA5DCBF10, 0x6530, 0x11D2, {0x90, 0x1F, 0x00, 0xC0, 0x4F, 0xB9, 0x51, 0xED} };$/;"	v
+GUID_DEVINTERFACE_USB_HOST_CONTROLLER	libusb/os/windows_usb.h	/^const GUID GUID_DEVINTERFACE_USB_HOST_CONTROLLER = { 0x3ABF6F2D, 0x71C4, 0x462A, {0x8A, 0x92, 0x1E, 0x68, 0x61, 0xE6, 0xAF, 0x27} };$/;"	v
+GUID_DEVINTERFACE_USB_HUB	libusb/os/windows_usb.h	/^const GUID GUID_DEVINTERFACE_USB_HUB = { 0xF18A0E88, 0xC30C, 0x11D0, {0x88, 0x15, 0x00, 0xA0, 0xC9, 0x06, 0xBE, 0xD8} };$/;"	v
+GUID_NULL	libusb/os/windows_usb.h	/^const GUID GUID_NULL = { 0x00000000, 0x0000, 0x0000, {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00} };$/;"	v
+HANDLE_CTX	libusb/libusbi.h	214;"	d
+HAVE_GETTIMEOFDAY	libusb/libusbi.h	239;"	d
+HAVE_STRUCT_TIMESPEC	libusb/os/threads_windows.h	47;"	d
+HAVE_USBI_GETTIMEOFDAY	libusb/libusbi.h	242;"	d
+HAVE_USBI_GETTIMEOFDAY	libusb/libusbi.h	246;"	d
+HCD_PASS	libusb/os/windows_usb.c	1174;"	d	file:
+HTAB_SIZE	libusb/os/windows_usb.h	90;"	d
+HUB_PASS	libusb/os/windows_usb.c	1175;"	d	file:
+HasOverlappedIoCompletedSync	libusb/os/poll_windows.h	36;"	d
+HighSpeed	libusb/os/windows_usb.h	564;"	d
+HubDescriptor	libusb/os/windows_usb.h	/^	USB_HUB_DESCRIPTOR  HubDescriptor;$/;"	m	struct:USB_HUB_INFORMATION
+HubInformation	libusb/os/windows_usb.h	/^		USB_HUB_INFORMATION  HubInformation;$/;"	m	union:USB_NODE_INFORMATION::__anon13
+HubIs2xCapable	libusb/os/windows_usb.h	/^  ULONG  HubIs2xCapable : 1;$/;"	m	struct:USB_HUB_CAPABILITIES
+HubIsArmedWakeOnConnect	libusb/os/windows_usb.h	/^	ULONG HubIsArmedWakeOnConnect:1;$/;"	m	struct:USB_HUB_CAP_FLAGS
+HubIsBusPowered	libusb/os/windows_usb.h	/^	BOOLEAN  HubIsBusPowered;$/;"	m	struct:USB_HUB_INFORMATION
+HubIsHighSpeed	libusb/os/windows_usb.h	/^	ULONG HubIsHighSpeed:1;$/;"	m	struct:USB_HUB_CAP_FLAGS
+HubIsHighSpeedCapable	libusb/os/windows_usb.h	/^	ULONG HubIsHighSpeedCapable:1;$/;"	m	struct:USB_HUB_CAP_FLAGS
+HubIsMultiTt	libusb/os/windows_usb.h	/^	ULONG HubIsMultiTt:1;$/;"	m	struct:USB_HUB_CAP_FLAGS
+HubIsMultiTtCapable	libusb/os/windows_usb.h	/^	ULONG HubIsMultiTtCapable:1;$/;"	m	struct:USB_HUB_CAP_FLAGS
+HubIsRoot	libusb/os/windows_usb.h	/^	ULONG HubIsRoot:1;$/;"	m	struct:USB_HUB_CAP_FLAGS
+IGNORE_SHORT_PACKETS	libusb/os/windows_usb.h	554;"	d
+INT16_C	msvc/stdint.h	241;"	d
+INT16_MAX	msvc/stdint.h	133;"	d
+INT16_MIN	msvc/stdint.h	128;"	d
+INT32_C	msvc/stdint.h	242;"	d
+INT32_MAX	msvc/stdint.h	134;"	d
+INT32_MIN	msvc/stdint.h	129;"	d
+INT64_C	msvc/stdint.h	245;"	d
+INT64_MAX	msvc/stdint.h	135;"	d
+INT64_MIN	msvc/stdint.h	130;"	d
+INT8_C	msvc/stdint.h	240;"	d
+INT8_MAX	msvc/stdint.h	132;"	d
+INT8_MIN	msvc/stdint.h	127;"	d
+INTERFACE_DESC_LENGTH	libusb/descriptor.c	31;"	d	file:
+INTMAX_C	msvc/stdint.h	253;"	d
+INTMAX_MAX	msvc/stdint.h	188;"	d
+INTMAX_MIN	msvc/stdint.h	187;"	d
+INTPTR_MAX	msvc/stdint.h	178;"	d
+INTPTR_MAX	msvc/stdint.h	182;"	d
+INTPTR_MIN	msvc/stdint.h	177;"	d
+INTPTR_MIN	msvc/stdint.h	181;"	d
+INTR_LENGTH	examples/dpfp.c	37;"	d	file:
+INTR_LENGTH	examples/dpfp_threaded.c	38;"	d	file:
+INT_FAST16_MAX	msvc/stdint.h	165;"	d
+INT_FAST16_MIN	msvc/stdint.h	160;"	d
+INT_FAST32_MAX	msvc/stdint.h	166;"	d
+INT_FAST32_MIN	msvc/stdint.h	161;"	d
+INT_FAST64_MAX	msvc/stdint.h	167;"	d
+INT_FAST64_MIN	msvc/stdint.h	162;"	d
+INT_FAST8_MAX	msvc/stdint.h	164;"	d
+INT_FAST8_MIN	msvc/stdint.h	159;"	d
+INT_LEAST16_MAX	msvc/stdint.h	149;"	d
+INT_LEAST16_MIN	msvc/stdint.h	144;"	d
+INT_LEAST32_MAX	msvc/stdint.h	150;"	d
+INT_LEAST32_MIN	msvc/stdint.h	145;"	d
+INT_LEAST64_MAX	msvc/stdint.h	151;"	d
+INT_LEAST64_MIN	msvc/stdint.h	146;"	d
+INT_LEAST8_MAX	msvc/stdint.h	148;"	d
+INT_LEAST8_MIN	msvc/stdint.h	143;"	d
+INVALID_WINFD	libusb/os/poll_windows.c	/^const struct winfd INVALID_WINFD = {-1, INVALID_HANDLE_VALUE, NULL, RW_NONE};$/;"	v	typeref:struct:winfd
+IOCTL_USBFS_BULK	libusb/os/linux_usbfs.h	120;"	d
+IOCTL_USBFS_CLAIMINTF	libusb/os/linux_usbfs.h	129;"	d
+IOCTL_USBFS_CLEAR_HALT	libusb/os/linux_usbfs.h	135;"	d
+IOCTL_USBFS_CONNECT	libusb/os/linux_usbfs.h	137;"	d
+IOCTL_USBFS_CONNECTINFO	libusb/os/linux_usbfs.h	131;"	d
+IOCTL_USBFS_CONTROL	libusb/os/linux_usbfs.h	119;"	d
+IOCTL_USBFS_DISCARDURB	libusb/os/linux_usbfs.h	126;"	d
+IOCTL_USBFS_DISCONNECT	libusb/os/linux_usbfs.h	136;"	d
+IOCTL_USBFS_GETDRIVER	libusb/os/linux_usbfs.h	124;"	d
+IOCTL_USBFS_HUB_PORTINFO	libusb/os/linux_usbfs.h	133;"	d
+IOCTL_USBFS_IOCTL	libusb/os/linux_usbfs.h	132;"	d
+IOCTL_USBFS_REAPURB	libusb/os/linux_usbfs.h	127;"	d
+IOCTL_USBFS_REAPURBNDELAY	libusb/os/linux_usbfs.h	128;"	d
+IOCTL_USBFS_RELEASEINTF	libusb/os/linux_usbfs.h	130;"	d
+IOCTL_USBFS_RESET	libusb/os/linux_usbfs.h	134;"	d
+IOCTL_USBFS_RESETEP	libusb/os/linux_usbfs.h	121;"	d
+IOCTL_USBFS_SETCONFIG	libusb/os/linux_usbfs.h	123;"	d
+IOCTL_USBFS_SETINTF	libusb/os/linux_usbfs.h	122;"	d
+IOCTL_USBFS_SUBMITURB	libusb/os/linux_usbfs.h	125;"	d
+IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION	libusb/os/windows_usb.h	377;"	d
+IOCTL_USB_GET_HUB_CAPABILITIES	libusb/os/windows_usb.h	374;"	d
+IOCTL_USB_GET_HUB_CAPABILITIES_EX	libusb/os/windows_usb.h	371;"	d
+IOCTL_USB_GET_NODE_CONNECTION_ATTRIBUTES	libusb/os/windows_usb.h	389;"	d
+IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX	libusb/os/windows_usb.h	386;"	d
+IOCTL_USB_GET_NODE_CONNECTION_NAME	libusb/os/windows_usb.h	392;"	d
+IOCTL_USB_GET_NODE_INFORMATION	libusb/os/windows_usb.h	383;"	d
+IOCTL_USB_GET_ROOT_HUB_NAME	libusb/os/windows_usb.h	380;"	d
+IO_OBJECT_NULL	libusb/os/darwin_usb.h	117;"	d
+IS_EPIN	libusb/libusbi.h	219;"	d
+IS_EPOUT	libusb/libusbi.h	220;"	d
+IS_XFERIN	libusb/libusbi.h	221;"	d
+IS_XFEROUT	libusb/libusbi.h	222;"	d
+ITRANSFER_CTX	libusb/libusbi.h	216;"	d
+InterfaceInterfaceID	libusb/os/darwin_usb.h	34;"	d
+InterfaceInterfaceID	libusb/os/darwin_usb.h	40;"	d
+InterfaceInterfaceID	libusb/os/darwin_usb.h	46;"	d
+InterfaceInterfaceID	libusb/os/darwin_usb.h	52;"	d
+InterfaceInterfaceID	libusb/os/darwin_usb.h	58;"	d
+InterfaceInterfaceID	libusb/os/darwin_usb.h	64;"	d
+InterfaceVersion	libusb/os/darwin_usb.h	35;"	d
+InterfaceVersion	libusb/os/darwin_usb.h	41;"	d
+InterfaceVersion	libusb/os/darwin_usb.h	47;"	d
+InterfaceVersion	libusb/os/darwin_usb.h	53;"	d
+InterfaceVersion	libusb/os/darwin_usb.h	59;"	d
+InterfaceVersion	libusb/os/darwin_usb.h	65;"	d
+Interval	libusb/os/windows_usb.h	/^  UCHAR          Interval;$/;"	m	struct:__anon14
+LIBUSBI_H	libusb/libusbi.h	22;"	d
+LIBUSB_CALL	libusb/libusb.h	101;"	d
+LIBUSB_CALL	libusb/libusb.h	103;"	d
+LIBUSB_CAP_HAS_CAPABILITY	libusb/libusb.h	/^	LIBUSB_CAP_HAS_CAPABILITY = 0,$/;"	e	enum:libusb_capability
+LIBUSB_CLASS_APPLICATION	libusb/libusb.h	/^	LIBUSB_CLASS_APPLICATION = 0xfe,$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_AUDIO	libusb/libusb.h	/^	LIBUSB_CLASS_AUDIO = 1,$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_COMM	libusb/libusb.h	/^	LIBUSB_CLASS_COMM = 2,$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_CONTENT_SECURITY	libusb/libusb.h	/^	LIBUSB_CLASS_CONTENT_SECURITY = 0x0d,$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_DATA	libusb/libusb.h	/^	LIBUSB_CLASS_DATA = 10,$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_DIAGNOSTIC_DEVICE	libusb/libusb.h	/^	LIBUSB_CLASS_DIAGNOSTIC_DEVICE = 0xdc,$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_HID	libusb/libusb.h	/^	LIBUSB_CLASS_HID = 3,$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_HUB	libusb/libusb.h	/^	LIBUSB_CLASS_HUB = 9,$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_IMAGE	libusb/libusb.h	/^	LIBUSB_CLASS_IMAGE = 6,$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_MASS_STORAGE	libusb/libusb.h	/^	LIBUSB_CLASS_MASS_STORAGE = 8,$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_PERSONAL_HEALTHCARE	libusb/libusb.h	/^	LIBUSB_CLASS_PERSONAL_HEALTHCARE = 0x0f,$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_PER_INTERFACE	libusb/libusb.h	/^	LIBUSB_CLASS_PER_INTERFACE = 0,$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_PHYSICAL	libusb/libusb.h	/^	LIBUSB_CLASS_PHYSICAL = 5,$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_PRINTER	libusb/libusb.h	/^	LIBUSB_CLASS_PRINTER = 7,$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_PTP	libusb/libusb.h	/^	LIBUSB_CLASS_PTP = 6, \/* legacy name from libusb-0.1 usb.h *\/$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_SMART_CARD	libusb/libusb.h	/^	LIBUSB_CLASS_SMART_CARD = 0x0b,$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_VENDOR_SPEC	libusb/libusb.h	/^	LIBUSB_CLASS_VENDOR_SPEC = 0xff$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_VIDEO	libusb/libusb.h	/^	LIBUSB_CLASS_VIDEO = 0x0e,$/;"	e	enum:libusb_class_code
+LIBUSB_CLASS_WIRELESS	libusb/libusb.h	/^	LIBUSB_CLASS_WIRELESS = 0xe0,$/;"	e	enum:libusb_class_code
+LIBUSB_CONTROL_SETUP_SIZE	libusb/libusb.h	633;"	d
+LIBUSB_DARWIN_H	libusb/os/darwin_usb.h	21;"	d
+LIBUSB_DESCRIBE	msvc/config.h	24;"	d
+LIBUSB_DT_CONFIG	libusb/libusb.h	/^	LIBUSB_DT_CONFIG = 0x02,$/;"	e	enum:libusb_descriptor_type
+LIBUSB_DT_CONFIG_SIZE	libusb/libusb.h	236;"	d
+LIBUSB_DT_DEVICE	libusb/libusb.h	/^	LIBUSB_DT_DEVICE = 0x01,$/;"	e	enum:libusb_descriptor_type
+LIBUSB_DT_DEVICE_SIZE	libusb/libusb.h	235;"	d
+LIBUSB_DT_ENDPOINT	libusb/libusb.h	/^	LIBUSB_DT_ENDPOINT = 0x05,$/;"	e	enum:libusb_descriptor_type
+LIBUSB_DT_ENDPOINT_AUDIO_SIZE	libusb/libusb.h	239;"	d
+LIBUSB_DT_ENDPOINT_SIZE	libusb/libusb.h	238;"	d
+LIBUSB_DT_HID	libusb/libusb.h	/^	LIBUSB_DT_HID = 0x21,$/;"	e	enum:libusb_descriptor_type
+LIBUSB_DT_HUB	libusb/libusb.h	/^	LIBUSB_DT_HUB = 0x29,$/;"	e	enum:libusb_descriptor_type
+LIBUSB_DT_HUB_NONVAR_SIZE	libusb/libusb.h	240;"	d
+LIBUSB_DT_INTERFACE	libusb/libusb.h	/^	LIBUSB_DT_INTERFACE = 0x04,$/;"	e	enum:libusb_descriptor_type
+LIBUSB_DT_INTERFACE_SIZE	libusb/libusb.h	237;"	d
+LIBUSB_DT_PHYSICAL	libusb/libusb.h	/^	LIBUSB_DT_PHYSICAL = 0x23,$/;"	e	enum:libusb_descriptor_type
+LIBUSB_DT_REPORT	libusb/libusb.h	/^	LIBUSB_DT_REPORT = 0x22,$/;"	e	enum:libusb_descriptor_type
+LIBUSB_DT_STRING	libusb/libusb.h	/^	LIBUSB_DT_STRING = 0x03,$/;"	e	enum:libusb_descriptor_type
+LIBUSB_ENDPOINT_ADDRESS_MASK	libusb/libusb.h	242;"	d
+LIBUSB_ENDPOINT_DIR_MASK	libusb/libusb.h	243;"	d
+LIBUSB_ENDPOINT_IN	libusb/libusb.h	/^	LIBUSB_ENDPOINT_IN = 0x80,$/;"	e	enum:libusb_endpoint_direction
+LIBUSB_ENDPOINT_OUT	libusb/libusb.h	/^	LIBUSB_ENDPOINT_OUT = 0x00$/;"	e	enum:libusb_endpoint_direction
+LIBUSB_ERROR_ACCESS	libusb/libusb.h	/^	LIBUSB_ERROR_ACCESS = -3,$/;"	e	enum:libusb_error
+LIBUSB_ERROR_BUSY	libusb/libusb.h	/^	LIBUSB_ERROR_BUSY = -6,$/;"	e	enum:libusb_error
+LIBUSB_ERROR_INTERRUPTED	libusb/libusb.h	/^	LIBUSB_ERROR_INTERRUPTED = -10,$/;"	e	enum:libusb_error
+LIBUSB_ERROR_INVALID_PARAM	libusb/libusb.h	/^	LIBUSB_ERROR_INVALID_PARAM = -2,$/;"	e	enum:libusb_error
+LIBUSB_ERROR_IO	libusb/libusb.h	/^	LIBUSB_ERROR_IO = -1,$/;"	e	enum:libusb_error
+LIBUSB_ERROR_NOT_FOUND	libusb/libusb.h	/^	LIBUSB_ERROR_NOT_FOUND = -5,$/;"	e	enum:libusb_error
+LIBUSB_ERROR_NOT_SUPPORTED	libusb/libusb.h	/^	LIBUSB_ERROR_NOT_SUPPORTED = -12,$/;"	e	enum:libusb_error
+LIBUSB_ERROR_NO_DEVICE	libusb/libusb.h	/^	LIBUSB_ERROR_NO_DEVICE = -4,$/;"	e	enum:libusb_error
+LIBUSB_ERROR_NO_MEM	libusb/libusb.h	/^	LIBUSB_ERROR_NO_MEM = -11,$/;"	e	enum:libusb_error
+LIBUSB_ERROR_OTHER	libusb/libusb.h	/^	LIBUSB_ERROR_OTHER = -99,$/;"	e	enum:libusb_error
+LIBUSB_ERROR_OVERFLOW	libusb/libusb.h	/^	LIBUSB_ERROR_OVERFLOW = -8,$/;"	e	enum:libusb_error
+LIBUSB_ERROR_PIPE	libusb/libusb.h	/^	LIBUSB_ERROR_PIPE = -9,$/;"	e	enum:libusb_error
+LIBUSB_ERROR_TIMEOUT	libusb/libusb.h	/^	LIBUSB_ERROR_TIMEOUT = -7,$/;"	e	enum:libusb_error
+LIBUSB_GETTIMEOFDAY_WIN32	libusb/libusbi.h	241;"	d
+LIBUSB_H	libusb/libusb.h	22;"	d
+LIBUSB_ISO_SYNC_TYPE_ADAPTIVE	libusb/libusb.h	/^	LIBUSB_ISO_SYNC_TYPE_ADAPTIVE = 2,$/;"	e	enum:libusb_iso_sync_type
+LIBUSB_ISO_SYNC_TYPE_ASYNC	libusb/libusb.h	/^	LIBUSB_ISO_SYNC_TYPE_ASYNC = 1,$/;"	e	enum:libusb_iso_sync_type
+LIBUSB_ISO_SYNC_TYPE_MASK	libusb/libusb.h	354;"	d
+LIBUSB_ISO_SYNC_TYPE_NONE	libusb/libusb.h	/^	LIBUSB_ISO_SYNC_TYPE_NONE = 0,$/;"	e	enum:libusb_iso_sync_type
+LIBUSB_ISO_SYNC_TYPE_SYNC	libusb/libusb.h	/^	LIBUSB_ISO_SYNC_TYPE_SYNC = 3$/;"	e	enum:libusb_iso_sync_type
+LIBUSB_ISO_USAGE_TYPE_DATA	libusb/libusb.h	/^	LIBUSB_ISO_USAGE_TYPE_DATA = 0,$/;"	e	enum:libusb_iso_usage_type
+LIBUSB_ISO_USAGE_TYPE_FEEDBACK	libusb/libusb.h	/^	LIBUSB_ISO_USAGE_TYPE_FEEDBACK = 1,$/;"	e	enum:libusb_iso_usage_type
+LIBUSB_ISO_USAGE_TYPE_IMPLICIT	libusb/libusb.h	/^	LIBUSB_ISO_USAGE_TYPE_IMPLICIT = 2,$/;"	e	enum:libusb_iso_usage_type
+LIBUSB_ISO_USAGE_TYPE_MASK	libusb/libusb.h	375;"	d
+LIBUSB_MAJOR	libusb/version.h	3;"	d
+LIBUSB_MICRO	libusb/version.h	9;"	d
+LIBUSB_MINOR	libusb/version.h	6;"	d
+LIBUSB_NANO	libusb/version.h	13;"	d
+LIBUSB_POLL_POSIX_H	libusb/os/poll_posix.h	2;"	d
+LIBUSB_RC	libusb/version.h	17;"	d
+LIBUSB_RECIPIENT_DEVICE	libusb/libusb.h	/^	LIBUSB_RECIPIENT_DEVICE = 0x00,$/;"	e	enum:libusb_request_recipient
+LIBUSB_RECIPIENT_ENDPOINT	libusb/libusb.h	/^	LIBUSB_RECIPIENT_ENDPOINT = 0x02,$/;"	e	enum:libusb_request_recipient
+LIBUSB_RECIPIENT_INTERFACE	libusb/libusb.h	/^	LIBUSB_RECIPIENT_INTERFACE = 0x01,$/;"	e	enum:libusb_request_recipient
+LIBUSB_RECIPIENT_OTHER	libusb/libusb.h	/^	LIBUSB_RECIPIENT_OTHER = 0x03,$/;"	e	enum:libusb_request_recipient
+LIBUSB_REQUEST_CLEAR_FEATURE	libusb/libusb.h	/^	LIBUSB_REQUEST_CLEAR_FEATURE = 0x01,$/;"	e	enum:libusb_standard_request
+LIBUSB_REQUEST_GET_CONFIGURATION	libusb/libusb.h	/^	LIBUSB_REQUEST_GET_CONFIGURATION = 0x08,$/;"	e	enum:libusb_standard_request
+LIBUSB_REQUEST_GET_DESCRIPTOR	libusb/libusb.h	/^	LIBUSB_REQUEST_GET_DESCRIPTOR = 0x06,$/;"	e	enum:libusb_standard_request
+LIBUSB_REQUEST_GET_INTERFACE	libusb/libusb.h	/^	LIBUSB_REQUEST_GET_INTERFACE = 0x0A,$/;"	e	enum:libusb_standard_request
+LIBUSB_REQUEST_GET_STATUS	libusb/libusb.h	/^	LIBUSB_REQUEST_GET_STATUS = 0x00,$/;"	e	enum:libusb_standard_request
+LIBUSB_REQUEST_SET_ADDRESS	libusb/libusb.h	/^	LIBUSB_REQUEST_SET_ADDRESS = 0x05,$/;"	e	enum:libusb_standard_request
+LIBUSB_REQUEST_SET_CONFIGURATION	libusb/libusb.h	/^	LIBUSB_REQUEST_SET_CONFIGURATION = 0x09,$/;"	e	enum:libusb_standard_request
+LIBUSB_REQUEST_SET_DESCRIPTOR	libusb/libusb.h	/^	LIBUSB_REQUEST_SET_DESCRIPTOR = 0x07,$/;"	e	enum:libusb_standard_request
+LIBUSB_REQUEST_SET_FEATURE	libusb/libusb.h	/^	LIBUSB_REQUEST_SET_FEATURE = 0x03,$/;"	e	enum:libusb_standard_request
+LIBUSB_REQUEST_SET_INTERFACE	libusb/libusb.h	/^	LIBUSB_REQUEST_SET_INTERFACE = 0x0B,$/;"	e	enum:libusb_standard_request
+LIBUSB_REQUEST_SYNCH_FRAME	libusb/libusb.h	/^	LIBUSB_REQUEST_SYNCH_FRAME = 0x0C,$/;"	e	enum:libusb_standard_request
+LIBUSB_REQUEST_TYPE_CLASS	libusb/libusb.h	/^	LIBUSB_REQUEST_TYPE_CLASS = (0x01 << 5),$/;"	e	enum:libusb_request_type
+LIBUSB_REQUEST_TYPE_RESERVED	libusb/libusb.h	/^	LIBUSB_REQUEST_TYPE_RESERVED = (0x03 << 5)$/;"	e	enum:libusb_request_type
+LIBUSB_REQUEST_TYPE_STANDARD	libusb/libusb.h	/^	LIBUSB_REQUEST_TYPE_STANDARD = (0x00 << 5),$/;"	e	enum:libusb_request_type
+LIBUSB_REQUEST_TYPE_VENDOR	libusb/libusb.h	/^	LIBUSB_REQUEST_TYPE_VENDOR = (0x02 << 5),$/;"	e	enum:libusb_request_type
+LIBUSB_SPEED_FULL	libusb/libusb.h	/^    LIBUSB_SPEED_FULL = 2,$/;"	e	enum:libusb_speed
+LIBUSB_SPEED_HIGH	libusb/libusb.h	/^    LIBUSB_SPEED_HIGH = 3,$/;"	e	enum:libusb_speed
+LIBUSB_SPEED_LOW	libusb/libusb.h	/^    LIBUSB_SPEED_LOW = 1,$/;"	e	enum:libusb_speed
+LIBUSB_SPEED_SUPER	libusb/libusb.h	/^    LIBUSB_SPEED_SUPER = 4,$/;"	e	enum:libusb_speed
+LIBUSB_SPEED_UNKNOWN	libusb/libusb.h	/^    LIBUSB_SPEED_UNKNOWN = 0,$/;"	e	enum:libusb_speed
+LIBUSB_SUCCESS	libusb/libusb.h	/^	LIBUSB_SUCCESS = 0,$/;"	e	enum:libusb_error
+LIBUSB_THREADS_POSIX_H	libusb/os/threads_posix.h	22;"	d
+LIBUSB_THREADS_WINDOWS_H	libusb/os/threads_windows.h	22;"	d
+LIBUSB_TRANSFER_ADD_ZERO_PACKET	libusb/libusb.h	/^	LIBUSB_TRANSFER_ADD_ZERO_PACKET = 1 << 3,$/;"	e	enum:libusb_transfer_flags
+LIBUSB_TRANSFER_CANCELLED	libusb/libusb.h	/^	LIBUSB_TRANSFER_CANCELLED,$/;"	e	enum:libusb_transfer_status
+LIBUSB_TRANSFER_COMPLETED	libusb/libusb.h	/^	LIBUSB_TRANSFER_COMPLETED,$/;"	e	enum:libusb_transfer_status
+LIBUSB_TRANSFER_ERROR	libusb/libusb.h	/^	LIBUSB_TRANSFER_ERROR,$/;"	e	enum:libusb_transfer_status
+LIBUSB_TRANSFER_FREE_BUFFER	libusb/libusb.h	/^	LIBUSB_TRANSFER_FREE_BUFFER = 1<<1,$/;"	e	enum:libusb_transfer_flags
+LIBUSB_TRANSFER_FREE_TRANSFER	libusb/libusb.h	/^	LIBUSB_TRANSFER_FREE_TRANSFER = 1<<2,$/;"	e	enum:libusb_transfer_flags
+LIBUSB_TRANSFER_NO_DEVICE	libusb/libusb.h	/^	LIBUSB_TRANSFER_NO_DEVICE,$/;"	e	enum:libusb_transfer_status
+LIBUSB_TRANSFER_OVERFLOW	libusb/libusb.h	/^	LIBUSB_TRANSFER_OVERFLOW,$/;"	e	enum:libusb_transfer_status
+LIBUSB_TRANSFER_SHORT_NOT_OK	libusb/libusb.h	/^	LIBUSB_TRANSFER_SHORT_NOT_OK = 1<<0,$/;"	e	enum:libusb_transfer_flags
+LIBUSB_TRANSFER_STALL	libusb/libusb.h	/^	LIBUSB_TRANSFER_STALL,$/;"	e	enum:libusb_transfer_status
+LIBUSB_TRANSFER_TIMED_OUT	libusb/libusb.h	/^	LIBUSB_TRANSFER_TIMED_OUT,$/;"	e	enum:libusb_transfer_status
+LIBUSB_TRANSFER_TO_USBI_TRANSFER	libusb/libusbi.h	396;"	d
+LIBUSB_TRANSFER_TYPE_BULK	libusb/libusb.h	/^	LIBUSB_TRANSFER_TYPE_BULK = 2,$/;"	e	enum:libusb_transfer_type
+LIBUSB_TRANSFER_TYPE_CONTROL	libusb/libusb.h	/^	LIBUSB_TRANSFER_TYPE_CONTROL = 0,$/;"	e	enum:libusb_transfer_type
+LIBUSB_TRANSFER_TYPE_INTERRUPT	libusb/libusb.h	/^	LIBUSB_TRANSFER_TYPE_INTERRUPT = 3$/;"	e	enum:libusb_transfer_type
+LIBUSB_TRANSFER_TYPE_ISOCHRONOUS	libusb/libusb.h	/^	LIBUSB_TRANSFER_TYPE_ISOCHRONOUS = 1,$/;"	e	enum:libusb_transfer_type
+LIBUSB_TRANSFER_TYPE_MASK	libusb/libusb.h	257;"	d
+LIBUSB_USBFS_H	libusb/os/linux_usbfs.h	22;"	d
+LIST_SEPARATOR	libusb/os/windows_usb.h	89;"	d
+LOG_LEVEL_DEBUG	libusb/libusbi.h	/^	LOG_LEVEL_DEBUG,$/;"	e	enum:usbi_log_level
+LOG_LEVEL_ERROR	libusb/libusbi.h	/^	LOG_LEVEL_ERROR,$/;"	e	enum:usbi_log_level
+LOG_LEVEL_INFO	libusb/libusbi.h	/^	LOG_LEVEL_INFO,$/;"	e	enum:usbi_log_level
+LOG_LEVEL_WARNING	libusb/libusbi.h	/^	LOG_LEVEL_WARNING,$/;"	e	enum:usbi_log_level
+LOOP_BREAK	libusb/os/windows_usb.c	46;"	d	file:
+LOOP_CHECK	libusb/os/windows_usb.c	45;"	d	file:
+LowSpeed	libusb/os/windows_usb.h	562;"	d
+MAX	libusb/libusbi.h	118;"	d
+MAXIMUM_TRANSFER_SIZE	libusb/os/windows_usb.h	558;"	d
+MAX_BULK_BUFFER_LENGTH	libusb/os/linux_usbfs.h	83;"	d
+MAX_CTRL_BUFFER_LENGTH	libusb/os/linux_usbfs.h	84;"	d
+MAX_CTRL_BUFFER_LENGTH	libusb/os/windows_usb.h	80;"	d
+MAX_ENUM_GUIDS	libusb/os/windows_usb.c	1172;"	d	file:
+MAX_FDS	libusb/os/poll_windows.h	48;"	d
+MAX_GUID_STRING_LENGTH	libusb/os/windows_usb.h	83;"	d
+MAX_ISO_BUFFER_LENGTH	libusb/os/linux_usbfs.h	82;"	d
+MAX_KEY_LENGTH	libusb/os/windows_usb.h	85;"	d
+MAX_PATH_LENGTH	libusb/os/windows_usb.h	84;"	d
+MAX_TIMER_SEMAPHORES	libusb/os/windows_usb.h	86;"	d
+MAX_USB_DEVICES	libusb/os/windows_usb.h	81;"	d
+MAX_USB_STRING_LENGTH	libusb/os/windows_usb.h	82;"	d
+MESSAGE_ASYNC_IO_COMPLETE	libusb/os/darwin_usb.h	/^  MESSAGE_ASYNC_IO_COMPLETE$/;"	e	enum:__anon5
+MESSAGE_DEVICE_GONE	libusb/os/darwin_usb.h	/^  MESSAGE_DEVICE_GONE,$/;"	e	enum:__anon5
+METHOD_BUFFERED	libusb/os/windows_usb.h	331;"	d
+MIN	libusb/libusbi.h	117;"	d
+MODE_AWAIT_FINGER_OFF	examples/dpfp.c	/^	MODE_AWAIT_FINGER_OFF = 0x12,$/;"	e	enum:__anon3	file:
+MODE_AWAIT_FINGER_OFF	examples/dpfp_threaded.c	/^	MODE_AWAIT_FINGER_OFF = 0x12,$/;"	e	enum:__anon1	file:
+MODE_AWAIT_FINGER_ON	examples/dpfp.c	/^	MODE_AWAIT_FINGER_ON = 0x10,$/;"	e	enum:__anon3	file:
+MODE_AWAIT_FINGER_ON	examples/dpfp_threaded.c	/^	MODE_AWAIT_FINGER_ON = 0x10,$/;"	e	enum:__anon1	file:
+MODE_CAPTURE	examples/dpfp.c	/^	MODE_CAPTURE = 0x20,$/;"	e	enum:__anon3	file:
+MODE_CAPTURE	examples/dpfp_threaded.c	/^	MODE_CAPTURE = 0x20,$/;"	e	enum:__anon1	file:
+MODE_INIT	examples/dpfp.c	/^	MODE_INIT = 0x00,$/;"	e	enum:__anon3	file:
+MODE_INIT	examples/dpfp_threaded.c	/^	MODE_INIT = 0x00,$/;"	e	enum:__anon1	file:
+MODE_READY	examples/dpfp.c	/^	MODE_READY = 0x80,$/;"	e	enum:__anon3	file:
+MODE_READY	examples/dpfp_threaded.c	/^	MODE_READY = 0x80,$/;"	e	enum:__anon1	file:
+MODE_SHUT_UP	examples/dpfp.c	/^	MODE_SHUT_UP = 0x30,$/;"	e	enum:__anon3	file:
+MODE_SHUT_UP	examples/dpfp_threaded.c	/^	MODE_SHUT_UP = 0x30,$/;"	e	enum:__anon1	file:
+MaxPower	libusb/libusb.h	/^	uint8_t  MaxPower;$/;"	m	struct:libusb_config_descriptor
+MaxPower	libusb/os/windows_usb.h	/^  UCHAR  MaxPower;$/;"	m	struct:USB_CONFIGURATION_DESCRIPTOR
+MaximumPacketSize	libusb/os/windows_usb.h	/^  USHORT         MaximumPacketSize;$/;"	m	struct:__anon14
+MiParentInformation	libusb/os/windows_usb.h	/^		USB_MI_PARENT_INFORMATION  MiParentInformation;$/;"	m	union:USB_NODE_INFORMATION::__anon13
+NORMAL	libusb/os/linux_usbfs.c	/^	NORMAL = 0,$/;"	e	enum:reap_action	file:
+NUL_DEVICE	libusb/os/poll_windows.c	73;"	d	file:
+NUL_DEVICE	libusb/os/poll_windows.c	75;"	d	file:
+NoDeviceConnected	libusb/os/windows_usb.h	/^	NoDeviceConnected,$/;"	e	enum:USB_CONNECTION_STATUS
+NodeName	libusb/os/windows_usb.h	/^	WCHAR  NodeName[1];$/;"	m	struct:USB_NODE_CONNECTION_NAME
+NodeName	libusb/os/windows_usb.h	/^	WCHAR NodeName[MAX_PATH_LENGTH];$/;"	m	struct:USB_NODE_CONNECTION_NAME_FIXED
+NodeType	libusb/os/windows_usb.h	/^	USB_HUB_NODE  NodeType;$/;"	m	struct:USB_NODE_INFORMATION
+NumberOfInterfaces	libusb/os/windows_usb.h	/^  ULONG  NumberOfInterfaces;$/;"	m	struct:USB_MI_PARENT_INFORMATION
+NumberOfOpenPipes	libusb/os/windows_usb.h	/^	ULONG  NumberOfOpenPipes;$/;"	m	struct:USB_NODE_CONNECTION_INFORMATION_EX
+OS_WINDOWS	msvc/config.h	18;"	d
+PDEVINST	libusb/os/windows_usb.h	/^typedef DEVNODE *PDEVNODE, *PDEVINST;$/;"	t
+PDEVNODE	libusb/os/windows_usb.h	/^typedef DEVNODE *PDEVNODE, *PDEVINST;$/;"	t
+PIPE_TRANSFER_TIMEOUT	libusb/os/windows_usb.h	553;"	d
+POLLERR	libusb/os/poll_windows.h	53;"	d
+POLLHUP	libusb/os/poll_windows.h	54;"	d
+POLLIN	libusb/os/poll_windows.h	50;"	d
+POLLNVAL	libusb/os/poll_windows.h	55;"	d
+POLLOUT	libusb/os/poll_windows.h	52;"	d
+POLLPRI	libusb/os/poll_windows.h	51;"	d
+POLL_NFDS_TYPE	msvc/config.h	21;"	d
+PRINT_UNSUPPORTED_API	libusb/os/windows_usb.h	145;"	d
+PTRDIFF_MAX	msvc/stdint.h	194;"	d
+PTRDIFF_MAX	msvc/stdint.h	197;"	d
+PTRDIFF_MIN	msvc/stdint.h	193;"	d
+PTRDIFF_MIN	msvc/stdint.h	196;"	d
+PUSB_CONFIGURATION_DESCRIPTOR	libusb/os/windows_usb.h	/^} USB_CONFIGURATION_DESCRIPTOR, *PUSB_CONFIGURATION_DESCRIPTOR;$/;"	t	typeref:struct:USB_CONFIGURATION_DESCRIPTOR
+PUSB_CONNECTION_STATUS	libusb/os/windows_usb.h	/^} USB_CONNECTION_STATUS, *PUSB_CONNECTION_STATUS;$/;"	t	typeref:enum:USB_CONNECTION_STATUS
+PUSB_DESCRIPTOR_REQUEST	libusb/os/windows_usb.h	/^} USB_DESCRIPTOR_REQUEST, *PUSB_DESCRIPTOR_REQUEST;$/;"	t	typeref:struct:USB_DESCRIPTOR_REQUEST
+PUSB_DEVICE_DESCRIPTOR	libusb/os/windows_usb.h	/^typedef struct libusb_device_descriptor USB_DEVICE_DESCRIPTOR, *PUSB_DEVICE_DESCRIPTOR;$/;"	t	typeref:struct:
+PUSB_ENDPOINT_DESCRIPTOR	libusb/os/windows_usb.h	/^} USB_ENDPOINT_DESCRIPTOR, *PUSB_ENDPOINT_DESCRIPTOR;$/;"	t	typeref:struct:USB_ENDPOINT_DESCRIPTOR
+PUSB_HUB_CAPABILITIES	libusb/os/windows_usb.h	/^} USB_HUB_CAPABILITIES, *PUSB_HUB_CAPABILITIES;$/;"	t	typeref:struct:USB_HUB_CAPABILITIES
+PUSB_HUB_CAPABILITIES_EX	libusb/os/windows_usb.h	/^} USB_HUB_CAPABILITIES_EX, *PUSB_HUB_CAPABILITIES_EX;$/;"	t	typeref:struct:USB_HUB_CAPABILITIES_EX
+PUSB_HUB_CAP_FLAGS	libusb/os/windows_usb.h	/^} USB_HUB_CAP_FLAGS, *PUSB_HUB_CAP_FLAGS;$/;"	t	typeref:struct:USB_HUB_CAP_FLAGS
+PUSB_HUB_DESCRIPTOR	libusb/os/windows_usb.h	/^} USB_HUB_DESCRIPTOR, *PUSB_HUB_DESCRIPTOR;$/;"	t	typeref:struct:USB_HUB_DESCRIPTOR
+PUSB_HUB_INFORMATION	libusb/os/windows_usb.h	/^} USB_HUB_INFORMATION, *PUSB_HUB_INFORMATION;$/;"	t	typeref:struct:USB_HUB_INFORMATION
+PUSB_INTERFACE_DESCRIPTOR	libusb/os/windows_usb.h	/^} USB_INTERFACE_DESCRIPTOR, *PUSB_INTERFACE_DESCRIPTOR;$/;"	t	typeref:struct:USB_INTERFACE_DESCRIPTOR
+PUSB_MI_PARENT_INFORMATION	libusb/os/windows_usb.h	/^} USB_MI_PARENT_INFORMATION, *PUSB_MI_PARENT_INFORMATION;$/;"	t	typeref:struct:USB_MI_PARENT_INFORMATION
+PUSB_NODE_CONNECTION_INFORMATION_EX	libusb/os/windows_usb.h	/^} USB_NODE_CONNECTION_INFORMATION_EX, *PUSB_NODE_CONNECTION_INFORMATION_EX;$/;"	t	typeref:struct:USB_NODE_CONNECTION_INFORMATION_EX
+PUSB_NODE_CONNECTION_NAME	libusb/os/windows_usb.h	/^} USB_NODE_CONNECTION_NAME, *PUSB_NODE_CONNECTION_NAME;$/;"	t	typeref:struct:USB_NODE_CONNECTION_NAME
+PUSB_NODE_INFORMATION	libusb/os/windows_usb.h	/^} USB_NODE_INFORMATION, *PUSB_NODE_INFORMATION;$/;"	t	typeref:struct:USB_NODE_INFORMATION
+PUSB_PIPE_INFO	libusb/os/windows_usb.h	/^} USB_PIPE_INFO, *PUSB_PIPE_INFO;$/;"	t	typeref:struct:USB_PIPE_INFO
+PUSB_ROOT_HUB_NAME	libusb/os/windows_usb.h	/^} USB_ROOT_HUB_NAME, *PUSB_ROOT_HUB_NAME;$/;"	t	typeref:struct:USB_ROOT_HUB_NAME
+PWINUSB_INTERFACE_HANDLE	libusb/os/windows_usb.h	/^typedef void *WINUSB_INTERFACE_HANDLE, *PWINUSB_INTERFACE_HANDLE;$/;"	t
+PWINUSB_PIPE_INFORMATION	libusb/os/windows_usb.h	/^} WINUSB_PIPE_INFORMATION, *PWINUSB_PIPE_INFORMATION;$/;"	t	typeref:struct:__anon14
+PWINUSB_SETUP_PACKET	libusb/os/windows_usb.h	/^} WINUSB_SETUP_PACKET, *PWINUSB_SETUP_PACKET;$/;"	t	typeref:struct:__anon15
+PipeId	libusb/os/windows_usb.h	/^  UCHAR          PipeId;$/;"	m	struct:__anon14
+PipeType	libusb/os/windows_usb.h	/^  USBD_PIPE_TYPE PipeType;$/;"	m	struct:__anon14
+RAW_IO	libusb/os/windows_usb.h	557;"	d
+RETURN_TYPE	libusb/os/windows_usb.h	/^typedef DWORD RETURN_TYPE;$/;"	t
+RW_NONE	libusb/os/poll_windows.h	/^	RW_NONE,$/;"	e	enum:rw_type
+RW_READ	libusb/os/poll_windows.h	/^	RW_READ,$/;"	e	enum:rw_type
+RW_WRITE	libusb/os/poll_windows.h	/^	RW_WRITE,$/;"	e	enum:rw_type
+ReservedMBZ	libusb/os/windows_usb.h	/^	ULONG ReservedMBZ:26;$/;"	m	struct:USB_HUB_CAP_FLAGS
+RootHubName	libusb/os/windows_usb.h	/^	WCHAR  RootHubName[1];$/;"	m	struct:USB_ROOT_HUB_NAME
+RootHubName	libusb/os/windows_usb.h	/^	WCHAR RootHubName[MAX_PATH_LENGTH];$/;"	m	struct:USB_ROOT_HUB_NAME_FIXED
+SHORT_PACKET_TERMINATE	libusb/os/windows_usb.h	551;"	d
+SIG_ATOMIC_MAX	msvc/stdint.h	201;"	d
+SIG_ATOMIC_MIN	msvc/stdint.h	200;"	d
+SIZE_MAX	msvc/stdint.h	205;"	d
+SIZE_MAX	msvc/stdint.h	207;"	d
+SPDRP_ADDRESS	libusb/os/windows_usb.h	46;"	d
+SPDRP_INSTALL_STATE	libusb/os/windows_usb.h	49;"	d
+STATE_AWAIT_IMAGE	examples/dpfp.c	/^	STATE_AWAIT_IMAGE,$/;"	e	enum:__anon4	file:
+STATE_AWAIT_IMAGE	examples/dpfp_threaded.c	/^	STATE_AWAIT_IMAGE,$/;"	e	enum:__anon2	file:
+STATE_AWAIT_IRQ_FINGER_DETECTED	examples/dpfp.c	/^	STATE_AWAIT_IRQ_FINGER_DETECTED,$/;"	e	enum:__anon4	file:
+STATE_AWAIT_IRQ_FINGER_DETECTED	examples/dpfp_threaded.c	/^	STATE_AWAIT_IRQ_FINGER_DETECTED,$/;"	e	enum:__anon2	file:
+STATE_AWAIT_IRQ_FINGER_REMOVED	examples/dpfp.c	/^	STATE_AWAIT_IRQ_FINGER_REMOVED,$/;"	e	enum:__anon4	file:
+STATE_AWAIT_IRQ_FINGER_REMOVED	examples/dpfp_threaded.c	/^	STATE_AWAIT_IRQ_FINGER_REMOVED,$/;"	e	enum:__anon2	file:
+STATE_AWAIT_MODE_CHANGE_AWAIT_FINGER_OFF	examples/dpfp.c	/^	STATE_AWAIT_MODE_CHANGE_AWAIT_FINGER_OFF,$/;"	e	enum:__anon4	file:
+STATE_AWAIT_MODE_CHANGE_AWAIT_FINGER_OFF	examples/dpfp_threaded.c	/^	STATE_AWAIT_MODE_CHANGE_AWAIT_FINGER_OFF,$/;"	e	enum:__anon2	file:
+STATE_AWAIT_MODE_CHANGE_AWAIT_FINGER_ON	examples/dpfp.c	/^	STATE_AWAIT_MODE_CHANGE_AWAIT_FINGER_ON = 1,$/;"	e	enum:__anon4	file:
+STATE_AWAIT_MODE_CHANGE_AWAIT_FINGER_ON	examples/dpfp_threaded.c	/^	STATE_AWAIT_MODE_CHANGE_AWAIT_FINGER_ON = 1,$/;"	e	enum:__anon2	file:
+STATE_AWAIT_MODE_CHANGE_CAPTURE	examples/dpfp.c	/^	STATE_AWAIT_MODE_CHANGE_CAPTURE,$/;"	e	enum:__anon4	file:
+STATE_AWAIT_MODE_CHANGE_CAPTURE	examples/dpfp_threaded.c	/^	STATE_AWAIT_MODE_CHANGE_CAPTURE,$/;"	e	enum:__anon2	file:
+STATIC_LIBC	msvc/ddk_build.cmd	/^if \/I Test%1==Test\/MT set STATIC_LIBC=1$/;"	v
+STATIC_LIBC	msvc/ddk_build.cmd	/^set STATIC_LIBC=$/;"	v
+STATUS_COMPLETED_SYNCHRONOUSLY	libusb/os/poll_windows.h	35;"	d
+STATUS_REPARSE	libusb/os/poll_windows.h	33;"	d
+SUBMIT_FAILED	libusb/os/linux_usbfs.c	/^	SUBMIT_FAILED,$/;"	e	enum:reap_action	file:
+SUSPEND_DELAY	libusb/os/windows_usb.h	560;"	d
+SYSFS_DEVICE_PATH	libusb/os/linux_usbfs.h	24;"	d
+ScheduleOffset	libusb/os/windows_usb.h	/^	ULONG  ScheduleOffset;$/;"	m	struct:USB_PIPE_INFO
+SetupPacket	libusb/os/windows_usb.h	/^		} SetupPacket;$/;"	m	struct:USB_CONFIGURATION_DESCRIPTOR_SHORT::__anon9	typeref:struct:USB_CONFIGURATION_DESCRIPTOR_SHORT::__anon9::__anon10
+SetupPacket	libusb/os/windows_usb.h	/^	} SetupPacket;$/;"	m	struct:USB_DESCRIPTOR_REQUEST	typeref:struct:USB_DESCRIPTOR_REQUEST::__anon11
+Speed	libusb/os/windows_usb.h	/^	UCHAR  Speed;$/;"	m	struct:USB_NODE_CONNECTION_INFORMATION_EX
+TARGET	msvc/ddk_build.cmd	/^if \/I Test%1==TestDLL set TARGET=DYNLINK$/;"	v
+TARGET	msvc/ddk_build.cmd	/^set TARGET=LIBRARY$/;"	v
+TIMER_REQUEST_RETRY_MS	libusb/os/windows_usb.h	87;"	d
+TIMESPEC_IS_SET	libusb/libusbi.h	120;"	d
+TIMESPEC_TO_TIMEVAL	libusb/os/poll_windows.h	101;"	d
+TRANSFER_CTX	libusb/libusbi.h	215;"	d
+UINT16_C	msvc/stdint.h	248;"	d
+UINT16_MAX	msvc/stdint.h	138;"	d
+UINT32_C	msvc/stdint.h	249;"	d
+UINT32_MAX	msvc/stdint.h	139;"	d
+UINT64_C	msvc/stdint.h	250;"	d
+UINT64_MAX	msvc/stdint.h	140;"	d
+UINT8_C	msvc/stdint.h	247;"	d
+UINT8_MAX	msvc/stdint.h	137;"	d
+UINTMAX_C	msvc/stdint.h	254;"	d
+UINTMAX_MAX	msvc/stdint.h	189;"	d
+UINTPTR_MAX	msvc/stdint.h	179;"	d
+UINTPTR_MAX	msvc/stdint.h	183;"	d
+UINT_FAST16_MAX	msvc/stdint.h	170;"	d
+UINT_FAST32_MAX	msvc/stdint.h	171;"	d
+UINT_FAST64_MAX	msvc/stdint.h	172;"	d
+UINT_FAST8_MAX	msvc/stdint.h	169;"	d
+UINT_LEAST16_MAX	msvc/stdint.h	154;"	d
+UINT_LEAST32_MAX	msvc/stdint.h	155;"	d
+UINT_LEAST64_MAX	msvc/stdint.h	156;"	d
+UINT_LEAST8_MAX	msvc/stdint.h	153;"	d
+USBD_PIPE_TYPE	libusb/os/windows_usb.h	/^typedef enum USBD_PIPE_TYPE {$/;"	g
+USBD_PIPE_TYPE	libusb/os/windows_usb.h	/^} USBD_PIPE_TYPE;$/;"	t	typeref:enum:USBD_PIPE_TYPE
+USBFS_MAXDRIVERNAME	libusb/os/linux_usbfs.h	56;"	d
+USBFS_URB_BULK_CONTINUATION	libusb/os/linux_usbfs.h	65;"	d
+USBFS_URB_ISO_ASAP	libusb/os/linux_usbfs.h	64;"	d
+USBFS_URB_QUEUE_BULK	libusb/os/linux_usbfs.h	66;"	d
+USBFS_URB_SHORT_NOT_OK	libusb/os/linux_usbfs.h	63;"	d
+USBFS_URB_TYPE_BULK	libusb/os/linux_usbfs.h	/^	USBFS_URB_TYPE_BULK = 3,$/;"	e	enum:usbfs_urb_type
+USBFS_URB_TYPE_CONTROL	libusb/os/linux_usbfs.h	/^	USBFS_URB_TYPE_CONTROL = 2,$/;"	e	enum:usbfs_urb_type
+USBFS_URB_TYPE_INTERRUPT	libusb/os/linux_usbfs.h	/^	USBFS_URB_TYPE_INTERRUPT = 1,$/;"	e	enum:usbfs_urb_type
+USBFS_URB_TYPE_ISO	libusb/os/linux_usbfs.h	/^	USBFS_URB_TYPE_ISO = 0,$/;"	e	enum:usbfs_urb_type
+USBFS_URB_ZERO_PACKET	libusb/os/linux_usbfs.h	67;"	d
+USBI_CLOCK_MONOTONIC	libusb/libusbi.h	/^  USBI_CLOCK_MONOTONIC,$/;"	e	enum:__anon16
+USBI_CLOCK_REALTIME	libusb/libusbi.h	/^  USBI_CLOCK_REALTIME$/;"	e	enum:__anon16
+USBI_GET_CONTEXT	libusb/libusbi.h	212;"	d
+USBI_MUTEX_INITIALIZER	libusb/os/threads_posix.h	27;"	d
+USBI_MUTEX_INITIALIZER	libusb/os/threads_windows.h	27;"	d
+USBI_TRANSFER_CANCELLING	libusb/libusbi.h	/^	USBI_TRANSFER_CANCELLING = 1 << 2,$/;"	e	enum:usbi_transfer_flags
+USBI_TRANSFER_DEVICE_DISAPPEARED	libusb/libusbi.h	/^	USBI_TRANSFER_DEVICE_DISAPPEARED = 1 << 3,$/;"	e	enum:usbi_transfer_flags
+USBI_TRANSFER_OS_HANDLES_TIMEOUT	libusb/libusbi.h	/^	USBI_TRANSFER_OS_HANDLES_TIMEOUT = 1 << 1,$/;"	e	enum:usbi_transfer_flags
+USBI_TRANSFER_TIMED_OUT	libusb/libusbi.h	/^	USBI_TRANSFER_TIMED_OUT = 1 << 0,$/;"	e	enum:usbi_transfer_flags
+USBI_TRANSFER_TO_LIBUSB_TRANSFER	libusb/libusbi.h	393;"	d
+USBI_TRANSFER_UPDATED_FDS	libusb/libusbi.h	/^	USBI_TRANSFER_UPDATED_FDS = 1 << 4,$/;"	e	enum:usbi_transfer_flags
+USB_API_COMPOSITE	libusb/os/windows_usb.h	112;"	d
+USB_API_HUB	libusb/os/windows_usb.h	111;"	d
+USB_API_MAX	libusb/os/windows_usb.h	114;"	d
+USB_API_UNSUPPORTED	libusb/os/windows_usb.h	110;"	d
+USB_API_WINUSB	libusb/os/windows_usb.h	113;"	d
+USB_CONFIGURATION_DESCRIPTOR	libusb/os/windows_usb.h	/^typedef struct USB_CONFIGURATION_DESCRIPTOR {$/;"	s
+USB_CONFIGURATION_DESCRIPTOR	libusb/os/windows_usb.h	/^} USB_CONFIGURATION_DESCRIPTOR, *PUSB_CONFIGURATION_DESCRIPTOR;$/;"	t	typeref:struct:USB_CONFIGURATION_DESCRIPTOR
+USB_CONFIGURATION_DESCRIPTOR_SHORT	libusb/os/windows_usb.h	/^typedef struct USB_CONFIGURATION_DESCRIPTOR_SHORT {$/;"	s
+USB_CONFIGURATION_DESCRIPTOR_SHORT	libusb/os/windows_usb.h	/^} USB_CONFIGURATION_DESCRIPTOR_SHORT;$/;"	t	typeref:struct:USB_CONFIGURATION_DESCRIPTOR_SHORT
+USB_CONFIGURATION_DESCRIPTOR_TYPE	libusb/os/windows_usb.h	302;"	d
+USB_CONNECTION_STATUS	libusb/os/windows_usb.h	/^typedef enum USB_CONNECTION_STATUS {$/;"	g
+USB_CONNECTION_STATUS	libusb/os/windows_usb.h	/^} USB_CONNECTION_STATUS, *PUSB_CONNECTION_STATUS;$/;"	t	typeref:enum:USB_CONNECTION_STATUS
+USB_DESCRIPTOR_REQUEST	libusb/os/windows_usb.h	/^typedef struct USB_DESCRIPTOR_REQUEST {$/;"	s
+USB_DESCRIPTOR_REQUEST	libusb/os/windows_usb.h	/^} USB_DESCRIPTOR_REQUEST, *PUSB_DESCRIPTOR_REQUEST;$/;"	t	typeref:struct:USB_DESCRIPTOR_REQUEST
+USB_DEVICE_DESCRIPTOR	libusb/os/windows_usb.h	/^typedef struct libusb_device_descriptor USB_DEVICE_DESCRIPTOR, *PUSB_DEVICE_DESCRIPTOR;$/;"	t	typeref:struct:libusb_device_descriptor
+USB_DEVICE_DESCRIPTOR_TYPE	libusb/os/windows_usb.h	301;"	d
+USB_ENDPOINT_DESCRIPTOR	libusb/os/windows_usb.h	/^typedef struct USB_ENDPOINT_DESCRIPTOR {$/;"	s
+USB_ENDPOINT_DESCRIPTOR	libusb/os/windows_usb.h	/^} USB_ENDPOINT_DESCRIPTOR, *PUSB_ENDPOINT_DESCRIPTOR;$/;"	t	typeref:struct:USB_ENDPOINT_DESCRIPTOR
+USB_ENDPOINT_DESCRIPTOR_TYPE	libusb/os/windows_usb.h	305;"	d
+USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION	libusb/os/windows_usb.h	320;"	d
+USB_GET_HUB_CAPABILITIES	libusb/os/windows_usb.h	322;"	d
+USB_GET_HUB_CAPABILITIES_EX	libusb/os/windows_usb.h	327;"	d
+USB_GET_NODE_CONNECTION_INFORMATION_EX	libusb/os/windows_usb.h	324;"	d
+USB_GET_NODE_CONNECTION_NAME	libusb/os/windows_usb.h	321;"	d
+USB_GET_NODE_INFORMATION	libusb/os/windows_usb.h	319;"	d
+USB_HUB_CAPABILITIES	libusb/os/windows_usb.h	/^typedef struct USB_HUB_CAPABILITIES {$/;"	s
+USB_HUB_CAPABILITIES	libusb/os/windows_usb.h	/^} USB_HUB_CAPABILITIES, *PUSB_HUB_CAPABILITIES;$/;"	t	typeref:struct:USB_HUB_CAPABILITIES
+USB_HUB_CAPABILITIES_EX	libusb/os/windows_usb.h	/^typedef struct USB_HUB_CAPABILITIES_EX {$/;"	s
+USB_HUB_CAPABILITIES_EX	libusb/os/windows_usb.h	/^} USB_HUB_CAPABILITIES_EX, *PUSB_HUB_CAPABILITIES_EX;$/;"	t	typeref:struct:USB_HUB_CAPABILITIES_EX
+USB_HUB_CAP_FLAGS	libusb/os/windows_usb.h	/^typedef struct USB_HUB_CAP_FLAGS {$/;"	s
+USB_HUB_CAP_FLAGS	libusb/os/windows_usb.h	/^} USB_HUB_CAP_FLAGS, *PUSB_HUB_CAP_FLAGS;$/;"	t	typeref:struct:USB_HUB_CAP_FLAGS
+USB_HUB_DESCRIPTOR	libusb/os/windows_usb.h	/^typedef struct USB_HUB_DESCRIPTOR {$/;"	s
+USB_HUB_DESCRIPTOR	libusb/os/windows_usb.h	/^} USB_HUB_DESCRIPTOR, *PUSB_HUB_DESCRIPTOR;$/;"	t	typeref:struct:USB_HUB_DESCRIPTOR
+USB_HUB_INFORMATION	libusb/os/windows_usb.h	/^typedef struct USB_HUB_INFORMATION {$/;"	s
+USB_HUB_INFORMATION	libusb/os/windows_usb.h	/^} USB_HUB_INFORMATION, *PUSB_HUB_INFORMATION;$/;"	t	typeref:struct:USB_HUB_INFORMATION
+USB_HUB_NAME_FIXED	libusb/os/windows_usb.h	/^typedef struct USB_HUB_NAME_FIXED {$/;"	s
+USB_HUB_NAME_FIXED	libusb/os/windows_usb.h	/^} USB_HUB_NAME_FIXED;$/;"	t	typeref:struct:USB_HUB_NAME_FIXED
+USB_HUB_NODE	libusb/os/windows_usb.h	/^typedef enum USB_HUB_NODE {$/;"	g
+USB_HUB_NODE	libusb/os/windows_usb.h	/^} USB_HUB_NODE;$/;"	t	typeref:enum:USB_HUB_NODE
+USB_INTERFACE_DESCRIPTOR	libusb/os/windows_usb.h	/^typedef struct USB_INTERFACE_DESCRIPTOR {$/;"	s
+USB_INTERFACE_DESCRIPTOR	libusb/os/windows_usb.h	/^} USB_INTERFACE_DESCRIPTOR, *PUSB_INTERFACE_DESCRIPTOR;$/;"	t	typeref:struct:USB_INTERFACE_DESCRIPTOR
+USB_INTERFACE_DESCRIPTOR_TYPE	libusb/os/windows_usb.h	304;"	d
+USB_MAXCONFIG	libusb/libusbi.h	50;"	d
+USB_MAXENDPOINTS	libusb/libusbi.h	48;"	d
+USB_MAXINTERFACES	libusb/libusbi.h	49;"	d
+USB_MI_PARENT_INFORMATION	libusb/os/windows_usb.h	/^typedef struct USB_MI_PARENT_INFORMATION {$/;"	s
+USB_MI_PARENT_INFORMATION	libusb/os/windows_usb.h	/^} USB_MI_PARENT_INFORMATION, *PUSB_MI_PARENT_INFORMATION;$/;"	t	typeref:struct:USB_MI_PARENT_INFORMATION
+USB_NODE_CONNECTION_INFORMATION_EX	libusb/os/windows_usb.h	/^typedef struct USB_NODE_CONNECTION_INFORMATION_EX {$/;"	s
+USB_NODE_CONNECTION_INFORMATION_EX	libusb/os/windows_usb.h	/^} USB_NODE_CONNECTION_INFORMATION_EX, *PUSB_NODE_CONNECTION_INFORMATION_EX;$/;"	t	typeref:struct:USB_NODE_CONNECTION_INFORMATION_EX
+USB_NODE_CONNECTION_NAME	libusb/os/windows_usb.h	/^typedef struct USB_NODE_CONNECTION_NAME {$/;"	s
+USB_NODE_CONNECTION_NAME	libusb/os/windows_usb.h	/^} USB_NODE_CONNECTION_NAME, *PUSB_NODE_CONNECTION_NAME;$/;"	t	typeref:struct:USB_NODE_CONNECTION_NAME
+USB_NODE_CONNECTION_NAME_FIXED	libusb/os/windows_usb.h	/^typedef struct USB_NODE_CONNECTION_NAME_FIXED {$/;"	s
+USB_NODE_CONNECTION_NAME_FIXED	libusb/os/windows_usb.h	/^} USB_NODE_CONNECTION_NAME_FIXED;$/;"	t	typeref:struct:USB_NODE_CONNECTION_NAME_FIXED
+USB_NODE_INFORMATION	libusb/os/windows_usb.h	/^typedef struct USB_NODE_INFORMATION {$/;"	s
+USB_NODE_INFORMATION	libusb/os/windows_usb.h	/^} USB_NODE_INFORMATION, *PUSB_NODE_INFORMATION;$/;"	t	typeref:struct:USB_NODE_INFORMATION
+USB_PIPE_INFO	libusb/os/windows_usb.h	/^typedef struct USB_PIPE_INFO {$/;"	s
+USB_PIPE_INFO	libusb/os/windows_usb.h	/^} USB_PIPE_INFO, *PUSB_PIPE_INFO;$/;"	t	typeref:struct:USB_PIPE_INFO
+USB_REQUEST_CLEAR_FEATURE	libusb/os/windows_usb.h	308;"	d
+USB_REQUEST_GET_CONFIGURATION	libusb/os/windows_usb.h	313;"	d
+USB_REQUEST_GET_DESCRIPTOR	libusb/os/windows_usb.h	311;"	d
+USB_REQUEST_GET_INTERFACE	libusb/os/windows_usb.h	315;"	d
+USB_REQUEST_GET_STATUS	libusb/os/windows_usb.h	307;"	d
+USB_REQUEST_SET_ADDRESS	libusb/os/windows_usb.h	310;"	d
+USB_REQUEST_SET_CONFIGURATION	libusb/os/windows_usb.h	314;"	d
+USB_REQUEST_SET_DESCRIPTOR	libusb/os/windows_usb.h	312;"	d
+USB_REQUEST_SET_FEATURE	libusb/os/windows_usb.h	309;"	d
+USB_REQUEST_SET_INTERFACE	libusb/os/windows_usb.h	316;"	d
+USB_REQUEST_SYNC_FRAME	libusb/os/windows_usb.h	317;"	d
+USB_ROOT_HUB_NAME	libusb/os/windows_usb.h	/^typedef struct USB_ROOT_HUB_NAME {$/;"	s
+USB_ROOT_HUB_NAME	libusb/os/windows_usb.h	/^} USB_ROOT_HUB_NAME, *PUSB_ROOT_HUB_NAME;$/;"	t	typeref:struct:USB_ROOT_HUB_NAME
+USB_ROOT_HUB_NAME_FIXED	libusb/os/windows_usb.h	/^typedef struct USB_ROOT_HUB_NAME_FIXED {$/;"	s
+USB_ROOT_HUB_NAME_FIXED	libusb/os/windows_usb.h	/^} USB_ROOT_HUB_NAME_FIXED;$/;"	t	typeref:struct:USB_ROOT_HUB_NAME_FIXED
+USB_RQ	examples/dpfp.c	36;"	d	file:
+USB_RQ	examples/dpfp_threaded.c	37;"	d	file:
+USB_STRING_DESCRIPTOR_TYPE	libusb/os/windows_usb.h	303;"	d
+UsbHub	libusb/os/windows_usb.h	/^	UsbHub,$/;"	e	enum:USB_HUB_NODE
+UsbMIParent	libusb/os/windows_usb.h	/^	UsbMIParent$/;"	e	enum:USB_HUB_NODE
+UsbdPipeTypeBulk	libusb/os/windows_usb.h	/^	UsbdPipeTypeBulk,$/;"	e	enum:USBD_PIPE_TYPE
+UsbdPipeTypeControl	libusb/os/windows_usb.h	/^	UsbdPipeTypeControl,$/;"	e	enum:USBD_PIPE_TYPE
+UsbdPipeTypeInterrupt	libusb/os/windows_usb.h	/^	UsbdPipeTypeInterrupt$/;"	e	enum:USBD_PIPE_TYPE
+UsbdPipeTypeIsochronous	libusb/os/windows_usb.h	/^	UsbdPipeTypeIsochronous,$/;"	e	enum:USBD_PIPE_TYPE
+WCHAR_MAX	msvc/stdint.h	213;"	d
+WCHAR_MIN	msvc/stdint.h	212;"	d
+WINDOWS_2003	libusb/os/poll_windows.h	/^	WINDOWS_2003,	\/\/ also includes XP 64$/;"	e	enum:windows_version
+WINDOWS_UNSUPPORTED	libusb/os/poll_windows.h	/^	WINDOWS_UNSUPPORTED,$/;"	e	enum:windows_version
+WINDOWS_VISTA_AND_LATER	libusb/os/poll_windows.h	/^	WINDOWS_VISTA_AND_LATER,$/;"	e	enum:windows_version
+WINDOWS_XP	libusb/os/poll_windows.h	/^	WINDOWS_XP,$/;"	e	enum:windows_version
+WINT_MAX	msvc/stdint.h	220;"	d
+WINT_MIN	msvc/stdint.h	219;"	d
+WINUSB_INTERFACE_HANDLE	libusb/os/windows_usb.h	/^typedef void *WINUSB_INTERFACE_HANDLE, *PWINUSB_INTERFACE_HANDLE;$/;"	t
+WINUSB_PIPE_INFORMATION	libusb/os/windows_usb.h	/^} WINUSB_PIPE_INFORMATION, *PWINUSB_PIPE_INFORMATION;$/;"	t	typeref:struct:__anon14
+WINUSB_SETUP_PACKET	libusb/os/windows_usb.h	/^} WINUSB_SETUP_PACKET, *PWINUSB_SETUP_PACKET;$/;"	t	typeref:struct:__anon15
+_INTPTR_T_DEFINED	msvc/stdint.h	33;"	d
+_PTRDIFF_T_	msvc/stdint.h	61;"	d
+_PTRDIFF_T_DEFINED	msvc/stdint.h	59;"	d
+_SSIZE_T_DEFINED	libusb/libusb.h	29;"	d
+_STDINT_H	msvc/stdint.h	30;"	d
+_TIMESPEC_DEFINED	libusb/os/threads_windows.h	48;"	d
+_UINTPTR_T_DEFINED	msvc/stdint.h	46;"	d
+_W32_FT_OFFSET	libusb/core.c	1732;"	d	file:
+_WCHAR_T_DEFINED	msvc/stdint.h	72;"	d
+_WCTYPE_T_DEFINED	msvc/stdint.h	79;"	d
+_WINT_T	msvc/stdint.h	81;"	d
+_XOPEN_SOURCE	libusb/os/threads_posix.c	24;"	d	file:
+_XOPEN_SOURCE	libusb/os/threads_posix.c	25;"	d	file:
+_XOPEN_SOURCE	libusb/os/threads_posix.c	28;"	d	file:
+__intptr_t_defined	msvc/stdint.h	35;"	d
+__read_sysfs_attr	libusb/os/linux_usbfs.c	/^static int __read_sysfs_attr(struct libusb_context *ctx,$/;"	f	file:
+__uintptr_t_defined	msvc/stdint.h	48;"	d
+_access_endpoint	libusb/os/openbsd_usb.c	/^_access_endpoint(struct libusb_transfer *transfer)$/;"	f
+_beginthreadex	libusb/os/windows_usb.h	57;"	d
+_cache_active_config_descriptor	libusb/os/openbsd_usb.c	/^_cache_active_config_descriptor(struct libusb_device *dev, int fd)$/;"	f
+_device_handle_priv	libusb/os/linux_usbfs.c	/^static struct linux_device_handle_priv *_device_handle_priv($/;"	f	file:
+_device_handle_priv	libusb/os/windows_usb.h	/^static inline struct windows_device_handle_priv *_device_handle_priv($/;"	f
+_device_priv	libusb/os/linux_usbfs.c	/^static struct linux_device_priv *_device_priv(struct libusb_device *dev)$/;"	f	file:
+_device_priv	libusb/os/windows_usb.h	/^static inline struct windows_device_priv *_device_priv(struct libusb_device *dev) {$/;"	f
+_errno_to_libusb	libusb/os/openbsd_usb.c	/^_errno_to_libusb(int err)$/;"	f
+_fd_to_index_and_lock	libusb/os/poll_windows.c	/^int _fd_to_index_and_lock(int fd)$/;"	f
+_free_index	libusb/os/poll_windows.c	/^void _free_index(int _index)$/;"	f
+_get_usbfs_path	libusb/os/linux_usbfs.c	/^static void _get_usbfs_path(struct libusb_device *dev, char *path)$/;"	f	file:
+_is_usbdev_entry	libusb/os/linux_usbfs.c	/^static int _is_usbdev_entry(struct dirent *entry, int *bus_p, int *dev_p)$/;"	f	file:
+_open_sysfs_attr	libusb/os/linux_usbfs.c	/^static int _open_sysfs_attr(struct libusb_device *dev, const char *attr)$/;"	f	file:
+_poll_fd	libusb/os/poll_windows.c	/^} _poll_fd[MAX_FDS];$/;"	v	typeref:struct:__anon6
+_sync_control_transfer	libusb/os/openbsd_usb.c	/^_sync_control_transfer(struct usbi_transfer *itransfer)$/;"	f
+_sync_gen_transfer	libusb/os/openbsd_usb.c	/^_sync_gen_transfer(struct usbi_transfer *itransfer)$/;"	f
+_usbi_log	libusb/libusbi.h	138;"	d
+_usbi_log	libusb/libusbi.h	140;"	d
+abort_control	libusb/os/windows_usb.h	/^	int (*abort_control)(struct usbi_transfer *itransfer);$/;"	m	struct:windows_usb_api_backend
+abort_transfers	libusb/os/windows_usb.h	/^	int (*abort_transfers)(struct usbi_transfer *itransfer);$/;"	m	struct:windows_usb_api_backend
+active_config	libusb/os/darwin_usb.h	/^  UInt8                 first_config, active_config;$/;"	m	struct:darwin_device_priv
+active_config	libusb/os/windows_usb.h	/^	uint8_t active_config;$/;"	m	struct:windows_device_priv
+active_interface	libusb/os/windows_usb.h	/^	int active_interface;$/;"	m	struct:windows_device_handle_priv
+actual_length	libusb/libusb.h	/^	int actual_length;$/;"	m	struct:libusb_transfer
+actual_length	libusb/libusb.h	/^	unsigned int actual_length;$/;"	m	struct:libusb_iso_packet_descriptor
+actual_length	libusb/os/linux_usbfs.h	/^	int actual_length;$/;"	m	struct:usbfs_urb
+actual_length	libusb/os/linux_usbfs.h	/^	unsigned int actual_length;$/;"	m	struct:usbfs_iso_packet_desc
+add_iso_packet_size	libusb/libusbi.h	/^	size_t add_iso_packet_size;$/;"	m	struct:usbi_os_backend
+add_to_flying_list	libusb/io.c	/^static int add_to_flying_list(struct usbi_transfer *transfer)$/;"	f	file:
+alloc_transfers	examples/dpfp.c	/^static int alloc_transfers(void)$/;"	f	file:
+alloc_transfers	examples/dpfp_threaded.c	/^static int alloc_transfers(void)$/;"	f	file:
+altsetting	libusb/libusb.h	/^	const struct libusb_interface_descriptor *altsetting;$/;"	m	struct:libusb_interface	typeref:struct:libusb_interface::libusb_interface_descriptor
+altsetting	libusb/os/linux_usbfs.h	/^	unsigned int altsetting;$/;"	m	struct:usbfs_setinterface
+api_handle	libusb/os/windows_usb.h	/^	HANDLE api_handle; \/\/ used by the API to communicate with the device$/;"	m	struct:interface_handle_t
+api_winusb_available	libusb/os/windows_usb.c	/^bool api_winusb_available = false;$/;"	v
+apib	libusb/os/windows_usb.h	/^		struct windows_usb_api_backend const *apib; \/\/ an API backend (multiple drivers support),$/;"	m	struct:windows_device_priv::__anon8
+apib	libusb/os/windows_usb.h	/^	struct windows_usb_api_backend const *apib;$/;"	m	struct:windows_device_priv
+arm_timerfd_for_next_timeout	libusb/io.c	/^static int arm_timerfd_for_next_timeout(struct libusb_context *ctx)$/;"	f	file:
+attach_kernel_driver	libusb/libusbi.h	/^	int (*attach_kernel_driver)(struct libusb_device_handle *handle,$/;"	m	struct:usbi_os_backend
+auto_claim	libusb/os/windows_usb.c	/^static int auto_claim(struct libusb_transfer *transfer, int *interface_number, int api_type)$/;"	f	file:
+auto_release	libusb/os/windows_usb.c	/^static void auto_release(struct usbi_transfer *itransfer)$/;"	f	file:
+autoclaim_count	libusb/os/windows_usb.h	/^	int autoclaim_count[USB_MAXINTERFACES]; \/\/ For auto-release$/;"	m	struct:windows_device_handle_priv
+autoclaim_lock	libusb/os/windows_usb.c	/^usbi_mutex_t autoclaim_lock;$/;"	v
+bAlternateSetting	libusb/libusb.h	/^	uint8_t  bAlternateSetting;$/;"	m	struct:libusb_interface_descriptor
+bAlternateSetting	libusb/os/windows_usb.h	/^  UCHAR  bAlternateSetting;$/;"	m	struct:USB_INTERFACE_DESCRIPTOR
+bConfigurationValue	libusb/libusb.h	/^	uint8_t  bConfigurationValue;$/;"	m	struct:libusb_config_descriptor
+bConfigurationValue	libusb/os/windows_usb.h	/^  UCHAR  bConfigurationValue;$/;"	m	struct:USB_CONFIGURATION_DESCRIPTOR
+bDescriptorLength	libusb/os/windows_usb.h	/^	UCHAR  bDescriptorLength;$/;"	m	struct:USB_HUB_DESCRIPTOR
+bDescriptorType	libusb/libusb.h	/^	uint8_t  bDescriptorType;$/;"	m	struct:libusb_config_descriptor
+bDescriptorType	libusb/libusb.h	/^	uint8_t  bDescriptorType;$/;"	m	struct:libusb_device_descriptor
+bDescriptorType	libusb/libusb.h	/^	uint8_t  bDescriptorType;$/;"	m	struct:libusb_endpoint_descriptor
+bDescriptorType	libusb/libusb.h	/^	uint8_t  bDescriptorType;$/;"	m	struct:libusb_interface_descriptor
+bDescriptorType	libusb/libusbi.h	/^	uint8_t  bDescriptorType;$/;"	m	struct:usb_descriptor_header
+bDescriptorType	libusb/os/windows_usb.h	/^	UCHAR  bDescriptorType;$/;"	m	struct:USB_HUB_DESCRIPTOR
+bDescriptorType	libusb/os/windows_usb.h	/^  UCHAR  bDescriptorType;$/;"	m	struct:USB_CONFIGURATION_DESCRIPTOR
+bDescriptorType	libusb/os/windows_usb.h	/^  UCHAR  bDescriptorType;$/;"	m	struct:USB_ENDPOINT_DESCRIPTOR
+bDescriptorType	libusb/os/windows_usb.h	/^  UCHAR  bDescriptorType;$/;"	m	struct:USB_INTERFACE_DESCRIPTOR
+bDeviceClass	libusb/libusb.h	/^	uint8_t  bDeviceClass;$/;"	m	struct:libusb_device_descriptor
+bDeviceProtocol	libusb/libusb.h	/^	uint8_t  bDeviceProtocol;$/;"	m	struct:libusb_device_descriptor
+bDeviceSubClass	libusb/libusb.h	/^	uint8_t  bDeviceSubClass;$/;"	m	struct:libusb_device_descriptor
+bEndpointAddress	libusb/libusb.h	/^	uint8_t  bEndpointAddress;$/;"	m	struct:libusb_endpoint_descriptor
+bEndpointAddress	libusb/os/windows_usb.h	/^  UCHAR  bEndpointAddress;$/;"	m	struct:USB_ENDPOINT_DESCRIPTOR
+bHubControlCurrent	libusb/os/windows_usb.h	/^	UCHAR  bHubControlCurrent;$/;"	m	struct:USB_HUB_DESCRIPTOR
+bInterfaceClass	libusb/libusb.h	/^	uint8_t  bInterfaceClass;$/;"	m	struct:libusb_interface_descriptor
+bInterfaceClass	libusb/os/windows_usb.h	/^  UCHAR  bInterfaceClass;$/;"	m	struct:USB_INTERFACE_DESCRIPTOR
+bInterfaceNumber	libusb/libusb.h	/^	uint8_t  bInterfaceNumber;$/;"	m	struct:libusb_interface_descriptor
+bInterfaceNumber	libusb/os/windows_usb.h	/^  UCHAR  bInterfaceNumber;$/;"	m	struct:USB_INTERFACE_DESCRIPTOR
+bInterfaceProtocol	libusb/libusb.h	/^	uint8_t  bInterfaceProtocol;$/;"	m	struct:libusb_interface_descriptor
+bInterfaceProtocol	libusb/os/windows_usb.h	/^  UCHAR  bInterfaceProtocol;$/;"	m	struct:USB_INTERFACE_DESCRIPTOR
+bInterfaceSubClass	libusb/libusb.h	/^	uint8_t  bInterfaceSubClass;$/;"	m	struct:libusb_interface_descriptor
+bInterfaceSubClass	libusb/os/windows_usb.h	/^  UCHAR  bInterfaceSubClass;$/;"	m	struct:USB_INTERFACE_DESCRIPTOR
+bInterval	libusb/libusb.h	/^	uint8_t  bInterval;$/;"	m	struct:libusb_endpoint_descriptor
+bInterval	libusb/os/windows_usb.h	/^  UCHAR  bInterval;$/;"	m	struct:USB_ENDPOINT_DESCRIPTOR
+bLength	libusb/libusb.h	/^	uint8_t  bLength;$/;"	m	struct:libusb_config_descriptor
+bLength	libusb/libusb.h	/^	uint8_t  bLength;$/;"	m	struct:libusb_device_descriptor
+bLength	libusb/libusb.h	/^	uint8_t  bLength;$/;"	m	struct:libusb_endpoint_descriptor
+bLength	libusb/libusb.h	/^	uint8_t  bLength;$/;"	m	struct:libusb_interface_descriptor
+bLength	libusb/libusbi.h	/^	uint8_t  bLength;$/;"	m	struct:usb_descriptor_header
+bLength	libusb/os/windows_usb.h	/^  UCHAR  bLength;$/;"	m	struct:USB_CONFIGURATION_DESCRIPTOR
+bLength	libusb/os/windows_usb.h	/^  UCHAR  bLength;$/;"	m	struct:USB_ENDPOINT_DESCRIPTOR
+bLength	libusb/os/windows_usb.h	/^  UCHAR  bLength;$/;"	m	struct:USB_INTERFACE_DESCRIPTOR
+bMaxPacketSize0	libusb/libusb.h	/^	uint8_t  bMaxPacketSize0;$/;"	m	struct:libusb_device_descriptor
+bNumConfigurations	libusb/libusb.h	/^	uint8_t  bNumConfigurations;$/;"	m	struct:libusb_device_descriptor
+bNumEndpoints	libusb/libusb.h	/^	uint8_t  bNumEndpoints;$/;"	m	struct:libusb_interface_descriptor
+bNumEndpoints	libusb/os/windows_usb.h	/^  UCHAR  bNumEndpoints;$/;"	m	struct:USB_INTERFACE_DESCRIPTOR
+bNumInterfaces	libusb/libusb.h	/^	uint8_t  bNumInterfaces;$/;"	m	struct:libusb_config_descriptor
+bNumInterfaces	libusb/os/windows_usb.h	/^  UCHAR  bNumInterfaces;$/;"	m	struct:USB_CONFIGURATION_DESCRIPTOR
+bNumberOfPorts	libusb/os/windows_usb.h	/^	UCHAR  bNumberOfPorts;$/;"	m	struct:USB_HUB_DESCRIPTOR
+bPowerOnToPowerGood	libusb/os/windows_usb.h	/^	UCHAR  bPowerOnToPowerGood;$/;"	m	struct:USB_HUB_DESCRIPTOR
+bRefresh	libusb/libusb.h	/^	uint8_t  bRefresh;$/;"	m	struct:libusb_endpoint_descriptor
+bRemoveAndPowerMask	libusb/os/windows_usb.h	/^	UCHAR  bRemoveAndPowerMask[64];$/;"	m	struct:USB_HUB_DESCRIPTOR
+bRequest	libusb/libusb.h	/^	uint8_t  bRequest;$/;"	m	struct:libusb_control_setup
+bRequest	libusb/os/linux_usbfs.h	/^	uint8_t  bRequest;$/;"	m	struct:usbfs_ctrltransfer
+bRequest	libusb/os/windows_usb.h	/^			UCHAR bRequest;$/;"	m	struct:USB_CONFIGURATION_DESCRIPTOR_SHORT::__anon9::__anon10
+bRequest	libusb/os/windows_usb.h	/^		UCHAR  bRequest;$/;"	m	struct:USB_DESCRIPTOR_REQUEST::__anon11
+bSynchAddress	libusb/libusb.h	/^	uint8_t  bSynchAddress;$/;"	m	struct:libusb_endpoint_descriptor
+bcdDevice	libusb/libusb.h	/^	uint16_t bcdDevice;$/;"	m	struct:libusb_device_descriptor
+bcdUSB	libusb/libusb.h	/^	uint16_t bcdUSB;$/;"	m	struct:libusb_device_descriptor
+benchmark_in	examples/sam3u_benchmark.c	/^static int benchmark_in(uint8_t ep)$/;"	f	file:
+bmAttributes	libusb/libusb.h	/^	uint8_t  bmAttributes;$/;"	m	struct:libusb_config_descriptor
+bmAttributes	libusb/libusb.h	/^	uint8_t  bmAttributes;$/;"	m	struct:libusb_endpoint_descriptor
+bmAttributes	libusb/os/windows_usb.h	/^  UCHAR  bmAttributes;$/;"	m	struct:USB_CONFIGURATION_DESCRIPTOR
+bmAttributes	libusb/os/windows_usb.h	/^  UCHAR  bmAttributes;$/;"	m	struct:USB_ENDPOINT_DESCRIPTOR
+bmRequest	libusb/os/windows_usb.h	/^			UCHAR bmRequest;$/;"	m	struct:USB_CONFIGURATION_DESCRIPTOR_SHORT::__anon9::__anon10
+bmRequest	libusb/os/windows_usb.h	/^		UCHAR  bmRequest;$/;"	m	struct:USB_DESCRIPTOR_REQUEST::__anon11
+bmRequestType	libusb/libusb.h	/^	uint8_t  bmRequestType;$/;"	m	struct:libusb_control_setup
+bmRequestType	libusb/os/linux_usbfs.h	/^	uint8_t  bmRequestType;$/;"	m	struct:usbfs_ctrltransfer
+bool	libusb/os/windows_usb.h	35;"	d
+buffer	libusb/libusb.h	/^	unsigned char *buffer;$/;"	m	struct:libusb_transfer
+buffer	libusb/os/linux_usbfs.h	/^	void *buffer;$/;"	m	struct:usbfs_urb
+buffer_length	libusb/os/linux_usbfs.h	/^	int buffer_length;$/;"	m	struct:usbfs_urb
+builderror	msvc/ddk_build.cmd	/^:builderror$/;"	l
+buildlistdevserror	msvc/ddk_build.cmd	/^:buildlistdevserror$/;"	l
+bulk_transfer_cb	libusb/sync.c	/^static void LIBUSB_CALL bulk_transfer_cb(struct libusb_transfer *transfer)$/;"	f	file:
+bus_number	libusb/libusbi.h	/^	uint8_t bus_number;$/;"	m	struct:libusb_device
+cache_active_config	libusb/os/linux_usbfs.c	/^static int cache_active_config(struct libusb_device *dev, int fd,$/;"	f	file:
+cache_config_descriptors	libusb/os/windows_usb.c	/^static int cache_config_descriptors(struct libusb_device *dev, HANDLE hub_handle, char* device_id)$/;"	f	file:
+calculate_timeout	libusb/io.c	/^static int calculate_timeout(struct usbi_transfer *transfer)$/;"	f	file:
+callback	libusb/libusb.h	/^	libusb_transfer_cb_fn callback;$/;"	m	struct:libusb_transfer
+cancel_control_transfer	libusb/os/darwin_usb.c	/^static int cancel_control_transfer(struct usbi_transfer *itransfer) {$/;"	f	file:
+cancel_io	libusb/os/poll_windows.c	/^static __inline BOOL cancel_io(int _index)$/;"	f	file:
+cancel_transfer	libusb/libusbi.h	/^	int (*cancel_transfer)(struct usbi_transfer *itransfer);$/;"	m	struct:usbi_os_backend
+capacity	libusb/libusbi.h	/^	size_t capacity;$/;"	m	struct:discovered_devs
+cb_img	examples/dpfp.c	/^static void LIBUSB_CALL cb_img(struct libusb_transfer *transfer)$/;"	f	file:
+cb_img	examples/dpfp_threaded.c	/^static void LIBUSB_CALL cb_img(struct libusb_transfer *transfer)$/;"	f	file:
+cb_irq	examples/dpfp.c	/^static void LIBUSB_CALL cb_irq(struct libusb_transfer *transfer)$/;"	f	file:
+cb_irq	examples/dpfp_threaded.c	/^static void LIBUSB_CALL cb_irq(struct libusb_transfer *transfer)$/;"	f	file:
+cb_mode_changed	examples/dpfp.c	/^static void LIBUSB_CALL cb_mode_changed(struct libusb_transfer *transfer)$/;"	f	file:
+cb_mode_changed	examples/dpfp_threaded.c	/^static void LIBUSB_CALL cb_mode_changed(struct libusb_transfer *transfer)$/;"	f	file:
+cb_xfr	examples/sam3u_benchmark.c	/^static void cb_xfr(struct libusb_transfer *xfr)$/;"	f	file:
+cdesc	libusb/os/openbsd_usb.c	/^	unsigned char *cdesc;			\/* active config descriptor *\/$/;"	m	struct:device_priv	file:
+cfSource	libusb/os/darwin_usb.h	/^    CFRunLoopSourceRef   cfSource;$/;"	m	struct:darwin_device_handle_priv::darwin_interface
+cfSource	libusb/os/darwin_usb.h	/^  CFRunLoopSourceRef   cfSource;$/;"	m	struct:darwin_device_handle_priv
+check_usb_vfs	libusb/os/linux_usbfs.c	/^static int check_usb_vfs(const char *dirname)$/;"	f	file:
+claim_interface	libusb/libusbi.h	/^	int (*claim_interface)(struct libusb_device_handle *handle, int interface_number);$/;"	m	struct:usbi_os_backend
+claim_interface	libusb/os/windows_usb.h	/^	int (*claim_interface)(struct libusb_device_handle *dev_handle, int iface);$/;"	m	struct:windows_usb_api_backend
+claimed_interfaces	libusb/libusbi.h	/^	unsigned long claimed_interfaces;$/;"	m	struct:libusb_device_handle
+class_guid	libusb/os/windows_usb.h	/^	const GUID *class_guid;  \/\/ The Class GUID (for fallback in case the driver name cannot be read)$/;"	m	struct:windows_usb_api_backend
+clear_configuration	libusb/descriptor.c	/^static void clear_configuration(struct libusb_config_descriptor *config)$/;"	f	file:
+clear_endpoint	libusb/descriptor.c	/^static void clear_endpoint(struct libusb_endpoint_descriptor *endpoint)$/;"	f	file:
+clear_halt	libusb/libusbi.h	/^	int (*clear_halt)(struct libusb_device_handle *handle,$/;"	m	struct:usbi_os_backend
+clear_halt	libusb/os/windows_usb.h	/^	int (*clear_halt)(struct libusb_device_handle *dev_handle, unsigned char endpoint);$/;"	m	struct:windows_usb_api_backend
+clear_interface	libusb/descriptor.c	/^static void clear_interface(struct libusb_interface *usb_interface)$/;"	f	file:
+clear_transfer_priv	libusb/libusbi.h	/^	void (*clear_transfer_priv)(struct usbi_transfer *itransfer);$/;"	m	struct:usbi_os_backend
+clock_gettime	libusb/libusbi.h	/^	int (*clock_gettime)(int clkid, struct timespec *tp);$/;"	m	struct:usbi_os_backend
+clock_monotonic	libusb/os/darwin_usb.c	/^static clock_serv_t clock_monotonic;$/;"	v	file:
+clock_realtime	libusb/os/darwin_usb.c	/^static clock_serv_t clock_realtime;$/;"	v	file:
+close	libusb/libusbi.h	/^	void (*close)(struct libusb_device_handle *handle);$/;"	m	struct:usbi_os_backend
+close	libusb/os/windows_usb.h	/^	void (*close)(struct libusb_device_handle *dev_handle);$/;"	m	struct:windows_usb_api_backend
+compat_spinlock	libusb/os/poll_windows.c	/^static volatile LONG compat_spinlock = 0;$/;"	v	file:
+composite_abort_control	libusb/os/windows_usb.c	/^static int composite_abort_control(struct usbi_transfer *itransfer)$/;"	f	file:
+composite_abort_transfers	libusb/os/windows_usb.c	/^static int composite_abort_transfers(struct usbi_transfer *itransfer)$/;"	f	file:
+composite_api_flags	libusb/os/windows_usb.h	/^	uint8_t composite_api_flags;		\/\/ composite devices require additional data$/;"	m	struct:windows_device_priv
+composite_claim_interface	libusb/os/windows_usb.c	/^static int composite_claim_interface(struct libusb_device_handle *dev_handle, int iface)$/;"	f	file:
+composite_clear_halt	libusb/os/windows_usb.c	/^static int composite_clear_halt(struct libusb_device_handle *dev_handle, unsigned char endpoint)$/;"	f	file:
+composite_close	libusb/os/windows_usb.c	/^static void composite_close(struct libusb_device_handle *dev_handle)$/;"	f	file:
+composite_copy_transfer_data	libusb/os/windows_usb.c	/^static int composite_copy_transfer_data(struct usbi_transfer *itransfer, uint32_t io_size)$/;"	f	file:
+composite_driver_names	libusb/os/windows_usb.c	/^const char* composite_driver_names[] = {"USBCCGP"};$/;"	v
+composite_exit	libusb/os/windows_usb.c	/^static int composite_exit(void)$/;"	f	file:
+composite_init	libusb/os/windows_usb.c	/^static int composite_init(struct libusb_context *ctx)$/;"	f	file:
+composite_open	libusb/os/windows_usb.c	/^static int composite_open(struct libusb_device_handle *dev_handle)$/;"	f	file:
+composite_release_interface	libusb/os/windows_usb.c	/^static int composite_release_interface(struct libusb_device_handle *dev_handle, int iface)$/;"	f	file:
+composite_reset_device	libusb/os/windows_usb.c	/^static int composite_reset_device(struct libusb_device_handle *dev_handle)$/;"	f	file:
+composite_set_interface_altsetting	libusb/os/windows_usb.c	/^static int composite_set_interface_altsetting(struct libusb_device_handle *dev_handle, int iface, int altsetting)$/;"	f	file:
+composite_submit_bulk_transfer	libusb/os/windows_usb.c	/^static int composite_submit_bulk_transfer(struct usbi_transfer *itransfer) {$/;"	f	file:
+composite_submit_control_transfer	libusb/os/windows_usb.c	/^static int composite_submit_control_transfer(struct usbi_transfer *itransfer)$/;"	f	file:
+composite_submit_iso_transfer	libusb/os/windows_usb.c	/^static int composite_submit_iso_transfer(struct usbi_transfer *itransfer) {$/;"	f	file:
+concurrent_usage	libusb/os/windows_usb.c	/^static int concurrent_usage = -1;$/;"	v	file:
+config_descriptor	libusb/os/linux_usbfs.c	/^	unsigned char *config_descriptor;$/;"	m	struct:linux_device_priv	file:
+config_descriptor	libusb/os/windows_usb.h	/^	unsigned char **config_descriptor;	\/\/ list of pointers to the cached config descriptors$/;"	m	struct:windows_device_priv
+container_of	libusb/libusbi.h	113;"	d
+copy_transfer_data	libusb/os/windows_usb.h	/^	int (*copy_transfer_data)(struct usbi_transfer *itransfer, uint32_t io_size);$/;"	m	struct:windows_usb_api_backend
+copylib	msvc/ddk_build.cmd	/^:copylib$/;"	l
+cpudir	msvc/ddk_build.cmd	/^set cpudir=amd64$/;"	v
+cpudir	msvc/ddk_build.cmd	/^set cpudir=i386$/;"	v
+create_overlapped	libusb/os/poll_windows.c	/^OVERLAPPED *create_overlapped(void)$/;"	f
+ctrl_pipe	libusb/libusbi.h	/^	int ctrl_pipe[2];$/;"	m	struct:libusb_context
+ctrl_transfer_cb	libusb/sync.c	/^static void LIBUSB_CALL ctrl_transfer_cb(struct libusb_transfer *transfer)$/;"	f	file:
+ctx	libusb/libusbi.h	/^	struct libusb_context *ctx;$/;"	m	struct:libusb_device	typeref:struct:libusb_device::libusb_context
+darwin_abort_transfers	libusb/os/darwin_usb.c	/^static int darwin_abort_transfers (struct usbi_transfer *itransfer) {$/;"	f	file:
+darwin_async_io_callback	libusb/os/darwin_usb.c	/^static void darwin_async_io_callback (void *refcon, IOReturn result, void *arg0) {$/;"	f	file:
+darwin_attach_kernel_driver	libusb/os/darwin_usb.c	/^static int darwin_attach_kernel_driver (struct libusb_device_handle *dev_handle, int interface) {$/;"	f	file:
+darwin_backend	libusb/os/darwin_usb.c	/^const struct usbi_os_backend darwin_backend = {$/;"	v	typeref:struct:usbi_os_backend
+darwin_cache_device_descriptor	libusb/os/darwin_usb.c	/^static int darwin_cache_device_descriptor (struct libusb_context *ctx, struct libusb_device *dev, usb_device_t **device) {$/;"	f	file:
+darwin_cancel_transfer	libusb/os/darwin_usb.c	/^static int darwin_cancel_transfer(struct usbi_transfer *itransfer) {$/;"	f	file:
+darwin_check_configuration	libusb/os/darwin_usb.c	/^static int darwin_check_configuration (struct libusb_context *ctx, struct libusb_device *dev, usb_device_t **darwin_device) {$/;"	f	file:
+darwin_claim_interface	libusb/os/darwin_usb.c	/^static int darwin_claim_interface(struct libusb_device_handle *dev_handle, int iface) {$/;"	f	file:
+darwin_clear_halt	libusb/os/darwin_usb.c	/^static int darwin_clear_halt(struct libusb_device_handle *dev_handle, unsigned char endpoint) {$/;"	f	file:
+darwin_clear_iterator	libusb/os/darwin_usb.c	/^static void darwin_clear_iterator (io_iterator_t iter) {$/;"	f	file:
+darwin_clear_transfer_priv	libusb/os/darwin_usb.c	/^static void darwin_clear_transfer_priv (struct usbi_transfer *itransfer) {$/;"	f	file:
+darwin_clock_gettime	libusb/os/darwin_usb.c	/^static int darwin_clock_gettime(int clk_id, struct timespec *tp) {$/;"	f	file:
+darwin_close	libusb/os/darwin_usb.c	/^static void darwin_close (struct libusb_device_handle *dev_handle) {$/;"	f	file:
+darwin_destroy_device	libusb/os/darwin_usb.c	/^static void darwin_destroy_device(struct libusb_device *dev) {$/;"	f	file:
+darwin_detach_kernel_driver	libusb/os/darwin_usb.c	/^static int darwin_detach_kernel_driver (struct libusb_device_handle *dev_handle, int interface) {$/;"	f	file:
+darwin_device_handle_priv	libusb/os/darwin_usb.h	/^struct darwin_device_handle_priv {$/;"	s
+darwin_device_priv	libusb/os/darwin_usb.h	/^struct darwin_device_priv {$/;"	s
+darwin_devices_detached	libusb/os/darwin_usb.c	/^static void darwin_devices_detached (void *ptr, io_iterator_t rem_devices) {$/;"	f	file:
+darwin_error_str	libusb/os/darwin_usb.c	/^static const char *darwin_error_str (int result) {$/;"	f	file:
+darwin_exit	libusb/os/darwin_usb.c	/^static void darwin_exit (void) {$/;"	f	file:
+darwin_get_active_config_descriptor	libusb/os/darwin_usb.c	/^static int darwin_get_active_config_descriptor(struct libusb_device *dev, unsigned char *buffer, size_t len, int *host_endian) {$/;"	f	file:
+darwin_get_config_descriptor	libusb/os/darwin_usb.c	/^static int darwin_get_config_descriptor(struct libusb_device *dev, uint8_t config_index, unsigned char *buffer, size_t len, int *host_endian) {$/;"	f	file:
+darwin_get_configuration	libusb/os/darwin_usb.c	/^static int darwin_get_configuration(struct libusb_device_handle *dev_handle, int *config) {$/;"	f	file:
+darwin_get_device	libusb/os/darwin_usb.c	/^static kern_return_t darwin_get_device (uint32_t dev_location, usb_device_t ***darwin_device) {$/;"	f	file:
+darwin_get_device_descriptor	libusb/os/darwin_usb.c	/^static int darwin_get_device_descriptor(struct libusb_device *dev, unsigned char *buffer, int *host_endian) {$/;"	f	file:
+darwin_get_device_list	libusb/os/darwin_usb.c	/^static int darwin_get_device_list(struct libusb_context *ctx, struct discovered_devs **_discdevs) {$/;"	f	file:
+darwin_get_interface	libusb/os/darwin_usb.c	/^static int darwin_get_interface (usb_device_t **darwin_device, uint8_t ifc, io_service_t *usbInterfacep) {$/;"	f	file:
+darwin_handle_callback	libusb/os/darwin_usb.c	/^static void darwin_handle_callback (struct usbi_transfer *itransfer, kern_return_t result, UInt32 io_size) {$/;"	f	file:
+darwin_init	libusb/os/darwin_usb.c	/^static int darwin_init(struct libusb_context *ctx) {$/;"	f	file:
+darwin_interface	libusb/os/darwin_usb.h	/^  struct darwin_interface {$/;"	s	struct:darwin_device_handle_priv
+darwin_kernel_driver_active	libusb/os/darwin_usb.c	/^static int darwin_kernel_driver_active(struct libusb_device_handle *dev_handle, int interface) {$/;"	f	file:
+darwin_open	libusb/os/darwin_usb.c	/^static int darwin_open (struct libusb_device_handle *dev_handle) {$/;"	f	file:
+darwin_release_interface	libusb/os/darwin_usb.c	/^static int darwin_release_interface(struct libusb_device_handle *dev_handle, int iface) {$/;"	f	file:
+darwin_reset_device	libusb/os/darwin_usb.c	/^static int darwin_reset_device(struct libusb_device_handle *dev_handle) {$/;"	f	file:
+darwin_set_configuration	libusb/os/darwin_usb.c	/^static int darwin_set_configuration(struct libusb_device_handle *dev_handle, int config) {$/;"	f	file:
+darwin_set_interface_altsetting	libusb/os/darwin_usb.c	/^static int darwin_set_interface_altsetting(struct libusb_device_handle *dev_handle, int iface, int altsetting) {$/;"	f	file:
+darwin_submit_transfer	libusb/os/darwin_usb.c	/^static int darwin_submit_transfer(struct usbi_transfer *itransfer) {$/;"	f	file:
+darwin_to_libusb	libusb/os/darwin_usb.c	/^static int darwin_to_libusb (int result) {$/;"	f	file:
+darwin_transfer_priv	libusb/os/darwin_usb.h	/^struct darwin_transfer_priv {$/;"	s
+darwin_transfer_status	libusb/os/darwin_usb.c	/^static int darwin_transfer_status (struct usbi_transfer *itransfer, kern_return_t result) {$/;"	f	file:
+data	libusb/os/linux_usbfs.h	/^	void *data;	\/* param buffer (in, or out) *\/$/;"	m	struct:usbfs_ioctl
+data	libusb/os/linux_usbfs.h	/^	void *data;$/;"	m	struct:usbfs_bulktransfer
+data	libusb/os/linux_usbfs.h	/^	void *data;$/;"	m	struct:usbfs_ctrltransfer
+data	libusb/os/windows_usb.h	/^	USB_CONFIGURATION_DESCRIPTOR data;$/;"	m	struct:USB_CONFIGURATION_DESCRIPTOR_SHORT
+ddesc	libusb/os/openbsd_usb.c	/^	usb_device_descriptor_t ddesc;		\/* usb device descriptor *\/$/;"	m	struct:device_priv	file:
+debug	libusb/libusbi.h	/^	int debug;$/;"	m	struct:libusb_context
+debug_fixed	libusb/libusbi.h	/^	int debug_fixed;$/;"	m	struct:libusb_context
+default_context_lock	libusb/core.c	/^static usbi_mutex_static_t default_context_lock = USBI_MUTEX_INITIALIZER;$/;"	v	file:
+default_context_refcnt	libusb/core.c	/^static int default_context_refcnt = 0;$/;"	v	file:
+depth	libusb/os/windows_usb.h	/^	uint8_t depth;						\/\/ distance to HCD$/;"	m	struct:windows_device_priv
+describe	libusb/libusb.h	/^	const char *describe;$/;"	m	struct:libusb_version
+designation	libusb/os/windows_usb.h	/^	const char* designation;	\/\/ internal designation (for debug output)$/;"	m	struct:driver_lookup
+designation	libusb/os/windows_usb.h	/^	const char* designation;$/;"	m	struct:windows_usb_api_backend
+destType	msvc/ddk_build.cmd	/^set destType=Win32$/;"	v
+destType	msvc/ddk_build.cmd	/^set destType=x64$/;"	v
+destroy_device	libusb/libusbi.h	/^	void (*destroy_device)(struct libusb_device *dev);$/;"	m	struct:usbi_os_backend
+detach_kernel_driver	libusb/libusbi.h	/^	int (*detach_kernel_driver)(struct libusb_device_handle *handle,$/;"	m	struct:usbi_os_backend
+dev	libusb/libusbi.h	/^	struct libusb_device *dev;$/;"	m	struct:libusb_device_handle	typeref:struct:libusb_device_handle::libusb_device
+dev_descriptor	libusb/os/darwin_usb.h	/^  IOUSBDeviceDescriptor dev_descriptor;$/;"	m	struct:darwin_device_priv
+dev_descriptor	libusb/os/linux_usbfs.c	/^	unsigned char *dev_descriptor;$/;"	m	struct:linux_device_priv	file:
+dev_descriptor	libusb/os/windows_usb.h	/^	USB_DEVICE_DESCRIPTOR dev_descriptor;$/;"	m	struct:windows_device_priv
+dev_handle	libusb/libusb.h	/^	libusb_device_handle *dev_handle;$/;"	m	struct:libusb_transfer
+dev_handle	libusb/os/windows_usb.h	/^	HANDLE dev_handle; \/\/ WinUSB needs an extra handle for the file$/;"	m	struct:interface_handle_t
+devh	examples/dpfp.c	/^static struct libusb_device_handle *devh = NULL;$/;"	v	typeref:struct:libusb_device_handle	file:
+devh	examples/dpfp_threaded.c	/^static struct libusb_device_handle *devh = NULL;$/;"	v	typeref:struct:libusb_device_handle	file:
+devh	examples/sam3u_benchmark.c	/^static struct libusb_device_handle *devh = NULL;$/;"	v	typeref:struct:libusb_device_handle	file:
+device	libusb/os/darwin_usb.h	/^  usb_device_t        **device;$/;"	m	struct:darwin_device_priv
+device_address	libusb/libusbi.h	/^	uint8_t device_address;$/;"	m	struct:libusb_device
+device_handle_priv_size	libusb/libusbi.h	/^	size_t device_handle_priv_size;$/;"	m	struct:usbi_os_backend
+device_priv	libusb/os/openbsd_usb.c	/^struct device_priv {$/;"	s	file:
+device_priv_size	libusb/libusbi.h	/^	size_t device_priv_size;$/;"	m	struct:usbi_os_backend
+devices	libusb/libusbi.h	/^	struct libusb_device *devices[0];$/;"	m	struct:discovered_devs	typeref:struct:discovered_devs::libusb_device
+devnode	libusb/os/openbsd_usb.c	/^	char devnode[16];$/;"	m	struct:device_priv	file:
+devnum	libusb/os/linux_usbfs.h	/^	unsigned int devnum;$/;"	m	struct:usbfs_connectinfo
+disarm_timerfd	libusb/io.c	/^static int disarm_timerfd(struct libusb_context *ctx)$/;"	f	file:
+discard_urbs	libusb/os/linux_usbfs.c	/^static int discard_urbs(struct usbi_transfer *itransfer, int first, int last_plus_one)$/;"	f	file:
+discovered_devs	libusb/libusbi.h	/^struct discovered_devs {$/;"	s
+discovered_devs_alloc	libusb/core.c	/^static struct discovered_devs *discovered_devs_alloc(void)$/;"	f	file:
+discovered_devs_append	libusb/core.c	/^struct discovered_devs *discovered_devs_append($/;"	f
+discovered_devs_free	libusb/core.c	/^static void discovered_devs_free(struct discovered_devs *discdevs)$/;"	f	file:
+do_close	libusb/core.c	/^static void do_close(struct libusb_context *ctx,$/;"	f	file:
+do_exit	examples/dpfp.c	/^static int do_exit = 0;$/;"	v	file:
+do_exit	examples/dpfp_threaded.c	/^static int do_exit = 0;$/;"	v	file:
+do_exit	examples/sam3u_benchmark.c	/^static int do_exit = 0;$/;"	v	file:
+do_init	examples/dpfp.c	/^static int do_init(void)$/;"	f	file:
+do_init	examples/dpfp_threaded.c	/^static int do_init(void)$/;"	f	file:
+do_sync_bulk_transfer	libusb/sync.c	/^static int do_sync_bulk_transfer(struct libusb_device_handle *dev_handle,$/;"	f	file:
+do_sync_intr	examples/dpfp.c	/^static int do_sync_intr(unsigned char *data)$/;"	f	file:
+do_sync_intr	examples/dpfp_threaded.c	/^static int do_sync_intr(unsigned char *data)$/;"	f	file:
+done	msvc/ddk_build.cmd	/^:done$/;"	l
+driver	libusb/os/linux_usbfs.h	/^	char driver[USBFS_MAXDRIVERNAME + 1];$/;"	m	struct:usbfs_getdriver
+driver_lookup	libusb/os/windows_usb.h	/^struct driver_lookup {$/;"	s
+driver_name_list	libusb/os/windows_usb.h	/^	const char **driver_name_list; \/\/ Driver name, without .sys, e.g. "usbccgp"$/;"	m	struct:windows_usb_api_backend
+dstPath	msvc/ddk_build.cmd	/^set dstPath=%destType%\\Debug$/;"	v
+dstPath	msvc/ddk_build.cmd	/^set dstPath=%destType%\\Release$/;"	v
+endpoint	libusb/libusb.h	/^	const struct libusb_endpoint_descriptor *endpoint;$/;"	m	struct:libusb_interface_descriptor	typeref:struct:libusb_interface_descriptor::libusb_endpoint_descriptor
+endpoint	libusb/libusb.h	/^	unsigned char endpoint;$/;"	m	struct:libusb_transfer
+endpoint	libusb/os/linux_usbfs.h	/^	unsigned char endpoint;$/;"	m	struct:usbfs_urb
+endpoint	libusb/os/windows_usb.h	/^		uint8_t *endpoint;$/;"	m	struct:windows_device_priv::__anon8
+endpoint_addrs	libusb/os/darwin_usb.h	/^    uint8_t            endpoint_addrs[USB_MAXENDPOINTS];$/;"	m	struct:darwin_device_handle_priv::darwin_interface
+endpoints	libusb/os/openbsd_usb.c	/^	int endpoints[USB_MAX_ENDPOINTS];$/;"	m	struct:handle_priv	file:
+enumerate_device	libusb/os/linux_usbfs.c	/^static int enumerate_device(struct libusb_context *ctx,$/;"	f	file:
+ep	libusb/os/linux_usbfs.h	/^	unsigned int ep;$/;"	m	struct:usbfs_bulktransfer
+ep_to_pipeRef	libusb/os/darwin_usb.c	/^static int ep_to_pipeRef(struct libusb_device_handle *dev_handle, uint8_t ep, uint8_t *pipep, uint8_t *ifcp) {$/;"	f	file:
+epoch_time	libusb/os/windows_usb.c	/^const uint64_t epoch_time = UINT64_C(116444736000000000);	\/\/ 1970.01.01 00:00:000 in MS Filetime$/;"	v
+error_count	libusb/os/linux_usbfs.h	/^	int error_count;$/;"	m	struct:usbfs_urb
+event	libusb/os/threads_windows.h	/^	HANDLE           event;$/;"	m	struct:usbi_cond_perthread
+event_handler_active	libusb/libusbi.h	/^	int event_handler_active;$/;"	m	struct:libusb_context
+event_thread_main	libusb/os/darwin_usb.c	/^static void *event_thread_main (void *arg0) {$/;"	f	file:
+event_waiters_cond	libusb/libusbi.h	/^	usbi_cond_t event_waiters_cond;$/;"	m	struct:libusb_context
+event_waiters_lock	libusb/libusbi.h	/^	usbi_mutex_t event_waiters_lock;$/;"	m	struct:libusb_context
+events	libusb/libusb.h	/^	short events;$/;"	m	struct:libusb_pollfd
+events	libusb/os/poll_windows.h	/^    short events;     \/* requested events *\/$/;"	m	struct:pollfd
+events_lock	libusb/libusbi.h	/^	usbi_mutex_t events_lock;$/;"	m	struct:libusb_context
+exit	libusb/libusbi.h	/^	void (*exit)(void);$/;"	m	struct:usbi_os_backend
+exit	libusb/os/windows_usb.h	/^	int (*exit)(void);$/;"	m	struct:windows_usb_api_backend
+exit_cond	examples/dpfp_threaded.c	/^static pthread_cond_t exit_cond = PTHREAD_COND_INITIALIZER;$/;"	v	file:
+exit_cond_lock	examples/dpfp_threaded.c	/^static pthread_mutex_t exit_cond_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+exit_polling	libusb/os/poll_windows.c	/^void exit_polling(void)$/;"	f
+extra	libusb/libusb.h	/^	const unsigned char *extra;$/;"	m	struct:libusb_config_descriptor
+extra	libusb/libusb.h	/^	const unsigned char *extra;$/;"	m	struct:libusb_endpoint_descriptor
+extra	libusb/libusb.h	/^	const unsigned char *extra;$/;"	m	struct:libusb_interface_descriptor
+extra_length	libusb/libusb.h	/^	int extra_length;$/;"	m	struct:libusb_config_descriptor
+extra_length	libusb/libusb.h	/^	int extra_length;$/;"	m	struct:libusb_endpoint_descriptor
+extra_length	libusb/libusb.h	/^	int extra_length;$/;"	m	struct:libusb_interface_descriptor
+false	libusb/os/windows_usb.h	41;"	d
+fd	libusb/libusb.h	/^	int fd;$/;"	m	struct:libusb_pollfd
+fd	libusb/os/linux_usbfs.c	/^	int fd;$/;"	m	struct:linux_device_handle_priv	file:
+fd	libusb/os/openbsd_usb.c	/^	int fd;$/;"	m	struct:device_priv	file:
+fd	libusb/os/poll_windows.h	/^	int fd;							\/\/ what's exposed to libusb core$/;"	m	struct:winfd
+fd	libusb/os/poll_windows.h	/^    int fd;           \/* file descriptor *\/$/;"	m	struct:pollfd
+fd_added_cb	libusb/libusbi.h	/^	libusb_pollfd_added_cb fd_added_cb;$/;"	m	struct:libusb_context
+fd_cb_user_data	libusb/libusbi.h	/^	void *fd_cb_user_data;$/;"	m	struct:libusb_context
+fd_removed_cb	libusb/libusbi.h	/^	libusb_pollfd_removed_cb fd_removed_cb;$/;"	m	struct:libusb_context
+fd_to_winfd	libusb/os/poll_windows.c	/^struct winfd fd_to_winfd(int fd)$/;"	f
+fds	libusb/os/darwin_usb.h	/^  int                  fds[2];$/;"	m	struct:darwin_device_handle_priv
+find_dpfp_device	examples/dpfp.c	/^static int find_dpfp_device(void)$/;"	f	file:
+find_dpfp_device	examples/dpfp_threaded.c	/^static int find_dpfp_device(void)$/;"	f	file:
+find_endpoint	libusb/core.c	/^static const struct libusb_endpoint_descriptor *find_endpoint($/;"	f	file:
+find_monotonic_clock	libusb/os/linux_usbfs.c	/^static clockid_t find_monotonic_clock(void)$/;"	f	file:
+find_usbfs_path	libusb/os/linux_usbfs.c	/^static const char *find_usbfs_path(void)$/;"	f	file:
+first_config	libusb/os/darwin_usb.h	/^  UInt8                 first_config, active_config;$/;"	m	struct:darwin_device_priv
+flags	libusb/libusb.h	/^	uint8_t flags;$/;"	m	struct:libusb_transfer
+flags	libusb/libusbi.h	/^	uint8_t flags;$/;"	m	struct:usbi_transfer
+flags	libusb/os/linux_usbfs.h	/^	unsigned int flags;$/;"	m	struct:usbfs_urb
+flying_transfers	libusb/libusbi.h	/^	struct list_head flying_transfers;$/;"	m	struct:libusb_context	typeref:struct:libusb_context::list_head
+flying_transfers_lock	libusb/libusbi.h	/^	usbi_mutex_t flying_transfers_lock;$/;"	m	struct:libusb_context
+force_hcd_device_descriptor	libusb/os/windows_usb.c	/^static int force_hcd_device_descriptor(struct libusb_device *dev)$/;"	f	file:
+frames	libusb/os/darwin_usb.h	/^    uint64_t             frames[256];$/;"	m	struct:darwin_device_handle_priv::darwin_interface
+free_iso_urbs	libusb/os/linux_usbfs.c	/^static void free_iso_urbs(struct linux_transfer_priv *tpriv)$/;"	f	file:
+free_overlapped	libusb/os/poll_windows.c	/^void free_overlapped(OVERLAPPED *overlapped)$/;"	f
+get_active_config_descriptor	libusb/libusbi.h	/^	int (*get_active_config_descriptor)(struct libusb_device *device,$/;"	m	struct:usbi_os_backend
+get_ancestor_session_id	libusb/os/windows_usb.c	/^static unsigned long get_ancestor_session_id(DWORD devinst, unsigned level)$/;"	f	file:
+get_api_type	libusb/os/windows_usb.c	/^static uint8_t get_api_type(struct libusb_context *ctx,$/;"	f	file:
+get_config_descriptor	libusb/libusbi.h	/^	int (*get_config_descriptor)(struct libusb_device *device,$/;"	m	struct:usbi_os_backend
+get_config_descriptor	libusb/os/linux_usbfs.c	/^static int get_config_descriptor(struct libusb_context *ctx, int fd,$/;"	f	file:
+get_configuration	libusb/libusbi.h	/^	int (*get_configuration)(struct libusb_device_handle *handle, int *config);$/;"	m	struct:usbi_os_backend
+get_configuration_index	libusb/os/darwin_usb.c	/^static int get_configuration_index (struct libusb_device *dev, int config_value) {$/;"	f	file:
+get_device_descriptor	libusb/libusbi.h	/^	int (*get_device_descriptor)(struct libusb_device *device,$/;"	m	struct:usbi_os_backend
+get_device_list	libusb/libusbi.h	/^	int (*get_device_list)(struct libusb_context *ctx,$/;"	m	struct:usbi_os_backend
+get_devinfo_data	libusb/os/windows_usb.c	/^static bool get_devinfo_data(struct libusb_context *ctx,$/;"	f	file:
+get_endpoints	libusb/os/darwin_usb.c	/^static int get_endpoints (struct libusb_device_handle *dev_handle, int iface) {$/;"	f	file:
+get_hwstat	examples/dpfp.c	/^static int get_hwstat(unsigned char *status)$/;"	f	file:
+get_hwstat	examples/dpfp_threaded.c	/^static int get_hwstat(unsigned char *status)$/;"	f	file:
+get_interface_details	libusb/os/windows_usb.c	/^static SP_DEVICE_INTERFACE_DETAIL_DATA_A *get_interface_details(struct libusb_context *ctx,$/;"	f	file:
+get_next_timeout	libusb/io.c	/^static int get_next_timeout(libusb_context *ctx, struct timeval *tv,$/;"	f	file:
+get_timerfd_clockid	libusb/libusbi.h	/^	clockid_t (*get_timerfd_clockid)(void);$/;"	m	struct:usbi_os_backend
+guid_eq	libusb/os/windows_usb.c	/^static inline BOOLEAN guid_eq(const GUID *guid1, const GUID *guid2) {$/;"	f	file:
+guid_to_string	libusb/os/windows_usb.c	/^static char* guid_to_string(const GUID* guid)$/;"	f	file:
+handle	libusb/os/poll_windows.h	/^	HANDLE handle;					\/\/ what we need to attach overlapped to the I\/O op, so we can poll it$/;"	m	struct:winfd
+handle_bulk_completion	libusb/os/linux_usbfs.c	/^static int handle_bulk_completion(struct usbi_transfer *itransfer,$/;"	f	file:
+handle_control_completion	libusb/os/linux_usbfs.c	/^static int handle_control_completion(struct usbi_transfer *itransfer,$/;"	f	file:
+handle_events	libusb/io.c	/^static int handle_events(struct libusb_context *ctx, struct timeval *tv)$/;"	f	file:
+handle_events	libusb/libusbi.h	/^	int (*handle_events)(struct libusb_context *ctx,$/;"	m	struct:usbi_os_backend
+handle_iso_completion	libusb/os/linux_usbfs.c	/^static int handle_iso_completion(struct usbi_transfer *itransfer,$/;"	f	file:
+handle_priv	libusb/os/openbsd_usb.c	/^struct handle_priv {$/;"	s	file:
+handle_timeout	libusb/io.c	/^static void handle_timeout(struct usbi_transfer *itransfer)$/;"	f	file:
+handle_timeouts	libusb/io.c	/^static int handle_timeouts(struct libusb_context *ctx)$/;"	f	file:
+handle_timeouts_locked	libusb/io.c	/^static int handle_timeouts_locked(struct libusb_context *ctx)$/;"	f	file:
+handle_timerfd_trigger	libusb/io.c	/^static int handle_timerfd_trigger(struct libusb_context *ctx)$/;"	f	file:
+handle_to_winfd	libusb/os/poll_windows.c	/^struct winfd handle_to_winfd(HANDLE handle)$/;"	f
+hires_frequency	libusb/os/windows_usb.c	/^uint64_t hires_frequency, hires_ticks_to_ps;$/;"	v
+hires_ticks_to_ps	libusb/os/windows_usb.c	/^uint64_t hires_frequency, hires_ticks_to_ps;$/;"	v
+htab_create	libusb/os/windows_usb.c	/^static int htab_create(struct libusb_context *ctx, unsigned long nel)$/;"	f	file:
+htab_destroy	libusb/os/windows_usb.c	/^static void htab_destroy(void)$/;"	f	file:
+htab_entry	libusb/os/windows_usb.c	/^typedef struct htab_entry {$/;"	s	file:
+htab_entry	libusb/os/windows_usb.c	/^} htab_entry;$/;"	t	typeref:struct:htab_entry	file:
+htab_filled	libusb/os/windows_usb.c	/^unsigned long htab_size, htab_filled;$/;"	v
+htab_hash	libusb/os/windows_usb.c	/^static unsigned long htab_hash(char* str)$/;"	f	file:
+htab_size	libusb/os/windows_usb.c	/^unsigned long htab_size, htab_filled;$/;"	v
+htab_table	libusb/os/windows_usb.c	/^htab_entry* htab_table = NULL;$/;"	v
+htab_write_mutex	libusb/os/windows_usb.c	/^usbi_mutex_t htab_write_mutex = NULL;$/;"	v
+hub_driver_names	libusb/os/windows_usb.c	/^const char* hub_driver_names[] = {"USBHUB", "USBHUB3", "NUSB3HUB", "FLXHCIH", "TIHUB3", "ETRONHUB3", "VIAHUB3", "ASMTHUB3"};$/;"	v
+iConfiguration	libusb/libusb.h	/^	uint8_t  iConfiguration;$/;"	m	struct:libusb_config_descriptor
+iConfiguration	libusb/os/windows_usb.h	/^  UCHAR  iConfiguration;$/;"	m	struct:USB_CONFIGURATION_DESCRIPTOR
+iInterface	libusb/libusb.h	/^	uint8_t  iInterface;$/;"	m	struct:libusb_interface_descriptor
+iInterface	libusb/os/windows_usb.h	/^  UCHAR  iInterface;$/;"	m	struct:USB_INTERFACE_DESCRIPTOR
+iManufacturer	libusb/libusb.h	/^	uint8_t  iManufacturer;$/;"	m	struct:libusb_device_descriptor
+iProduct	libusb/libusb.h	/^	uint8_t  iProduct;$/;"	m	struct:libusb_device_descriptor
+iSerialNumber	libusb/libusb.h	/^	uint8_t  iSerialNumber;$/;"	m	struct:libusb_device_descriptor
+id	libusb/os/windows_usb.h	/^	const uint8_t id;$/;"	m	struct:windows_usb_api_backend
+idProduct	libusb/libusb.h	/^	uint16_t idProduct;$/;"	m	struct:libusb_device_descriptor
+idVendor	libusb/libusb.h	/^	uint16_t idVendor;$/;"	m	struct:libusb_device_descriptor
+ifno	libusb/os/linux_usbfs.h	/^	int ifno;	\/* interface 0..N ; negative numbers reserved *\/$/;"	m	struct:usbfs_ioctl
+img_idx	examples/dpfp.c	/^static int img_idx = 0;$/;"	v	file:
+img_idx	examples/dpfp_threaded.c	/^static int img_idx = 0;$/;"	v	file:
+img_transfer	examples/dpfp.c	/^static struct libusb_transfer *img_transfer = NULL;$/;"	v	typeref:struct:libusb_transfer	file:
+img_transfer	examples/dpfp_threaded.c	/^static struct libusb_transfer *img_transfer = NULL;$/;"	v	typeref:struct:libusb_transfer	file:
+imgbuf	examples/dpfp.c	/^static unsigned char imgbuf[0x1b340];$/;"	v	file:
+imgbuf	examples/dpfp_threaded.c	/^static unsigned char imgbuf[0x1b340];$/;"	v	file:
+index	libusb/os/windows_usb.h	/^  USHORT index;$/;"	m	struct:__anon15
+init	libusb/libusbi.h	/^	int (*init)(struct libusb_context *ctx);$/;"	m	struct:usbi_os_backend
+init	libusb/os/windows_usb.h	/^	int (*init)(struct libusb_context *ctx);$/;"	m	struct:windows_usb_api_backend
+initCount	libusb/os/darwin_usb.c	/^static volatile int32_t initCount = 0;$/;"	v	file:
+init_capture	examples/dpfp.c	/^static int init_capture(void)$/;"	f	file:
+init_capture	examples/dpfp_threaded.c	/^static int init_capture(void)$/;"	f	file:
+init_device	libusb/os/windows_usb.c	/^static int init_device(struct libusb_device* dev, struct libusb_device* parent_dev,$/;"	f	file:
+init_dlls	libusb/os/windows_usb.c	/^static int init_dlls(void)$/;"	f	file:
+init_polling	libusb/os/poll_windows.c	/^void init_polling(void)$/;"	f
+initialize_device	libusb/os/linux_usbfs.c	/^static int initialize_device(struct libusb_device *dev, uint8_t busnum,$/;"	f	file:
+inline	libusb/libusb.h	26;"	d
+int16_t	msvc/stdint.h	/^typedef __int16  int16_t;$/;"	t
+int32_t	msvc/stdint.h	/^typedef __int32  int32_t;$/;"	t
+int64_t	msvc/stdint.h	/^typedef __int64  int64_t;$/;"	t
+int8_t	msvc/stdint.h	/^typedef __int8 int8_t;$/;"	t
+int_fast16_t	msvc/stdint.h	/^typedef __int16  int_fast16_t;$/;"	t
+int_fast32_t	msvc/stdint.h	/^typedef __int32  int_fast32_t;$/;"	t
+int_fast64_t	msvc/stdint.h	/^typedef __int64  int_fast64_t;$/;"	t
+int_fast8_t	msvc/stdint.h	/^typedef __int8 int_fast8_t;$/;"	t
+int_least16_t	msvc/stdint.h	/^typedef short  int_least16_t;$/;"	t
+int_least32_t	msvc/stdint.h	/^typedef int  int_least32_t;$/;"	t
+int_least64_t	msvc/stdint.h	/^typedef __int64  int_least64_t;$/;"	t
+int_least8_t	msvc/stdint.h	/^typedef signed char int_least8_t;$/;"	t
+interface	libusb/libusb.h	/^	const struct libusb_interface *interface;$/;"	m	struct:libusb_config_descriptor	typeref:struct:libusb_config_descriptor::libusb_interface
+interface	libusb/libusb.h	64;"	d
+interface	libusb/os/darwin_usb.h	/^    usb_interface_t    **interface;$/;"	m	struct:darwin_device_handle_priv::darwin_interface
+interface	libusb/os/linux_usbfs.h	/^	unsigned int interface;$/;"	m	struct:usbfs_getdriver
+interface	libusb/os/linux_usbfs.h	/^	unsigned int interface;$/;"	m	struct:usbfs_setinterface
+interface_by_endpoint	libusb/os/windows_usb.c	/^static int interface_by_endpoint(struct windows_device_priv *priv,$/;"	f	file:
+interface_handle	libusb/os/windows_usb.h	/^	struct interface_handle_t interface_handle[USB_MAXINTERFACES];$/;"	m	struct:windows_device_handle_priv	typeref:struct:windows_device_handle_priv::interface_handle_t
+interface_handle_t	libusb/os/windows_usb.h	/^struct interface_handle_t {$/;"	s
+interface_number	libusb/os/windows_usb.h	/^	uint8_t interface_number;$/;"	m	struct:windows_transfer_priv
+interfaces	libusb/os/darwin_usb.h	/^  } interfaces[USB_MAXINTERFACES];$/;"	m	struct:darwin_device_handle_priv	typeref:struct:darwin_device_handle_priv::darwin_interface
+intmax_t	msvc/stdint.h	/^typedef __int64  intmax_t;$/;"	t
+intptr_t	msvc/stdint.h	/^  typedef __int64 intptr_t;$/;"	t
+intptr_t	msvc/stdint.h	/^  typedef int intptr_t;$/;"	t
+intptr_t	msvc/stdint.h	36;"	d
+io_cf_plugin_ref_t	libusb/os/darwin_usb.h	/^typedef IOCFPlugInInterface *io_cf_plugin_ref_t;$/;"	t
+io_notification_port_t	libusb/os/darwin_usb.h	/^typedef IONotificationPortRef io_notification_port_t;$/;"	t
+ioctl_code	libusb/os/linux_usbfs.h	/^	int ioctl_code;	\/* MUST encode size + direction of data so the$/;"	m	struct:usbfs_ioctl
+irq_transfer	examples/dpfp.c	/^static struct libusb_transfer *irq_transfer = NULL;$/;"	v	typeref:struct:libusb_transfer	file:
+irq_transfer	examples/dpfp_threaded.c	/^static struct libusb_transfer *irq_transfer = NULL;$/;"	v	typeref:struct:libusb_transfer	file:
+irqbuf	examples/dpfp.c	/^static unsigned char irqbuf[INTR_LENGTH];$/;"	v	file:
+irqbuf	examples/dpfp_threaded.c	/^static unsigned char irqbuf[INTR_LENGTH];$/;"	v	file:
+isDebug	msvc/ddk_build.cmd	/^:isDebug$/;"	l
+isI386	msvc/ddk_build.cmd	/^:isI386$/;"	l
+is_api_driver	libusb/os/windows_usb.c	/^static bool is_api_driver(char* driver, uint8_t api)$/;"	f	file:
+is_open	libusb/os/darwin_usb.h	/^  int                  is_open;$/;"	m	struct:darwin_device_handle_priv
+is_polling_set	libusb/os/poll_windows.c	/^BOOLEAN is_polling_set = FALSE;$/;"	v
+iso_frame_desc	libusb/os/linux_usbfs.h	/^	struct usbfs_iso_packet_desc iso_frame_desc[0];$/;"	m	struct:usbfs_urb	typeref:struct:usbfs_urb::usbfs_iso_packet_desc
+iso_packet_desc	libusb/libusb.h	/^	struct libusb_iso_packet_descriptor iso_packet_desc$/;"	m	struct:libusb_transfer	typeref:struct:libusb_transfer::libusb_iso_packet_descriptor
+iso_packet_offset	libusb/os/linux_usbfs.c	/^	int iso_packet_offset;$/;"	m	struct:linux_transfer_priv	file:
+iso_urbs	libusb/os/linux_usbfs.c	/^		struct usbfs_urb **iso_urbs;$/;"	m	union:linux_transfer_priv::__anon7	typeref:struct:linux_transfer_priv::__anon7::usbfs_urb	file:
+isoc_framelist	libusb/os/darwin_usb.h	/^  IOUSBIsocFrame *isoc_framelist;$/;"	m	struct:darwin_transfer_priv
+isprime	libusb/os/windows_usb.c	/^static int isprime(unsigned long number)$/;"	f	file:
+kernel_driver_active	libusb/libusbi.h	/^	int (*kernel_driver_active)(struct libusb_device_handle *handle,$/;"	m	struct:usbi_os_backend
+kernel_version_ge	libusb/os/linux_usbfs.c	/^static int kernel_version_ge(int major, int minor, int sublevel)$/;"	f	file:
+len	libusb/libusbi.h	/^	size_t len;$/;"	m	struct:discovered_devs
+len	libusb/os/linux_usbfs.h	/^	unsigned int len;$/;"	m	struct:usbfs_bulktransfer
+length	libusb/libusb.h	/^	int length;$/;"	m	struct:libusb_transfer
+length	libusb/libusb.h	/^	unsigned int length;$/;"	m	struct:libusb_iso_packet_descriptor
+length	libusb/os/linux_usbfs.h	/^	unsigned int length;$/;"	m	struct:usbfs_iso_packet_desc
+length	libusb/os/windows_usb.h	/^  USHORT length;$/;"	m	struct:__anon15
+libusb_alloc_transfer	libusb/io.c	/^struct libusb_transfer * LIBUSB_CALL libusb_alloc_transfer($/;"	f
+libusb_attach_kernel_driver	libusb/core.c	/^int API_EXPORTED libusb_attach_kernel_driver(libusb_device_handle *dev,$/;"	f
+libusb_bulk_transfer	libusb/sync.c	/^int API_EXPORTED libusb_bulk_transfer(struct libusb_device_handle *dev_handle,$/;"	f
+libusb_cancel_transfer	libusb/io.c	/^int API_EXPORTED libusb_cancel_transfer(struct libusb_transfer *transfer)$/;"	f
+libusb_capability	libusb/libusb.h	/^enum libusb_capability {$/;"	g
+libusb_claim_interface	libusb/core.c	/^int API_EXPORTED libusb_claim_interface(libusb_device_handle *dev,$/;"	f
+libusb_class_code	libusb/libusb.h	/^enum libusb_class_code {$/;"	g
+libusb_clear_halt	libusb/core.c	/^int API_EXPORTED libusb_clear_halt(libusb_device_handle *dev,$/;"	f
+libusb_close	libusb/core.c	/^void API_EXPORTED libusb_close(libusb_device_handle *dev_handle)$/;"	f
+libusb_config_descriptor	libusb/libusb.h	/^struct libusb_config_descriptor {$/;"	s
+libusb_context	libusb/libusb.h	/^typedef struct libusb_context libusb_context;$/;"	t	typeref:struct:libusb_context
+libusb_context	libusb/libusbi.h	/^struct libusb_context {$/;"	s
+libusb_control_setup	libusb/libusb.h	/^struct libusb_control_setup {$/;"	s
+libusb_control_transfer	libusb/sync.c	/^int API_EXPORTED libusb_control_transfer(libusb_device_handle *dev_handle,$/;"	f
+libusb_control_transfer_get_data	libusb/libusb.h	/^static inline unsigned char *libusb_control_transfer_get_data($/;"	f
+libusb_control_transfer_get_setup	libusb/libusb.h	/^static inline struct libusb_control_setup *libusb_control_transfer_get_setup($/;"	f
+libusb_cpu_to_le16	libusb/libusb.h	/^static inline uint16_t libusb_cpu_to_le16(const uint16_t x)$/;"	f
+libusb_darwin_acfl	libusb/os/darwin_usb.c	/^static CFRunLoopRef libusb_darwin_acfl = NULL; \/* async cf loop *\/$/;"	v	file:
+libusb_darwin_at	libusb/os/darwin_usb.c	/^static pthread_t libusb_darwin_at;$/;"	v	file:
+libusb_darwin_at_cond	libusb/os/darwin_usb.c	/^static pthread_cond_t  libusb_darwin_at_cond;$/;"	v	file:
+libusb_darwin_at_mutex	libusb/os/darwin_usb.c	/^static pthread_mutex_t libusb_darwin_at_mutex;$/;"	v	file:
+libusb_descriptor_type	libusb/libusb.h	/^enum libusb_descriptor_type {$/;"	g
+libusb_detach_kernel_driver	libusb/core.c	/^int API_EXPORTED libusb_detach_kernel_driver(libusb_device_handle *dev,$/;"	f
+libusb_device	libusb/libusb.h	/^typedef struct libusb_device libusb_device;$/;"	t	typeref:struct:libusb_device
+libusb_device	libusb/libusbi.h	/^struct libusb_device {$/;"	s
+libusb_device_descriptor	libusb/libusb.h	/^struct libusb_device_descriptor {$/;"	s
+libusb_device_handle	libusb/libusb.h	/^typedef struct libusb_device_handle libusb_device_handle;$/;"	t	typeref:struct:libusb_device_handle
+libusb_device_handle	libusb/libusbi.h	/^struct libusb_device_handle {$/;"	s
+libusb_endpoint_descriptor	libusb/libusb.h	/^struct libusb_endpoint_descriptor {$/;"	s
+libusb_endpoint_direction	libusb/libusb.h	/^enum libusb_endpoint_direction {$/;"	g
+libusb_error	libusb/libusb.h	/^enum libusb_error {$/;"	g
+libusb_error_name	libusb/core.c	/^DEFAULT_VISIBILITY const char * LIBUSB_CALL libusb_error_name(int error_code)$/;"	f
+libusb_event_handler_active	libusb/io.c	/^int API_EXPORTED libusb_event_handler_active(libusb_context *ctx)$/;"	f
+libusb_event_handling_ok	libusb/io.c	/^int API_EXPORTED libusb_event_handling_ok(libusb_context *ctx)$/;"	f
+libusb_exit	libusb/core.c	/^void API_EXPORTED libusb_exit(struct libusb_context *ctx)$/;"	f
+libusb_fill_bulk_transfer	libusb/libusb.h	/^static inline void libusb_fill_bulk_transfer(struct libusb_transfer *transfer,$/;"	f
+libusb_fill_control_setup	libusb/libusb.h	/^static inline void libusb_fill_control_setup(unsigned char *buffer,$/;"	f
+libusb_fill_control_transfer	libusb/libusb.h	/^static inline void libusb_fill_control_transfer($/;"	f
+libusb_fill_interrupt_transfer	libusb/libusb.h	/^static inline void libusb_fill_interrupt_transfer($/;"	f
+libusb_fill_iso_transfer	libusb/libusb.h	/^static inline void libusb_fill_iso_transfer(struct libusb_transfer *transfer,$/;"	f
+libusb_free_config_descriptor	libusb/descriptor.c	/^void API_EXPORTED libusb_free_config_descriptor($/;"	f
+libusb_free_device_list	libusb/core.c	/^void API_EXPORTED libusb_free_device_list(libusb_device **list,$/;"	f
+libusb_free_transfer	libusb/io.c	/^void API_EXPORTED libusb_free_transfer(struct libusb_transfer *transfer)$/;"	f
+libusb_get_active_config_descriptor	libusb/descriptor.c	/^int API_EXPORTED libusb_get_active_config_descriptor(libusb_device *dev,$/;"	f
+libusb_get_bus_number	libusb/core.c	/^uint8_t API_EXPORTED libusb_get_bus_number(libusb_device *dev)$/;"	f
+libusb_get_config_descriptor	libusb/descriptor.c	/^int API_EXPORTED libusb_get_config_descriptor(libusb_device *dev,$/;"	f
+libusb_get_config_descriptor_by_value	libusb/descriptor.c	/^int API_EXPORTED libusb_get_config_descriptor_by_value(libusb_device *dev,$/;"	f
+libusb_get_configuration	libusb/core.c	/^int API_EXPORTED libusb_get_configuration(libusb_device_handle *dev,$/;"	f
+libusb_get_descriptor	libusb/libusb.h	/^static inline int libusb_get_descriptor(libusb_device_handle *dev,$/;"	f
+libusb_get_device	libusb/core.c	/^libusb_device * LIBUSB_CALL libusb_get_device(libusb_device_handle *dev_handle)$/;"	f
+libusb_get_device_address	libusb/core.c	/^uint8_t API_EXPORTED libusb_get_device_address(libusb_device *dev)$/;"	f
+libusb_get_device_descriptor	libusb/descriptor.c	/^int API_EXPORTED libusb_get_device_descriptor(libusb_device *dev,$/;"	f
+libusb_get_device_list	libusb/core.c	/^ssize_t API_EXPORTED libusb_get_device_list(libusb_context *ctx,$/;"	f
+libusb_get_device_speed	libusb/core.c	/^int API_EXPORTED libusb_get_device_speed(libusb_device *dev)$/;"	f
+libusb_get_iso_packet_buffer	libusb/libusb.h	/^static inline unsigned char *libusb_get_iso_packet_buffer($/;"	f
+libusb_get_iso_packet_buffer_simple	libusb/libusb.h	/^static inline unsigned char *libusb_get_iso_packet_buffer_simple($/;"	f
+libusb_get_max_iso_packet_size	libusb/core.c	/^int API_EXPORTED libusb_get_max_iso_packet_size(libusb_device *dev,$/;"	f
+libusb_get_max_packet_size	libusb/core.c	/^int API_EXPORTED libusb_get_max_packet_size(libusb_device *dev,$/;"	f
+libusb_get_next_timeout	libusb/io.c	/^int API_EXPORTED libusb_get_next_timeout(libusb_context *ctx,$/;"	f
+libusb_get_pollfds	libusb/io.c	/^const struct libusb_pollfd ** LIBUSB_CALL libusb_get_pollfds($/;"	f
+libusb_get_string_descriptor	libusb/libusb.h	/^static inline int libusb_get_string_descriptor(libusb_device_handle *dev,$/;"	f
+libusb_get_string_descriptor_ascii	libusb/descriptor.c	/^int API_EXPORTED libusb_get_string_descriptor_ascii(libusb_device_handle *dev,$/;"	f
+libusb_get_version	libusb/core.c	/^const struct libusb_version * LIBUSB_CALL libusb_get_version(void)$/;"	f
+libusb_handle_events	libusb/io.c	/^int API_EXPORTED libusb_handle_events(libusb_context *ctx)$/;"	f
+libusb_handle_events_completed	libusb/io.c	/^int API_EXPORTED libusb_handle_events_completed(libusb_context *ctx,$/;"	f
+libusb_handle_events_locked	libusb/io.c	/^int API_EXPORTED libusb_handle_events_locked(libusb_context *ctx,$/;"	f
+libusb_handle_events_timeout	libusb/io.c	/^int API_EXPORTED libusb_handle_events_timeout(libusb_context *ctx,$/;"	f
+libusb_handle_events_timeout_completed	libusb/io.c	/^int API_EXPORTED libusb_handle_events_timeout_completed(libusb_context *ctx,$/;"	f
+libusb_has_capability	libusb/core.c	/^int API_EXPORTED libusb_has_capability(uint32_t capability)$/;"	f
+libusb_init	libusb/core.c	/^int API_EXPORTED libusb_init(libusb_context **context)$/;"	f
+libusb_interface	libusb/libusb.h	/^struct libusb_interface {$/;"	s
+libusb_interface_descriptor	libusb/libusb.h	/^struct libusb_interface_descriptor {$/;"	s
+libusb_interrupt_transfer	libusb/sync.c	/^int API_EXPORTED libusb_interrupt_transfer($/;"	f
+libusb_iso_packet_descriptor	libusb/libusb.h	/^struct libusb_iso_packet_descriptor {$/;"	s
+libusb_iso_sync_type	libusb/libusb.h	/^enum libusb_iso_sync_type {$/;"	g
+libusb_iso_usage_type	libusb/libusb.h	/^enum libusb_iso_usage_type {$/;"	g
+libusb_kernel_driver_active	libusb/core.c	/^int API_EXPORTED libusb_kernel_driver_active(libusb_device_handle *dev,$/;"	f
+libusb_le16_to_cpu	libusb/libusb.h	137;"	d
+libusb_lock_event_waiters	libusb/io.c	/^void API_EXPORTED libusb_lock_event_waiters(libusb_context *ctx)$/;"	f
+libusb_lock_events	libusb/io.c	/^void API_EXPORTED libusb_lock_events(libusb_context *ctx)$/;"	f
+libusb_open	libusb/core.c	/^int API_EXPORTED libusb_open(libusb_device *dev,$/;"	f
+libusb_open_device_with_vid_pid	libusb/core.c	/^libusb_device_handle * LIBUSB_CALL libusb_open_device_with_vid_pid($/;"	f
+libusb_pollfd	libusb/libusb.h	/^struct libusb_pollfd {$/;"	s
+libusb_pollfd_added_cb	libusb/libusb.h	/^typedef void (LIBUSB_CALL *libusb_pollfd_added_cb)(int fd, short events,$/;"	t
+libusb_pollfd_removed_cb	libusb/libusb.h	/^typedef void (LIBUSB_CALL *libusb_pollfd_removed_cb)(int fd, void *user_data);$/;"	t
+libusb_pollfds_handle_timeouts	libusb/io.c	/^int API_EXPORTED libusb_pollfds_handle_timeouts(libusb_context *ctx)$/;"	f
+libusb_ref_device	libusb/core.c	/^libusb_device * LIBUSB_CALL libusb_ref_device(libusb_device *dev)$/;"	f
+libusb_release_interface	libusb/core.c	/^int API_EXPORTED libusb_release_interface(libusb_device_handle *dev,$/;"	f
+libusb_request_recipient	libusb/libusb.h	/^enum libusb_request_recipient {$/;"	g
+libusb_request_type	libusb/libusb.h	/^enum libusb_request_type {$/;"	g
+libusb_reset_device	libusb/core.c	/^int API_EXPORTED libusb_reset_device(libusb_device_handle *dev)$/;"	f
+libusb_set_configuration	libusb/core.c	/^int API_EXPORTED libusb_set_configuration(libusb_device_handle *dev,$/;"	f
+libusb_set_debug	libusb/core.c	/^void API_EXPORTED libusb_set_debug(libusb_context *ctx, int level)$/;"	f
+libusb_set_interface_alt_setting	libusb/core.c	/^int API_EXPORTED libusb_set_interface_alt_setting(libusb_device_handle *dev,$/;"	f
+libusb_set_iso_packet_lengths	libusb/libusb.h	/^static inline void libusb_set_iso_packet_lengths($/;"	f
+libusb_set_pollfd_notifiers	libusb/io.c	/^void API_EXPORTED libusb_set_pollfd_notifiers(libusb_context *ctx,$/;"	f
+libusb_speed	libusb/libusb.h	/^enum libusb_speed {$/;"	g
+libusb_standard_request	libusb/libusb.h	/^enum libusb_standard_request {$/;"	g
+libusb_submit_transfer	libusb/io.c	/^int API_EXPORTED libusb_submit_transfer(struct libusb_transfer *transfer)$/;"	f
+libusb_transfer	libusb/libusb.h	/^struct libusb_transfer {$/;"	s
+libusb_transfer_cb_fn	libusb/libusb.h	/^typedef void (LIBUSB_CALL *libusb_transfer_cb_fn)(struct libusb_transfer *transfer);$/;"	t
+libusb_transfer_flags	libusb/libusb.h	/^enum libusb_transfer_flags {$/;"	g
+libusb_transfer_status	libusb/libusb.h	/^enum libusb_transfer_status {$/;"	g
+libusb_transfer_type	libusb/libusb.h	/^enum libusb_transfer_type {$/;"	g
+libusb_try_lock_events	libusb/io.c	/^int API_EXPORTED libusb_try_lock_events(libusb_context *ctx)$/;"	f
+libusb_unlock_event_waiters	libusb/io.c	/^void API_EXPORTED libusb_unlock_event_waiters(libusb_context *ctx)$/;"	f
+libusb_unlock_events	libusb/io.c	/^void API_EXPORTED libusb_unlock_events(libusb_context *ctx)$/;"	f
+libusb_unref_device	libusb/core.c	/^void API_EXPORTED libusb_unref_device(libusb_device *dev)$/;"	f
+libusb_version	libusb/libusb.h	/^struct libusb_version {$/;"	s
+libusb_version_internal	libusb/core.c	/^const struct libusb_version libusb_version_internal = {$/;"	v	typeref:struct:libusb_version
+libusb_wait_for_event	libusb/io.c	/^int API_EXPORTED libusb_wait_for_event(libusb_context *ctx, struct timeval *tv)$/;"	f
+linux_device_handle_priv	libusb/os/linux_usbfs.c	/^struct linux_device_handle_priv {$/;"	s	file:
+linux_device_priv	libusb/os/linux_usbfs.c	/^struct linux_device_priv {$/;"	s	file:
+linux_transfer_priv	libusb/os/linux_usbfs.c	/^struct linux_transfer_priv {$/;"	s	file:
+linux_usbfs_backend	libusb/os/linux_usbfs.c	/^const struct usbi_os_backend linux_usbfs_backend = {$/;"	v	typeref:struct:usbi_os_backend
+list	libusb/libusbi.h	/^	struct list_head list;$/;"	m	struct:libusb_device	typeref:struct:libusb_device::list_head
+list	libusb/libusbi.h	/^	struct list_head list;$/;"	m	struct:libusb_device_handle	typeref:struct:libusb_device_handle::list_head
+list	libusb/libusbi.h	/^	struct list_head list;$/;"	m	struct:usbi_pollfd	typeref:struct:usbi_pollfd::list_head
+list	libusb/libusbi.h	/^	struct list_head list;$/;"	m	struct:usbi_transfer	typeref:struct:usbi_transfer::list_head
+list	libusb/os/threads_windows.h	/^	struct list_head list;$/;"	m	struct:usbi_cond_perthread	typeref:struct:usbi_cond_perthread::list_head
+list	libusb/os/windows_usb.h	/^	char list[MAX_KEY_LENGTH+1];\/\/ REG_MULTI_SZ list of services (driver) names$/;"	m	struct:driver_lookup
+list_add	libusb/libusbi.h	/^static inline void list_add(struct list_head *entry, struct list_head *head)$/;"	f
+list_add_tail	libusb/libusbi.h	/^static inline void list_add_tail(struct list_head *entry,$/;"	f
+list_del	libusb/libusbi.h	/^static inline void list_del(struct list_head *entry)$/;"	f
+list_empty	libusb/libusbi.h	81;"	d
+list_entry	libusb/libusbi.h	61;"	d
+list_for_each_entry	libusb/libusbi.h	70;"	d
+list_for_each_entry_safe	libusb/libusbi.h	75;"	d
+list_head	libusb/libusbi.h	/^struct list_head {$/;"	s
+list_init	libusb/libusbi.h	/^static inline void list_init(struct list_head *entry)$/;"	f
+location	libusb/os/darwin_usb.h	/^  UInt32                location;$/;"	m	struct:darwin_device_priv
+lock	libusb/libusbi.h	/^	usbi_mutex_t lock;$/;"	m	struct:libusb_device
+lock	libusb/libusbi.h	/^	usbi_mutex_t lock;$/;"	m	struct:libusb_device_handle
+lock	libusb/libusbi.h	/^	usbi_mutex_t lock;$/;"	m	struct:usbi_transfer
+main	examples/dpfp.c	/^int main(void)$/;"	f
+main	examples/dpfp_threaded.c	/^int main(void)$/;"	f
+main	examples/listdevs.c	/^int main(void)$/;"	f
+main	examples/sam3u_benchmark.c	/^int main(int argc, char **argv)$/;"	f
+major	libusb/libusb.h	/^	const uint16_t major;$/;"	m	struct:libusb_version
+md2	msvc/ddk_build.cmd	/^:md2$/;"	l
+md3	msvc/ddk_build.cmd	/^:md3$/;"	l
+md4	msvc/ddk_build.cmd	/^:md4$/;"	l
+md5	msvc/ddk_build.cmd	/^:md5$/;"	l
+md6	msvc/ddk_build.cmd	/^:md6$/;"	l
+md7	msvc/ddk_build.cmd	/^:md7$/;"	l
+measure	examples/sam3u_benchmark.c	/^static void measure(void)$/;"	f	file:
+micro	libusb/libusb.h	/^	const uint16_t micro;$/;"	m	struct:libusb_version
+minor	libusb/libusb.h	/^	const uint16_t minor;$/;"	m	struct:libusb_version
+monotonic_clkid	libusb/os/linux_usbfs.c	/^static clockid_t monotonic_clkid = -1;$/;"	v	file:
+mutex	libusb/os/poll_windows.c	/^	CRITICAL_SECTION mutex; \/\/ lock for fds$/;"	m	struct:__anon6	file:
+name	libusb/libusbi.h	/^	const char *name;$/;"	m	struct:usbi_os_backend
+nano	libusb/libusb.h	/^	const uint16_t nano;$/;"	m	struct:libusb_version
+nb_driver_names	libusb/os/windows_usb.h	/^	const uint8_t nb_driver_names;$/;"	m	struct:windows_usb_api_backend
+nb_endpoints	libusb/os/windows_usb.h	/^		int8_t nb_endpoints;			\/\/ and a set of endpoint addresses (USB_MAXENDPOINTS)$/;"	m	struct:windows_device_priv::__anon8
+next	libusb/libusbi.h	/^	struct list_head *prev, *next;$/;"	m	struct:list_head	typeref:struct:list_head::
+next_state	examples/dpfp.c	/^static int next_state(void)$/;"	f	file:
+next_state	examples/dpfp_threaded.c	/^static int next_state(void)$/;"	f	file:
+no_more_args	msvc/ddk_build.cmd	/^:no_more_args$/;"	l
+node	libusb/os/windows_usb.h	/^		USB_NODE_CONNECTION_NAME_FIXED node;$/;"	m	union:USB_HUB_NAME_FIXED::__anon12
+not_waiting	libusb/os/threads_windows.h	/^	struct list_head not_waiting;$/;"	m	struct:usbi_cond_t_	typeref:struct:usbi_cond_t_::list_head
+num_altsetting	libusb/libusb.h	/^	int num_altsetting;$/;"	m	struct:libusb_interface
+num_bytes	examples/sam3u_benchmark.c	/^static unsigned long num_bytes = 0, num_xfer = 0;$/;"	v	file:
+num_configurations	libusb/libusbi.h	/^	uint8_t num_configurations;$/;"	m	struct:libusb_device
+num_endpoints	libusb/os/darwin_usb.h	/^    uint8_t              num_endpoints;$/;"	m	struct:darwin_device_handle_priv::darwin_interface
+num_iso_packets	libusb/libusb.h	/^	int num_iso_packets;$/;"	m	struct:libusb_transfer
+num_iso_packets	libusb/libusbi.h	/^	int num_iso_packets;$/;"	m	struct:usbi_transfer
+num_iso_packets	libusb/os/darwin_usb.h	/^  int num_iso_packets;$/;"	m	struct:darwin_transfer_priv
+num_retired	libusb/os/linux_usbfs.c	/^	int num_retired;$/;"	m	struct:linux_transfer_priv	file:
+num_urbs	libusb/os/linux_usbfs.c	/^	int num_urbs;$/;"	m	struct:linux_transfer_priv	file:
+num_xfer	examples/sam3u_benchmark.c	/^static unsigned long num_bytes = 0, num_xfer = 0;$/;"	v	file:
+number_of_packets	libusb/os/linux_usbfs.h	/^	int number_of_packets;$/;"	m	struct:usbfs_urb
+numports	libusb/os/linux_usbfs.h	/^	unsigned char numports;$/;"	m	struct:usbfs_hub_portinfo
+obsd_cancel_transfer	libusb/os/openbsd_usb.c	/^obsd_cancel_transfer(struct usbi_transfer *itransfer)$/;"	f
+obsd_claim_interface	libusb/os/openbsd_usb.c	/^obsd_claim_interface(struct libusb_device_handle *handle, int iface)$/;"	f
+obsd_clear_halt	libusb/os/openbsd_usb.c	/^obsd_clear_halt(struct libusb_device_handle *handle, unsigned char endpoint)$/;"	f
+obsd_clear_transfer_priv	libusb/os/openbsd_usb.c	/^obsd_clear_transfer_priv(struct usbi_transfer *itransfer)$/;"	f
+obsd_clock_gettime	libusb/os/openbsd_usb.c	/^obsd_clock_gettime(int clkid, struct timespec *tp)$/;"	f
+obsd_close	libusb/os/openbsd_usb.c	/^obsd_close(struct libusb_device_handle *handle)$/;"	f
+obsd_destroy_device	libusb/os/openbsd_usb.c	/^obsd_destroy_device(struct libusb_device *dev)$/;"	f
+obsd_get_active_config_descriptor	libusb/os/openbsd_usb.c	/^obsd_get_active_config_descriptor(struct libusb_device *dev,$/;"	f
+obsd_get_config_descriptor	libusb/os/openbsd_usb.c	/^obsd_get_config_descriptor(struct libusb_device *dev, uint8_t idx,$/;"	f
+obsd_get_configuration	libusb/os/openbsd_usb.c	/^obsd_get_configuration(struct libusb_device_handle *handle, int *config)$/;"	f
+obsd_get_device_descriptor	libusb/os/openbsd_usb.c	/^obsd_get_device_descriptor(struct libusb_device *dev, unsigned char *buf,$/;"	f
+obsd_get_device_list	libusb/os/openbsd_usb.c	/^obsd_get_device_list(struct libusb_context * ctx,$/;"	f
+obsd_handle_events	libusb/os/openbsd_usb.c	/^obsd_handle_events(struct libusb_context *ctx, struct pollfd *fds, nfds_t nfds,$/;"	f
+obsd_open	libusb/os/openbsd_usb.c	/^obsd_open(struct libusb_device_handle *handle)$/;"	f
+obsd_release_interface	libusb/os/openbsd_usb.c	/^obsd_release_interface(struct libusb_device_handle *handle, int iface)$/;"	f
+obsd_reset_device	libusb/os/openbsd_usb.c	/^obsd_reset_device(struct libusb_device_handle *handle)$/;"	f
+obsd_set_configuration	libusb/os/openbsd_usb.c	/^obsd_set_configuration(struct libusb_device_handle *handle, int config)$/;"	f
+obsd_set_interface_altsetting	libusb/os/openbsd_usb.c	/^obsd_set_interface_altsetting(struct libusb_device_handle *handle, int iface,$/;"	f
+obsd_submit_transfer	libusb/os/openbsd_usb.c	/^obsd_submit_transfer(struct usbi_transfer *itransfer)$/;"	f
+op_attach_kernel_driver	libusb/os/linux_usbfs.c	/^static int op_attach_kernel_driver(struct libusb_device_handle *handle,$/;"	f	file:
+op_cancel_transfer	libusb/os/linux_usbfs.c	/^static int op_cancel_transfer(struct usbi_transfer *itransfer)$/;"	f	file:
+op_claim_interface	libusb/os/linux_usbfs.c	/^static int op_claim_interface(struct libusb_device_handle *handle, int iface)$/;"	f	file:
+op_clear_halt	libusb/os/linux_usbfs.c	/^static int op_clear_halt(struct libusb_device_handle *handle,$/;"	f	file:
+op_clear_transfer_priv	libusb/os/linux_usbfs.c	/^static void op_clear_transfer_priv(struct usbi_transfer *itransfer)$/;"	f	file:
+op_clock_gettime	libusb/os/linux_usbfs.c	/^static int op_clock_gettime(int clk_id, struct timespec *tp)$/;"	f	file:
+op_close	libusb/os/linux_usbfs.c	/^static void op_close(struct libusb_device_handle *dev_handle)$/;"	f	file:
+op_destroy_device	libusb/os/linux_usbfs.c	/^static void op_destroy_device(struct libusb_device *dev)$/;"	f	file:
+op_detach_kernel_driver	libusb/os/linux_usbfs.c	/^static int op_detach_kernel_driver(struct libusb_device_handle *handle,$/;"	f	file:
+op_get_active_config_descriptor	libusb/os/linux_usbfs.c	/^static int op_get_active_config_descriptor(struct libusb_device *dev,$/;"	f	file:
+op_get_config_descriptor	libusb/os/linux_usbfs.c	/^static int op_get_config_descriptor(struct libusb_device *dev,$/;"	f	file:
+op_get_configuration	libusb/os/linux_usbfs.c	/^static int op_get_configuration(struct libusb_device_handle *handle,$/;"	f	file:
+op_get_device_descriptor	libusb/os/linux_usbfs.c	/^static int op_get_device_descriptor(struct libusb_device *dev,$/;"	f	file:
+op_get_device_list	libusb/os/linux_usbfs.c	/^static int op_get_device_list(struct libusb_context *ctx,$/;"	f	file:
+op_get_timerfd_clockid	libusb/os/linux_usbfs.c	/^static clockid_t op_get_timerfd_clockid(void)$/;"	f	file:
+op_handle_events	libusb/os/darwin_usb.c	/^static int op_handle_events(struct libusb_context *ctx, struct pollfd *fds, POLL_NFDS_TYPE nfds, int num_ready) {$/;"	f	file:
+op_handle_events	libusb/os/linux_usbfs.c	/^static int op_handle_events(struct libusb_context *ctx,$/;"	f	file:
+op_init	libusb/os/linux_usbfs.c	/^static int op_init(struct libusb_context *ctx)$/;"	f	file:
+op_kernel_driver_active	libusb/os/linux_usbfs.c	/^static int op_kernel_driver_active(struct libusb_device_handle *handle,$/;"	f	file:
+op_open	libusb/os/linux_usbfs.c	/^static int op_open(struct libusb_device_handle *handle)$/;"	f	file:
+op_release_interface	libusb/os/linux_usbfs.c	/^static int op_release_interface(struct libusb_device_handle *handle, int iface)$/;"	f	file:
+op_reset_device	libusb/os/linux_usbfs.c	/^static int op_reset_device(struct libusb_device_handle *handle)$/;"	f	file:
+op_set_configuration	libusb/os/linux_usbfs.c	/^static int op_set_configuration(struct libusb_device_handle *handle, int config)$/;"	f	file:
+op_set_interface	libusb/os/linux_usbfs.c	/^static int op_set_interface(struct libusb_device_handle *handle, int iface,$/;"	f	file:
+op_submit_transfer	libusb/os/linux_usbfs.c	/^static int op_submit_transfer(struct usbi_transfer *itransfer)$/;"	f	file:
+open	libusb/libusbi.h	/^	int (*open)(struct libusb_device_handle *handle);$/;"	m	struct:usbi_os_backend
+open	libusb/os/windows_usb.h	/^	int (*open)(struct libusb_device_handle *dev_handle);$/;"	m	struct:windows_usb_api_backend
+open_count	libusb/os/darwin_usb.h	/^  int                   open_count;$/;"	m	struct:darwin_device_priv
+open_devs	libusb/libusbi.h	/^	struct list_head open_devs;$/;"	m	struct:libusb_context	typeref:struct:libusb_context::list_head
+open_devs_lock	libusb/libusbi.h	/^	usbi_mutex_t open_devs_lock;$/;"	m	struct:libusb_context
+openbsd_backend	libusb/os/openbsd_usb.c	/^const struct usbi_os_backend openbsd_backend = {$/;"	v	typeref:struct:usbi_os_backend
+original_handle	libusb/os/poll_windows.c	/^	HANDLE original_handle;$/;"	m	struct:__anon6	file:
+os_priv	libusb/libusbi.h	/^	unsigned char os_priv[0];$/;"	m	struct:libusb_device
+os_priv	libusb/libusbi.h	/^	unsigned char os_priv[0];$/;"	m	struct:libusb_device_handle
+overlapped	libusb/os/poll_windows.h	/^	OVERLAPPED* overlapped;			\/\/ what will report our I\/O status$/;"	m	struct:winfd
+overlapped_to_winfd	libusb/os/poll_windows.c	/^struct winfd overlapped_to_winfd(OVERLAPPED* overlapped)$/;"	f
+pCancelIoEx	libusb/os/poll_windows.c	/^static BOOL (__stdcall *pCancelIoEx)(HANDLE, LPOVERLAPPED) = NULL;$/;"	v	file:
+parent_dev	libusb/os/windows_usb.h	/^	struct libusb_device *parent_dev;	\/\/ access to parent is required for usermode ops$/;"	m	struct:windows_device_priv	typeref:struct:windows_device_priv::libusb_device
+parse_configuration	libusb/descriptor.c	/^static int parse_configuration(struct libusb_context *ctx,$/;"	f	file:
+parse_endpoint	libusb/descriptor.c	/^static int parse_endpoint(struct libusb_context *ctx,$/;"	f	file:
+parse_interface	libusb/descriptor.c	/^static int parse_interface(libusb_context *ctx,$/;"	f	file:
+path	libusb/os/windows_usb.h	/^		char *path;						\/\/ each interface needs a device interface path,$/;"	m	struct:windows_device_priv::__anon8
+path	libusb/os/windows_usb.h	/^	char *path;							\/\/ device interface path$/;"	m	struct:windows_device_priv
+pipe	libusb/os/openbsd_usb.c	/^	int pipe[2];				\/* for event notification *\/$/;"	m	struct:handle_priv	file:
+pipe_number	libusb/os/poll_windows.c	/^LONG pipe_number = 0;$/;"	v
+poll_dbg	libusb/os/poll_windows.c	53;"	d	file:
+poll_dbg	libusb/os/poll_windows.c	58;"	d	file:
+poll_dbg	libusb/os/poll_windows.c	60;"	d	file:
+poll_fd	libusb/os/poll_windows.c	/^struct winfd poll_fd[MAX_FDS];$/;"	v	typeref:struct:winfd
+poll_thread	examples/dpfp_threaded.c	/^static pthread_t poll_thread;$/;"	v	file:
+poll_thread_main	examples/dpfp_threaded.c	/^static void *poll_thread_main(void *arg)$/;"	f	file:
+pollable_fd	libusb/os/windows_usb.h	/^	struct winfd pollable_fd;$/;"	m	struct:windows_transfer_priv	typeref:struct:windows_transfer_priv::winfd
+pollfd	libusb/libusbi.h	/^	struct libusb_pollfd pollfd;$/;"	m	struct:usbi_pollfd	typeref:struct:usbi_pollfd::libusb_pollfd
+pollfd	libusb/os/poll_windows.h	/^struct pollfd {$/;"	s
+pollfd_modify	libusb/libusbi.h	/^	unsigned int pollfd_modify;$/;"	m	struct:libusb_context
+pollfd_modify_lock	libusb/libusbi.h	/^	usbi_mutex_t pollfd_modify_lock;$/;"	m	struct:libusb_context
+pollfds	libusb/libusbi.h	/^	struct list_head pollfds;$/;"	m	struct:libusb_context	typeref:struct:libusb_context::list_head
+pollfds_lock	libusb/libusbi.h	/^	usbi_mutex_t pollfds_lock;$/;"	m	struct:libusb_context
+port	libusb/os/linux_usbfs.h	/^	unsigned char port[127];	\/* port to device num mapping *\/$/;"	m	struct:usbfs_hub_portinfo
+port	libusb/os/windows_usb.h	/^	uint8_t port;						\/\/ port number on the hub$/;"	m	struct:windows_device_priv
+prev	libusb/libusbi.h	/^	struct list_head *prev, *next;$/;"	m	struct:list_head	typeref:struct:list_head::list_head
+print_devs	examples/listdevs.c	/^static void print_devs(libusb_device **devs)$/;"	f	file:
+print_f0_data	examples/dpfp.c	/^static int print_f0_data(void)$/;"	f	file:
+print_f0_data	examples/dpfp_threaded.c	/^static int print_f0_data(void)$/;"	f	file:
+process_new_device	libusb/os/darwin_usb.c	/^static int process_new_device (struct libusb_context *ctx, usb_device_t **device, UInt32 locationID, struct discovered_devs **_discdevs) {$/;"	f	file:
+ptrdiff_t	msvc/stdint.h	/^  typedef __int64 ptrdiff_t;$/;"	t
+ptrdiff_t	msvc/stdint.h	/^  typedef int ptrdiff_t;$/;"	t
+ptrdiff_t	msvc/stdint.h	62;"	d
+rc	libusb/libusb.h	/^	const char *rc;$/;"	m	struct:libusb_version
+reap_action	libusb/os/linux_usbfs.c	/^	enum reap_action reap_action;$/;"	m	struct:linux_transfer_priv	typeref:enum:linux_transfer_priv::reap_action	file:
+reap_action	libusb/os/linux_usbfs.c	/^enum reap_action {$/;"	g	file:
+reap_for_handle	libusb/os/linux_usbfs.c	/^static int reap_for_handle(struct libusb_device_handle *handle)$/;"	f	file:
+reap_status	libusb/os/linux_usbfs.c	/^	enum libusb_transfer_status reap_status;$/;"	m	struct:linux_transfer_priv	typeref:enum:linux_transfer_priv::libusb_transfer_status	file:
+refcnt	libusb/libusbi.h	/^	int refcnt;$/;"	m	struct:libusb_device
+reg_prop	libusb/os/windows_usb.h	/^	const DWORD reg_prop;		\/\/ SPDRP registry key to use to retreive list$/;"	m	struct:driver_lookup
+release_interface	libusb/libusbi.h	/^	int (*release_interface)(struct libusb_device_handle *handle, int interface_number);$/;"	m	struct:usbi_os_backend
+release_interface	libusb/os/windows_usb.h	/^	int (*release_interface)(struct libusb_device_handle *dev_handle, int iface);$/;"	m	struct:windows_usb_api_backend
+req	libusb/os/darwin_usb.h	/^  IOUSBDevRequest req;$/;"	m	struct:darwin_transfer_priv
+req	libusb/os/darwin_usb.h	/^  IOUSBDevRequestTO req;$/;"	m	struct:darwin_transfer_priv
+req	libusb/os/windows_usb.h	/^	} req;$/;"	m	struct:USB_CONFIGURATION_DESCRIPTOR_SHORT	typeref:struct:USB_CONFIGURATION_DESCRIPTOR_SHORT::__anon9
+request	libusb/os/windows_usb.h	/^  UCHAR  request;$/;"	m	struct:__anon15
+request_count	libusb/os/windows_usb.c	/^volatile LONG request_count[2] = {0, 1};	\/\/ last one must be > 0$/;"	v
+request_exit	examples/dpfp_threaded.c	/^static void request_exit(int code)$/;"	f	file:
+request_type	libusb/os/windows_usb.h	/^  UCHAR  request_type;$/;"	m	struct:__anon15
+reset_device	libusb/libusbi.h	/^	int (*reset_device)(struct libusb_device_handle *handle);$/;"	m	struct:usbi_os_backend
+reset_device	libusb/os/windows_usb.h	/^	int (*reset_device)(struct libusb_device_handle *dev_handle);$/;"	m	struct:windows_usb_api_backend
+reset_overlapped	libusb/os/poll_windows.c	/^void reset_overlapped(OVERLAPPED *overlapped)$/;"	f
+revents	libusb/os/poll_windows.h	/^    short revents;    \/* returned events *\/$/;"	m	struct:pollfd
+root	libusb/os/windows_usb.h	/^		USB_ROOT_HUB_NAME_FIXED root;$/;"	m	union:USB_HUB_NAME_FIXED::__anon12
+rw	libusb/os/poll_windows.h	/^	enum rw_type rw;				\/\/ I\/O transfer direction: read *XOR* write (NOT BOTH)$/;"	m	struct:winfd	typeref:enum:winfd::rw_type
+rw_type	libusb/os/poll_windows.h	/^enum rw_type {$/;"	g
+safe_closehandle	libusb/os/windows_usb.h	60;"	d
+safe_free	libusb/os/windows_usb.h	59;"	d
+safe_min	libusb/os/windows_usb.h	61;"	d
+safe_sprintf	libusb/os/windows_usb.h	70;"	d
+safe_strcat	libusb/os/windows_usb.h	66;"	d
+safe_strcmp	libusb/os/windows_usb.h	67;"	d
+safe_strcp	libusb/os/windows_usb.h	62;"	d
+safe_strcpy	libusb/os/windows_usb.h	64;"	d
+safe_strlen	libusb/os/windows_usb.h	69;"	d
+safe_strncat	libusb/os/windows_usb.h	65;"	d
+safe_strncmp	libusb/os/windows_usb.h	68;"	d
+safe_unref_device	libusb/os/windows_usb.h	71;"	d
+sanitize_path	libusb/os/windows_usb.c	/^static char* sanitize_path(const char* path)$/;"	f	file:
+save_to_file	examples/dpfp.c	/^static int save_to_file(unsigned char *data)$/;"	f	file:
+save_to_file	examples/dpfp_threaded.c	/^static int save_to_file(unsigned char *data)$/;"	f	file:
+seek_to_next_config	libusb/os/linux_usbfs.c	/^static int seek_to_next_config(struct libusb_context *ctx, int fd,$/;"	f	file:
+session_data	libusb/libusbi.h	/^	unsigned long session_data;$/;"	m	struct:libusb_device
+set_composite_interface	libusb/os/windows_usb.c	/^static int set_composite_interface(struct libusb_context* ctx, struct libusb_device* dev,$/;"	f	file:
+set_configuration	libusb/libusbi.h	/^	int (*set_configuration)(struct libusb_device_handle *handle, int config);$/;"	m	struct:usbi_os_backend
+set_hwstat	examples/dpfp.c	/^static int set_hwstat(unsigned char data)$/;"	f	file:
+set_hwstat	examples/dpfp_threaded.c	/^static int set_hwstat(unsigned char data)$/;"	f	file:
+set_interface_altsetting	libusb/libusbi.h	/^	int (*set_interface_altsetting)(struct libusb_device_handle *handle,$/;"	m	struct:usbi_os_backend
+set_interface_altsetting	libusb/os/windows_usb.h	/^	int (*set_interface_altsetting)(struct libusb_device_handle *dev_handle, int iface, int altsetting);$/;"	m	struct:windows_usb_api_backend
+set_mode	examples/dpfp.c	/^static int set_mode(unsigned char data)$/;"	f	file:
+set_mode	examples/dpfp_threaded.c	/^static int set_mode(unsigned char data)$/;"	f	file:
+set_mode_async	examples/dpfp.c	/^static int set_mode_async(unsigned char data)$/;"	f	file:
+set_mode_async	examples/dpfp_threaded.c	/^static int set_mode_async(unsigned char data)$/;"	f	file:
+sig_hdlr	examples/sam3u_benchmark.c	/^static void sig_hdlr(int signum)$/;"	f	file:
+sighandler	examples/dpfp.c	/^static void sighandler(int signum)$/;"	f	file:
+sighandler	examples/dpfp_threaded.c	/^static void sighandler(int signum)$/;"	f	file:
+signr	libusb/os/linux_usbfs.h	/^	unsigned int signr;$/;"	m	struct:usbfs_urb
+slow	libusb/os/linux_usbfs.h	/^	unsigned char slow;$/;"	m	struct:usbfs_connectinfo
+speed	libusb/libusbi.h	/^	enum libusb_speed speed;$/;"	m	struct:libusb_device	typeref:enum:libusb_device::libusb_speed
+srcPath	msvc/ddk_build.cmd	/^set srcPath=examples\\listdevs_ddkbuild\\obj%BUILD_ALT_DIR%\\%cpudir%$/;"	v
+srcPath	msvc/ddk_build.cmd	/^set srcPath=libusb\\os\\obj%BUILD_ALT_DIR%\\%cpudir%$/;"	v
+ssize_t	libusb/libusb.h	/^  typedef __int64 ssize_t;$/;"	t
+ssize_t	libusb/libusb.h	/^  typedef int ssize_t;$/;"	t
+ssize_t	libusb/libusb.h	30;"	d
+start_frame	libusb/os/linux_usbfs.h	/^	int start_frame;$/;"	m	struct:usbfs_urb
+state	examples/dpfp.c	/^static int state = 0;$/;"	v	file:
+state	examples/dpfp_threaded.c	/^static int state = 0;$/;"	v	file:
+status	libusb/libusb.h	/^	enum libusb_transfer_status status;$/;"	m	struct:libusb_iso_packet_descriptor	typeref:enum:libusb_iso_packet_descriptor::libusb_transfer_status
+status	libusb/libusb.h	/^	enum libusb_transfer_status status;$/;"	m	struct:libusb_transfer	typeref:enum:libusb_transfer::libusb_transfer_status
+status	libusb/os/linux_usbfs.h	/^	int status;$/;"	m	struct:usbfs_urb
+status	libusb/os/linux_usbfs.h	/^	unsigned int status;$/;"	m	struct:usbfs_iso_packet_desc
+str	libusb/os/windows_usb.c	/^	char* str;$/;"	m	struct:htab_entry	file:
+submit_bulk_transfer	libusb/os/darwin_usb.c	/^static int submit_bulk_transfer(struct usbi_transfer *itransfer) {$/;"	f	file:
+submit_bulk_transfer	libusb/os/linux_usbfs.c	/^static int submit_bulk_transfer(struct usbi_transfer *itransfer,$/;"	f	file:
+submit_bulk_transfer	libusb/os/windows_usb.c	/^static int submit_bulk_transfer(struct usbi_transfer *itransfer)$/;"	f	file:
+submit_bulk_transfer	libusb/os/windows_usb.h	/^	int (*submit_bulk_transfer)(struct usbi_transfer *itransfer);$/;"	m	struct:windows_usb_api_backend
+submit_control_transfer	libusb/os/darwin_usb.c	/^static int submit_control_transfer(struct usbi_transfer *itransfer) {$/;"	f	file:
+submit_control_transfer	libusb/os/linux_usbfs.c	/^static int submit_control_transfer(struct usbi_transfer *itransfer)$/;"	f	file:
+submit_control_transfer	libusb/os/windows_usb.c	/^static int submit_control_transfer(struct usbi_transfer *itransfer)$/;"	f	file:
+submit_control_transfer	libusb/os/windows_usb.h	/^	int (*submit_control_transfer)(struct usbi_transfer *itransfer);$/;"	m	struct:windows_usb_api_backend
+submit_iso_transfer	libusb/os/darwin_usb.c	/^static int submit_iso_transfer(struct usbi_transfer *itransfer) {$/;"	f	file:
+submit_iso_transfer	libusb/os/linux_usbfs.c	/^static int submit_iso_transfer(struct usbi_transfer *itransfer)$/;"	f	file:
+submit_iso_transfer	libusb/os/windows_usb.c	/^static int submit_iso_transfer(struct usbi_transfer *itransfer)$/;"	f	file:
+submit_iso_transfer	libusb/os/windows_usb.h	/^	int (*submit_iso_transfer)(struct usbi_transfer *itransfer);$/;"	m	struct:windows_usb_api_backend
+submit_transfer	libusb/libusbi.h	/^	int (*submit_transfer)(struct usbi_transfer *itransfer);$/;"	m	struct:usbi_os_backend
+supports_flag_bulk_continuation	libusb/os/linux_usbfs.c	/^static int supports_flag_bulk_continuation = -1;$/;"	v	file:
+supports_flag_zero_packet	libusb/os/linux_usbfs.c	/^static int supports_flag_zero_packet = -1;$/;"	v	file:
+sync_intr	examples/dpfp.c	/^static int sync_intr(unsigned char type)$/;"	f	file:
+sync_intr	examples/dpfp_threaded.c	/^static int sync_intr(unsigned char type)$/;"	f	file:
+sys_path	libusb/os/darwin_usb.h	/^  char                  sys_path[21];$/;"	m	struct:darwin_device_priv
+sysfs_can_relate_devices	libusb/os/linux_usbfs.c	/^static int sysfs_can_relate_devices = 0;$/;"	v	file:
+sysfs_dir	libusb/os/linux_usbfs.c	/^	char *sysfs_dir;$/;"	m	struct:linux_device_priv	file:
+sysfs_get_active_config	libusb/os/linux_usbfs.c	/^static int sysfs_get_active_config(struct libusb_device *dev, int *config)$/;"	f	file:
+sysfs_get_active_config_descriptor	libusb/os/linux_usbfs.c	/^static int sysfs_get_active_config_descriptor(struct libusb_device *dev,$/;"	f	file:
+sysfs_get_device_descriptor	libusb/os/linux_usbfs.c	/^static int sysfs_get_device_descriptor(struct libusb_device *dev,$/;"	f	file:
+sysfs_get_device_list	libusb/os/linux_usbfs.c	/^static int sysfs_get_device_list(struct libusb_context *ctx,$/;"	f	file:
+sysfs_has_descriptors	libusb/os/linux_usbfs.c	/^static int sysfs_has_descriptors = 0;$/;"	v	file:
+sysfs_has_file	libusb/os/linux_usbfs.c	/^static int sysfs_has_file(const char *dirname, const char *filename)$/;"	f	file:
+sysfs_scan_device	libusb/os/linux_usbfs.c	/^static int sysfs_scan_device(struct libusb_context *ctx,$/;"	f	file:
+thread_id	libusb/os/poll_windows.c	/^	DWORD thread_id;$/;"	m	struct:__anon6	file:
+tid	libusb/os/threads_windows.h	/^	DWORD            tid;$/;"	m	struct:usbi_cond_perthread
+timeout	libusb/libusb.h	/^	unsigned int timeout;$/;"	m	struct:libusb_transfer
+timeout	libusb/libusbi.h	/^	struct timeval timeout;$/;"	m	struct:usbi_transfer	typeref:struct:usbi_transfer::timeval
+timeout	libusb/os/linux_usbfs.h	/^	uint32_t timeout;	\/* in milliseconds *\/$/;"	m	struct:usbfs_ctrltransfer
+timeout	libusb/os/linux_usbfs.h	/^	unsigned int timeout;	\/* in milliseconds *\/$/;"	m	struct:usbfs_bulktransfer
+timer_mutex	libusb/os/windows_usb.c	/^HANDLE timer_mutex = NULL;$/;"	v
+timer_request	libusb/os/windows_usb.c	/^HANDLE timer_request[2] = { NULL, NULL };$/;"	v
+timer_response	libusb/os/windows_usb.c	/^HANDLE timer_response = NULL;$/;"	v
+timer_thread	libusb/os/windows_usb.c	/^HANDLE timer_thread = NULL;$/;"	v
+timer_tp	libusb/os/windows_usb.c	/^struct timespec timer_tp;$/;"	v	typeref:struct:timespec
+timerfd	libusb/libusbi.h	/^	int timerfd;$/;"	m	struct:libusb_context
+timersub	libusb/os/poll_windows.h	107;"	d
+timespec	libusb/os/threads_windows.h	/^struct timespec {$/;"	s
+transfer_priv_size	libusb/libusbi.h	/^	size_t transfer_priv_size;$/;"	m	struct:usbi_os_backend
+transferred	libusb/libusbi.h	/^	int transferred;$/;"	m	struct:usbi_transfer
+true	libusb/os/windows_usb.h	38;"	d
+tv_nsec	libusb/os/threads_windows.h	/^		long tv_nsec;$/;"	m	struct:timespec
+tv_sec	libusb/os/threads_windows.h	/^		long tv_sec;$/;"	m	struct:timespec
+tv_start	examples/sam3u_benchmark.c	/^static struct timeval tv_start;$/;"	v	typeref:struct:timeval	file:
+type	libusb/libusb.h	/^	unsigned char type;$/;"	m	struct:libusb_transfer
+type	libusb/os/linux_usbfs.h	/^	unsigned char type;$/;"	m	struct:usbfs_urb
+u	libusb/os/windows_usb.h	/^	} u;$/;"	m	struct:USB_HUB_NAME_FIXED	typeref:union:USB_HUB_NAME_FIXED::__anon12
+u	libusb/os/windows_usb.h	/^	} u;$/;"	m	struct:USB_NODE_INFORMATION	typeref:union:USB_NODE_INFORMATION::__anon13
+uint16_t	libusb/libusb.h	/^typedef unsigned __int16  uint16_t;$/;"	t
+uint16_t	msvc/stdint.h	/^typedef unsigned __int16  uint16_t;$/;"	t
+uint32_t	libusb/libusb.h	/^typedef unsigned __int32  uint32_t;$/;"	t
+uint32_t	msvc/stdint.h	/^typedef unsigned __int32  uint32_t;$/;"	t
+uint64_t	msvc/stdint.h	/^typedef unsigned __int64   uint64_t;$/;"	t
+uint8_t	libusb/libusb.h	/^typedef unsigned __int8   uint8_t;$/;"	t
+uint8_t	msvc/stdint.h	/^typedef unsigned __int8   uint8_t;$/;"	t
+uint_fast16_t	msvc/stdint.h	/^typedef unsigned __int16  uint_fast16_t;$/;"	t
+uint_fast32_t	msvc/stdint.h	/^typedef unsigned  __int32  uint_fast32_t;$/;"	t
+uint_fast64_t	msvc/stdint.h	/^typedef unsigned __int64   uint_fast64_t;$/;"	t
+uint_fast8_t	msvc/stdint.h	/^typedef unsigned __int8 uint_fast8_t;$/;"	t
+uint_least16_t	msvc/stdint.h	/^typedef unsigned short  uint_least16_t;$/;"	t
+uint_least32_t	msvc/stdint.h	/^typedef unsigned   uint_least32_t;$/;"	t
+uint_least64_t	msvc/stdint.h	/^typedef unsigned __int64   uint_least64_t;$/;"	t
+uint_least8_t	msvc/stdint.h	/^typedef unsigned char   uint_least8_t;$/;"	t
+uintmax_t	msvc/stdint.h	/^typedef unsigned __int64   uintmax_t;$/;"	t
+uintptr_t	msvc/stdint.h	/^  typedef unsigned __int64 uintptr_t;$/;"	t
+uintptr_t	msvc/stdint.h	/^  typedef unsigned int uintptr_t;$/;"	t
+uintptr_t	msvc/stdint.h	49;"	d
+unsupported_abort_control	libusb/os/windows_usb.c	/^static int unsupported_abort_control(struct usbi_transfer *itransfer) {$/;"	f	file:
+unsupported_abort_transfers	libusb/os/windows_usb.c	/^static int unsupported_abort_transfers(struct usbi_transfer *itransfer) {$/;"	f	file:
+unsupported_claim_interface	libusb/os/windows_usb.c	/^static int unsupported_claim_interface(struct libusb_device_handle *dev_handle, int iface) {$/;"	f	file:
+unsupported_clear_halt	libusb/os/windows_usb.c	/^static int unsupported_clear_halt(struct libusb_device_handle *dev_handle, unsigned char endpoint) {$/;"	f	file:
+unsupported_close	libusb/os/windows_usb.c	/^static void unsupported_close(struct libusb_device_handle *dev_handle) {$/;"	f	file:
+unsupported_copy_transfer_data	libusb/os/windows_usb.c	/^static int unsupported_copy_transfer_data(struct usbi_transfer *itransfer, uint32_t io_size) {$/;"	f	file:
+unsupported_exit	libusb/os/windows_usb.c	/^static int unsupported_exit(void) {$/;"	f	file:
+unsupported_init	libusb/os/windows_usb.c	/^static int unsupported_init(struct libusb_context *ctx) {$/;"	f	file:
+unsupported_open	libusb/os/windows_usb.c	/^static int unsupported_open(struct libusb_device_handle *dev_handle) {$/;"	f	file:
+unsupported_release_interface	libusb/os/windows_usb.c	/^static int unsupported_release_interface(struct libusb_device_handle *dev_handle, int iface) {$/;"	f	file:
+unsupported_reset_device	libusb/os/windows_usb.c	/^static int unsupported_reset_device(struct libusb_device_handle *dev_handle) {$/;"	f	file:
+unsupported_set_interface_altsetting	libusb/os/windows_usb.c	/^static int unsupported_set_interface_altsetting(struct libusb_device_handle *dev_handle, int iface, int altsetting) {$/;"	f	file:
+unsupported_submit_bulk_transfer	libusb/os/windows_usb.c	/^static int unsupported_submit_bulk_transfer(struct usbi_transfer *itransfer) {$/;"	f	file:
+unsupported_submit_control_transfer	libusb/os/windows_usb.c	/^static int unsupported_submit_control_transfer(struct usbi_transfer *itransfer) {$/;"	f	file:
+unsupported_submit_iso_transfer	libusb/os/windows_usb.c	/^static int unsupported_submit_iso_transfer(struct usbi_transfer *itransfer) {$/;"	f	file:
+upperize	libusb/os/windows_usb.h	/^static inline void upperize(char* str) {$/;"	f
+urbs	libusb/os/linux_usbfs.c	/^		struct usbfs_urb *urbs;$/;"	m	union:linux_transfer_priv::__anon7	typeref:struct:linux_transfer_priv::__anon7::usbfs_urb	file:
+usage	msvc/ddk_build.cmd	/^:usage$/;"	l
+usb_api_backend	libusb/os/windows_usb.c	/^const struct windows_usb_api_backend usb_api_backend[USB_API_MAX] = {$/;"	v	typeref:struct:windows_usb_api_backend
+usb_descriptor_header	libusb/libusbi.h	/^struct usb_descriptor_header {$/;"	s
+usb_device_t	libusb/os/darwin_usb.h	100;"	d
+usb_device_t	libusb/os/darwin_usb.h	106;"	d
+usb_device_t	libusb/os/darwin_usb.h	76;"	d
+usb_device_t	libusb/os/darwin_usb.h	82;"	d
+usb_device_t	libusb/os/darwin_usb.h	88;"	d
+usb_device_t	libusb/os/darwin_usb.h	94;"	d
+usb_devs	libusb/libusbi.h	/^	struct list_head usb_devs;$/;"	m	struct:libusb_context	typeref:struct:libusb_context::list_head
+usb_devs_lock	libusb/libusbi.h	/^	usbi_mutex_t usb_devs_lock;$/;"	m	struct:libusb_context
+usb_get_next_device	libusb/os/darwin_usb.c	/^static usb_device_t **usb_get_next_device (io_iterator_t deviceIterator, UInt32 *locationp) {$/;"	f	file:
+usb_interface	libusb/os/windows_usb.h	/^	} usb_interface[USB_MAXINTERFACES];$/;"	m	struct:windows_device_priv	typeref:struct:windows_device_priv::__anon8
+usb_interface_t	libusb/os/darwin_usb.h	33;"	d
+usb_interface_t	libusb/os/darwin_usb.h	39;"	d
+usb_interface_t	libusb/os/darwin_usb.h	45;"	d
+usb_interface_t	libusb/os/darwin_usb.h	51;"	d
+usb_interface_t	libusb/os/darwin_usb.h	57;"	d
+usb_interface_t	libusb/os/darwin_usb.h	63;"	d
+usb_setup_device_iterator	libusb/os/darwin_usb.c	/^static int usb_setup_device_iterator (io_iterator_t *deviceIterator, long location) {$/;"	f	file:
+usbdev_names	libusb/os/linux_usbfs.c	/^static int usbdev_names = 0;$/;"	v	file:
+usbfs_bulktransfer	libusb/os/linux_usbfs.h	/^struct usbfs_bulktransfer {$/;"	s
+usbfs_connectinfo	libusb/os/linux_usbfs.h	/^struct usbfs_connectinfo {$/;"	s
+usbfs_ctrltransfer	libusb/os/linux_usbfs.h	/^struct usbfs_ctrltransfer {$/;"	s
+usbfs_get_active_config	libusb/os/linux_usbfs.c	/^static int usbfs_get_active_config(struct libusb_device *dev, int fd)$/;"	f	file:
+usbfs_get_active_config_descriptor	libusb/os/linux_usbfs.c	/^static int usbfs_get_active_config_descriptor(struct libusb_device *dev,$/;"	f	file:
+usbfs_get_device_descriptor	libusb/os/linux_usbfs.c	/^static int usbfs_get_device_descriptor(struct libusb_device *dev,$/;"	f	file:
+usbfs_get_device_list	libusb/os/linux_usbfs.c	/^static int usbfs_get_device_list(struct libusb_context *ctx,$/;"	f	file:
+usbfs_getdriver	libusb/os/linux_usbfs.h	/^struct usbfs_getdriver {$/;"	s
+usbfs_hub_portinfo	libusb/os/linux_usbfs.h	/^struct usbfs_hub_portinfo {$/;"	s
+usbfs_ioctl	libusb/os/linux_usbfs.h	/^struct usbfs_ioctl {$/;"	s
+usbfs_iso_packet_desc	libusb/os/linux_usbfs.h	/^struct usbfs_iso_packet_desc {$/;"	s
+usbfs_path	libusb/os/linux_usbfs.c	/^static const char *usbfs_path = NULL;$/;"	v	file:
+usbfs_scan_busdir	libusb/os/linux_usbfs.c	/^static int usbfs_scan_busdir(struct libusb_context *ctx,$/;"	f	file:
+usbfs_setinterface	libusb/os/linux_usbfs.h	/^struct usbfs_setinterface {$/;"	s
+usbfs_urb	libusb/os/linux_usbfs.h	/^struct usbfs_urb {$/;"	s
+usbfs_urb_type	libusb/os/linux_usbfs.h	/^enum usbfs_urb_type {$/;"	g
+usbi_add_pollfd	libusb/io.c	/^int usbi_add_pollfd(struct libusb_context *ctx, int fd, short events)$/;"	f
+usbi_alloc_device	libusb/core.c	/^struct libusb_device *usbi_alloc_device(struct libusb_context *ctx,$/;"	f
+usbi_backend	libusb/core.c	/^const struct usbi_os_backend * const usbi_backend = &darwin_backend;$/;"	v
+usbi_backend	libusb/core.c	/^const struct usbi_os_backend * const usbi_backend = &linux_usbfs_backend;$/;"	v
+usbi_backend	libusb/core.c	/^const struct usbi_os_backend * const usbi_backend = &openbsd_backend;$/;"	v
+usbi_backend	libusb/core.c	/^const struct usbi_os_backend * const usbi_backend = &windows_backend;$/;"	v
+usbi_close	libusb/os/poll_posix.h	6;"	d
+usbi_close	libusb/os/poll_windows.c	/^int usbi_close(int fd)$/;"	f
+usbi_cond_broadcast	libusb/os/threads_posix.h	42;"	d
+usbi_cond_broadcast	libusb/os/threads_windows.c	/^int usbi_cond_broadcast(usbi_cond_t *cond) {$/;"	f
+usbi_cond_destroy	libusb/os/threads_posix.h	43;"	d
+usbi_cond_destroy	libusb/os/threads_windows.c	/^int usbi_cond_destroy(usbi_cond_t *cond) {$/;"	f
+usbi_cond_init	libusb/os/threads_posix.h	39;"	d
+usbi_cond_init	libusb/os/threads_windows.c	/^int usbi_cond_init(usbi_cond_t *cond,$/;"	f
+usbi_cond_intwait	libusb/os/threads_windows.c	/^static int __inline usbi_cond_intwait(usbi_cond_t *cond,$/;"	f	file:
+usbi_cond_perthread	libusb/os/threads_windows.h	/^struct usbi_cond_perthread {$/;"	s
+usbi_cond_signal	libusb/os/threads_posix.h	44;"	d
+usbi_cond_signal	libusb/os/threads_windows.c	/^int usbi_cond_signal(usbi_cond_t *cond) {$/;"	f
+usbi_cond_t	libusb/os/threads_posix.h	38;"	d
+usbi_cond_t	libusb/os/threads_windows.h	/^typedef struct usbi_cond_t_ usbi_cond_t;$/;"	t	typeref:struct:usbi_cond_t_
+usbi_cond_t_	libusb/os/threads_windows.h	/^struct usbi_cond_t_ {$/;"	s
+usbi_cond_timedwait	libusb/os/threads_posix.h	41;"	d
+usbi_cond_timedwait	libusb/os/threads_windows.c	/^int usbi_cond_timedwait(usbi_cond_t *cond,$/;"	f
+usbi_cond_wait	libusb/os/threads_posix.h	40;"	d
+usbi_cond_wait	libusb/os/threads_windows.c	/^int usbi_cond_wait(usbi_cond_t *cond, usbi_mutex_t *mutex) {$/;"	f
+usbi_condattr_t	libusb/os/threads_windows.h	61;"	d
+usbi_create_fd	libusb/os/poll_windows.c	/^struct winfd usbi_create_fd(HANDLE handle, int access_mode)$/;"	f
+usbi_dbg	libusb/libusbi.h	/^static inline void usbi_dbg(const char *fmt, ...)$/;"	f
+usbi_dbg	libusb/libusbi.h	144;"	d
+usbi_dbg	libusb/libusbi.h	146;"	d
+usbi_default_context	libusb/core.c	/^struct libusb_context *usbi_default_context = NULL;$/;"	v	typeref:struct:libusb_context
+usbi_err	libusb/libusbi.h	/^static inline void usbi_err(struct libusb_context *ctx, const char *fmt, ...)$/;"	f
+usbi_err	libusb/libusbi.h	151;"	d
+usbi_fd_notification	libusb/core.c	/^void usbi_fd_notification(struct libusb_context *ctx)$/;"	f
+usbi_free_fd	libusb/os/poll_windows.c	/^void usbi_free_fd(int fd)$/;"	f
+usbi_get_config_index_by_value	libusb/descriptor.c	/^int usbi_get_config_index_by_value(struct libusb_device *dev,$/;"	f
+usbi_get_device_by_session_id	libusb/core.c	/^struct libusb_device *usbi_get_device_by_session_id(struct libusb_context *ctx,$/;"	f
+usbi_gettimeofday	libusb/core.c	/^int usbi_gettimeofday(struct timeval *tp, void *tzp)$/;"	f
+usbi_gettimeofday	libusb/libusbi.h	245;"	d
+usbi_handle_disconnect	libusb/io.c	/^void usbi_handle_disconnect(struct libusb_device_handle *handle)$/;"	f
+usbi_handle_transfer_cancellation	libusb/io.c	/^int usbi_handle_transfer_cancellation(struct usbi_transfer *transfer)$/;"	f
+usbi_handle_transfer_completion	libusb/io.c	/^int usbi_handle_transfer_completion(struct usbi_transfer *itransfer,$/;"	f
+usbi_info	libusb/libusbi.h	/^static inline void usbi_info(struct libusb_context *ctx, const char *fmt, ...)$/;"	f
+usbi_info	libusb/libusbi.h	149;"	d
+usbi_io_exit	libusb/io.c	/^void usbi_io_exit(struct libusb_context *ctx)$/;"	f
+usbi_io_init	libusb/io.c	/^int usbi_io_init(struct libusb_context *ctx)$/;"	f
+usbi_log	libusb/core.c	/^void usbi_log(struct libusb_context *ctx, enum usbi_log_level level,$/;"	f
+usbi_log_level	libusb/libusbi.h	/^enum usbi_log_level {$/;"	g
+usbi_log_v	libusb/core.c	/^void usbi_log_v(struct libusb_context *ctx, enum usbi_log_level level,$/;"	f
+usbi_mutex_destroy	libusb/os/threads_posix.h	36;"	d
+usbi_mutex_destroy	libusb/os/threads_windows.c	/^int usbi_mutex_destroy(usbi_mutex_t *mutex) {$/;"	f
+usbi_mutex_init	libusb/os/threads_posix.h	32;"	d
+usbi_mutex_init	libusb/os/threads_windows.c	/^int usbi_mutex_init(usbi_mutex_t *mutex,$/;"	f
+usbi_mutex_init_recursive	libusb/os/threads_posix.c	/^int usbi_mutex_init_recursive(pthread_mutex_t *mutex, pthread_mutexattr_t *attr)$/;"	f
+usbi_mutex_init_recursive	libusb/os/threads_windows.h	64;"	d
+usbi_mutex_lock	libusb/os/threads_posix.h	33;"	d
+usbi_mutex_lock	libusb/os/threads_windows.c	/^int usbi_mutex_lock(usbi_mutex_t *mutex) {$/;"	f
+usbi_mutex_static_lock	libusb/os/threads_posix.h	28;"	d
+usbi_mutex_static_lock	libusb/os/threads_windows.c	/^int usbi_mutex_static_lock(usbi_mutex_static_t *mutex) {$/;"	f
+usbi_mutex_static_t	libusb/os/threads_posix.h	26;"	d
+usbi_mutex_static_t	libusb/os/threads_windows.h	26;"	d
+usbi_mutex_static_unlock	libusb/os/threads_posix.h	29;"	d
+usbi_mutex_static_unlock	libusb/os/threads_windows.c	/^int usbi_mutex_static_unlock(usbi_mutex_static_t *mutex) {$/;"	f
+usbi_mutex_t	libusb/os/threads_posix.h	31;"	d
+usbi_mutex_t	libusb/os/threads_windows.h	29;"	d
+usbi_mutex_trylock	libusb/os/threads_posix.h	35;"	d
+usbi_mutex_trylock	libusb/os/threads_windows.c	/^int usbi_mutex_trylock(usbi_mutex_t *mutex) {$/;"	f
+usbi_mutex_unlock	libusb/os/threads_posix.h	34;"	d
+usbi_mutex_unlock	libusb/os/threads_windows.c	/^int usbi_mutex_unlock(usbi_mutex_t *mutex) {$/;"	f
+usbi_mutexattr_t	libusb/os/threads_windows.h	60;"	d
+usbi_os_backend	libusb/libusbi.h	/^struct usbi_os_backend {$/;"	s
+usbi_parse_descriptor	libusb/descriptor.c	/^int usbi_parse_descriptor(unsigned char *source, const char *descriptor,$/;"	f
+usbi_pipe	libusb/os/poll_posix.h	7;"	d
+usbi_pipe	libusb/os/poll_windows.c	/^int usbi_pipe(int filedes[2])$/;"	f
+usbi_poll	libusb/os/poll_posix.h	8;"	d
+usbi_poll	libusb/os/poll_windows.c	/^int usbi_poll(struct pollfd *fds, unsigned int nfds, int timeout)$/;"	f
+usbi_pollfd	libusb/libusbi.h	/^struct usbi_pollfd {$/;"	s
+usbi_read	libusb/os/poll_posix.h	5;"	d
+usbi_read	libusb/os/poll_windows.c	/^ssize_t usbi_read(int fd, void *buf, size_t count)$/;"	f
+usbi_remove_pollfd	libusb/io.c	/^void usbi_remove_pollfd(struct libusb_context *ctx, int fd)$/;"	f
+usbi_sanitize_device	libusb/core.c	/^int usbi_sanitize_device(struct libusb_device *dev)$/;"	f
+usbi_transfer	libusb/libusbi.h	/^struct usbi_transfer {$/;"	s
+usbi_transfer_flags	libusb/libusbi.h	/^enum usbi_transfer_flags {$/;"	g
+usbi_transfer_get_os_priv	libusb/libusbi.h	/^static inline void *usbi_transfer_get_os_priv(struct usbi_transfer *transfer)$/;"	f
+usbi_using_timerfd	libusb/libusbi.h	308;"	d
+usbi_using_timerfd	libusb/libusbi.h	310;"	d
+usbi_warn	libusb/libusbi.h	/^static inline void usbi_warn(struct libusb_context *ctx, const char *fmt, ...)$/;"	f
+usbi_warn	libusb/libusbi.h	150;"	d
+usbi_write	libusb/os/poll_posix.h	4;"	d
+usbi_write	libusb/os/poll_windows.c	/^ssize_t usbi_write(int fd, const void *buf, size_t count)$/;"	f
+used	libusb/os/windows_usb.c	/^	unsigned long used;$/;"	m	struct:htab_entry	file:
+user_data	libusb/libusb.h	/^	void *user_data;$/;"	m	struct:libusb_transfer
+usercontext	libusb/os/linux_usbfs.h	/^	void *usercontext;$/;"	m	struct:usbfs_urb
+value	libusb/os/windows_usb.h	/^  USHORT value;$/;"	m	struct:__anon15
+version	msvc/ddk_build.cmd	/^set version=1.0$/;"	v
+wHubCharacteristics	libusb/os/windows_usb.h	/^	USHORT  wHubCharacteristics;$/;"	m	struct:USB_HUB_DESCRIPTOR
+wIndex	libusb/libusb.h	/^	uint16_t wIndex;$/;"	m	struct:libusb_control_setup
+wIndex	libusb/os/linux_usbfs.h	/^	uint16_t wIndex;$/;"	m	struct:usbfs_ctrltransfer
+wIndex	libusb/os/windows_usb.h	/^			USHORT wIndex;$/;"	m	struct:USB_CONFIGURATION_DESCRIPTOR_SHORT::__anon9::__anon10
+wIndex	libusb/os/windows_usb.h	/^		USHORT  wIndex;$/;"	m	struct:USB_DESCRIPTOR_REQUEST::__anon11
+wLength	libusb/libusb.h	/^	uint16_t wLength;$/;"	m	struct:libusb_control_setup
+wLength	libusb/os/linux_usbfs.h	/^	uint16_t wLength;$/;"	m	struct:usbfs_ctrltransfer
+wLength	libusb/os/windows_usb.h	/^			USHORT wLength;$/;"	m	struct:USB_CONFIGURATION_DESCRIPTOR_SHORT::__anon9::__anon10
+wLength	libusb/os/windows_usb.h	/^		USHORT  wLength;$/;"	m	struct:USB_DESCRIPTOR_REQUEST::__anon11
+wMaxPacketSize	libusb/libusb.h	/^	uint16_t wMaxPacketSize;$/;"	m	struct:libusb_endpoint_descriptor
+wMaxPacketSize	libusb/os/windows_usb.h	/^  USHORT  wMaxPacketSize;$/;"	m	struct:USB_ENDPOINT_DESCRIPTOR
+wTotalLength	libusb/libusb.h	/^	uint16_t wTotalLength;$/;"	m	struct:libusb_config_descriptor
+wTotalLength	libusb/os/windows_usb.h	/^  USHORT wTotalLength;$/;"	m	struct:USB_CONFIGURATION_DESCRIPTOR
+wValue	libusb/libusb.h	/^	uint16_t wValue;$/;"	m	struct:libusb_control_setup
+wValue	libusb/os/linux_usbfs.h	/^	uint16_t wValue;$/;"	m	struct:usbfs_ctrltransfer
+wValue	libusb/os/windows_usb.h	/^			USHORT wValue;$/;"	m	struct:USB_CONFIGURATION_DESCRIPTOR_SHORT::__anon9::__anon10
+wValue	libusb/os/windows_usb.h	/^		USHORT  wValue;$/;"	m	struct:USB_DESCRIPTOR_REQUEST::__anon11
+waiters	libusb/os/threads_windows.h	/^	struct list_head waiters;$/;"	m	struct:usbi_cond_t_	typeref:struct:usbi_cond_t_::list_head
+wchar_to_utf8_ms	libusb/os/windows_usb.h	72;"	d
+wctype_t	msvc/stdint.h	/^  typedef unsigned short wctype_t;$/;"	t
+windows_abort_control	libusb/os/windows_usb.c	/^static int windows_abort_control(struct usbi_transfer *itransfer)$/;"	f	file:
+windows_abort_transfers	libusb/os/windows_usb.c	/^static int windows_abort_transfers(struct usbi_transfer *itransfer)$/;"	f	file:
+windows_assign_endpoints	libusb/os/windows_usb.c	/^static int windows_assign_endpoints(struct libusb_device_handle *dev_handle, int iface, int altsetting)$/;"	f	file:
+windows_attach_kernel_driver	libusb/os/windows_usb.c	/^static int windows_attach_kernel_driver(struct libusb_device_handle *dev_handle, int iface)$/;"	f	file:
+windows_backend	libusb/os/windows_usb.c	/^const struct usbi_os_backend windows_backend = {$/;"	v	typeref:struct:usbi_os_backend
+windows_cancel_transfer	libusb/os/windows_usb.c	/^static int windows_cancel_transfer(struct usbi_transfer *itransfer)$/;"	f	file:
+windows_claim_interface	libusb/os/windows_usb.c	/^static int windows_claim_interface(struct libusb_device_handle *dev_handle, int iface)$/;"	f	file:
+windows_clear_halt	libusb/os/windows_usb.c	/^static int windows_clear_halt(struct libusb_device_handle *dev_handle, unsigned char endpoint)$/;"	f	file:
+windows_clear_transfer_priv	libusb/os/windows_usb.c	/^static void windows_clear_transfer_priv(struct usbi_transfer *itransfer)$/;"	f	file:
+windows_clock_gettime	libusb/os/windows_usb.c	/^static int windows_clock_gettime(int clk_id, struct timespec *tp)$/;"	f	file:
+windows_clock_gettime_threaded	libusb/os/windows_usb.c	/^unsigned __stdcall windows_clock_gettime_threaded(void* param)$/;"	f
+windows_close	libusb/os/windows_usb.c	/^static void windows_close(struct libusb_device_handle *dev_handle)$/;"	f	file:
+windows_destroy_device	libusb/os/windows_usb.c	/^static void windows_destroy_device(struct libusb_device *dev)$/;"	f	file:
+windows_detach_kernel_driver	libusb/os/windows_usb.c	/^static int windows_detach_kernel_driver(struct libusb_device_handle *dev_handle, int iface)$/;"	f	file:
+windows_device_handle_priv	libusb/os/windows_usb.h	/^struct windows_device_handle_priv {$/;"	s
+windows_device_priv	libusb/os/windows_usb.h	/^struct windows_device_priv {$/;"	s
+windows_device_priv_init	libusb/os/windows_usb.h	/^static inline void windows_device_priv_init(libusb_device* dev) {$/;"	f
+windows_device_priv_release	libusb/os/windows_usb.h	/^static inline void windows_device_priv_release(libusb_device* dev) {$/;"	f
+windows_error_str	libusb/os/windows_usb.c	/^static char *windows_error_str(uint32_t retval)$/;"	f	file:
+windows_exit	libusb/os/windows_usb.c	/^static void windows_exit(void)$/;"	f	file:
+windows_get_active_config_descriptor	libusb/os/windows_usb.c	/^static int windows_get_active_config_descriptor(struct libusb_device *dev, unsigned char *buffer, size_t len, int *host_endian)$/;"	f	file:
+windows_get_config_descriptor	libusb/os/windows_usb.c	/^static int windows_get_config_descriptor(struct libusb_device *dev, uint8_t config_index, unsigned char *buffer, size_t len, int *host_endian)$/;"	f	file:
+windows_get_configuration	libusb/os/windows_usb.c	/^static int windows_get_configuration(struct libusb_device_handle *dev_handle, int *config)$/;"	f	file:
+windows_get_device_descriptor	libusb/os/windows_usb.c	/^static int windows_get_device_descriptor(struct libusb_device *dev, unsigned char *buffer, int *host_endian)$/;"	f	file:
+windows_get_device_list	libusb/os/windows_usb.c	/^static int windows_get_device_list(struct libusb_context *ctx, struct discovered_devs **_discdevs)$/;"	f	file:
+windows_handle_callback	libusb/os/windows_usb.c	/^static void windows_handle_callback (struct usbi_transfer *itransfer, uint32_t io_result, uint32_t io_size)$/;"	f	file:
+windows_handle_events	libusb/os/windows_usb.c	/^static int windows_handle_events(struct libusb_context *ctx, struct pollfd *fds, POLL_NFDS_TYPE nfds, int num_ready)$/;"	f	file:
+windows_init	libusb/os/windows_usb.c	/^static int windows_init(struct libusb_context *ctx)$/;"	f	file:
+windows_kernel_driver_active	libusb/os/windows_usb.c	/^static int windows_kernel_driver_active(struct libusb_device_handle *dev_handle, int iface)$/;"	f	file:
+windows_open	libusb/os/windows_usb.c	/^static int windows_open(struct libusb_device_handle *dev_handle)$/;"	f	file:
+windows_release_interface	libusb/os/windows_usb.c	/^static int windows_release_interface(struct libusb_device_handle *dev_handle, int iface)$/;"	f	file:
+windows_reset_device	libusb/os/windows_usb.c	/^static int windows_reset_device(struct libusb_device_handle *dev_handle)$/;"	f	file:
+windows_set_configuration	libusb/os/windows_usb.c	/^static int windows_set_configuration(struct libusb_device_handle *dev_handle, int config)$/;"	f	file:
+windows_set_interface_altsetting	libusb/os/windows_usb.c	/^static int windows_set_interface_altsetting(struct libusb_device_handle *dev_handle, int iface, int altsetting)$/;"	f	file:
+windows_submit_transfer	libusb/os/windows_usb.c	/^static int windows_submit_transfer(struct usbi_transfer *itransfer)$/;"	f	file:
+windows_transfer_callback	libusb/os/windows_usb.c	/^static void windows_transfer_callback(struct usbi_transfer *itransfer, uint32_t io_result, uint32_t io_size)$/;"	f	file:
+windows_transfer_priv	libusb/os/windows_usb.h	/^struct windows_transfer_priv {$/;"	s
+windows_usb_api_backend	libusb/os/windows_usb.h	/^struct windows_usb_api_backend {$/;"	s
+windows_version	libusb/os/poll_windows.h	/^enum windows_version {$/;"	g
+windows_version	libusb/os/windows_usb.c	/^enum windows_version windows_version = WINDOWS_UNSUPPORTED;$/;"	v	typeref:enum:windows_version
+winfd	libusb/os/poll_windows.h	/^struct winfd {$/;"	s
+wint_t	msvc/stdint.h	/^  typedef unsigned short wint_t;$/;"	t
+winusb_abort_control	libusb/os/windows_usb.c	/^static int winusb_abort_control(struct usbi_transfer *itransfer)$/;"	f	file:
+winusb_abort_transfers	libusb/os/windows_usb.c	/^static int winusb_abort_transfers(struct usbi_transfer *itransfer)$/;"	f	file:
+winusb_claim_interface	libusb/os/windows_usb.c	/^static int winusb_claim_interface(struct libusb_device_handle *dev_handle, int iface)$/;"	f	file:
+winusb_clear_halt	libusb/os/windows_usb.c	/^static int winusb_clear_halt(struct libusb_device_handle *dev_handle, unsigned char endpoint)$/;"	f	file:
+winusb_close	libusb/os/windows_usb.c	/^static void winusb_close(struct libusb_device_handle *dev_handle)$/;"	f	file:
+winusb_configure_endpoints	libusb/os/windows_usb.c	/^static int winusb_configure_endpoints(struct libusb_device_handle *dev_handle, int iface)$/;"	f	file:
+winusb_copy_transfer_data	libusb/os/windows_usb.c	/^static int winusb_copy_transfer_data(struct usbi_transfer *itransfer, uint32_t io_size)$/;"	f	file:
+winusb_driver_names	libusb/os/windows_usb.c	/^const char* winusb_driver_names[] = {"WINUSB"};$/;"	v
+winusb_exit	libusb/os/windows_usb.c	/^static int winusb_exit(void)$/;"	f	file:
+winusb_get_valid_interface	libusb/os/windows_usb.c	/^static int winusb_get_valid_interface(struct libusb_device_handle *dev_handle)$/;"	f	file:
+winusb_init	libusb/os/windows_usb.c	/^static int winusb_init(struct libusb_context *ctx)$/;"	f	file:
+winusb_open	libusb/os/windows_usb.c	/^static int winusb_open(struct libusb_device_handle *dev_handle)$/;"	f	file:
+winusb_release_interface	libusb/os/windows_usb.c	/^static int winusb_release_interface(struct libusb_device_handle *dev_handle, int iface)$/;"	f	file:
+winusb_reset_device	libusb/os/windows_usb.c	/^static int winusb_reset_device(struct libusb_device_handle *dev_handle)$/;"	f	file:
+winusb_set_interface_altsetting	libusb/os/windows_usb.c	/^static int winusb_set_interface_altsetting(struct libusb_device_handle *dev_handle, int iface, int altsetting)$/;"	f	file:
+winusb_submit_bulk_transfer	libusb/os/windows_usb.c	/^static int winusb_submit_bulk_transfer(struct usbi_transfer *itransfer)$/;"	f	file:
+winusb_submit_control_transfer	libusb/os/windows_usb.c	/^static int winusb_submit_control_transfer(struct usbi_transfer *itransfer)$/;"	f	file:
